@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" width="750" height="920" backgroundColor="white" creationComplete="init();">
+	<mx:Script>
+		<![CDATA[
+			import mx.rpc.events.ResultEvent;
+			import mx.rpc.events.FaultEvent;
+			import mx.controls.*;
+			import flash.display.Sprite;
+			
+			public var workouttype:String;
+			public var user_id:String;
+			
+	 	    import flash.utils.Timer;
+	   	    import flash.events.TimerEvent;
+	   	   
+			public function init(){
+				
+				getUrl();
+				gettext.send();
+				
+				if(user_id != "0"){ //if users screen start timer
+				   chattimer();
+				   application.height = 270;
+				   application.width = 500;
+				   userscreen.visible=true;
+				   coachscreen.visible=false;
+				   
+				}
+				
+				if(user_id == "0"){ //if coach screen start timer
+				   coachchattimer();
+				   userscreen.visible=false;
+				   coachscreen.visible=true;
+				   application.height = 920;
+				   application.width = 750;
+				   userlist_dataprovider.send();
+				   checklastusermessages.send();
+				}
+				//Alert.show(user_id.toString());
+				
+				
+			}
+			 public function chattimer():void{
+	   	    	
+				var timer:Timer = new Timer(6000);
+	                timer.addEventListener(TimerEvent.TIMER, checkmessages);
+	                 timer.start();
+				
+	   	    }
+	   	    
+	   	    public function coachchattimer():void{
+	   	    	var timer:Timer = new Timer(6000);
+	                timer.addEventListener(TimerEvent.TIMER, coachcheckmessages);
+	                timer.start();
+	                
+			}
+			public function coachcheckmessages(evt:TimerEvent){
+				getusertext.send();
+				//scrolltobottom();
+				checklastusermessages.send();
+				coachchatarea.verticalScrollPosition = coachchatarea.maxVerticalScrollPosition;
+			}
+			public function checkmessages(evt:TimerEvent){
+				//GET LATEST MESSAGES FROM COACH
+				gettext.send();
+				checkmessagetimes.send();
+			}
+			
+			public function getUrl():Dictionary
+			{
+			   var urlParams:Dictionary = new Dictionary(); 
+			
+			   var fullUrl:String = ExternalInterface.call('eval','document.location.href'); 
+			
+			   var paramStr:String = fullUrl.split('?')[1];
+			   if (paramStr != null)
+			    {
+			        var params:Array = paramStr.split('&');
+			        for (var i:int = 0; i < params.length; i++)
+			       {
+			            var kv:Array = params[i].split('=');
+			            urlParams[kv[0]] = kv[1];
+			            if(kv[0]== "type")
+			            	workouttype = kv[1];
+			            if(kv[0] == "user_id")
+			            	user_id = kv[1];	
+			            	
+			        }
+			    } 
+			
+			    return urlParams;
+			}
+			
+
+			public function cleartextarea(){
+				
+			}
+			public function cleartextinput(){
+					if(user_id != "0")
+				var tmp = chatinput.text;
+					else
+				var tmp = coachinput.text;	
+					
+				if(tmp == "Chat Here"){
+					if(user_id != "0")
+					chatinput.text = "";
+					else
+					coachinput.text = "";
+				}
+			}
+			
+			public function sendchat(){
+				sendtext.send();
+				
+			}
+			
+			 private function keyHandler(event:KeyboardEvent):void {
+           		//Alert.show(event.keyCode + "/" + event.charCode);
+           		if(event.charCode == 13)
+           			sendchat();
+           			
+		     }
+		     private function coachkeyHandler(event:KeyboardEvent):void{
+		     	if(event.charCode == 13)
+           			sendcoachtext.send();
+           		
+		     }
+		   
+		     public function getusertextResult(event:ResultEvent):void{
+		     	var chatinput_text = event.target.lastResult.returntext;
+		     	coachchatarea.text = chatinput_text;
+		     	
+		     }
+		     
+		     public function gettextResult(event:ResultEvent):void{
+		     	var chatinput_text = event.target.lastResult.returntext;
+		     	chatarea.text = chatinput_text;
+		     }
+
+			public function defaultResult(event:ResultEvent):void{
+				//add to chat textarea
+				
+				
+				var chatinput_text = event.target.lastResult.returntext;
+				
+				//Alert.show(chatinput.text + "***" + chatinput_text);
+				
+				//if(chatinput.text != chatinput_text){
+					var ca = chatarea.text;
+					var hours = new Date().hours; 
+					var minutes = new Date().minutes;
+				
+					chatinput.text = "";
+					chatarea.text = ca + "Me " + hours + ":" + minutes + " " + chatinput_text + "\n";
+					checkmessagetimes.send();
+				//}
+				
+				
+			}
+			
+			public function coachdefaultResult(event:ResultEvent):void{
+				//add to chat textarea
+				coachinput.text = "";
+				
+				var coachinput_text = event.target.lastResult.returntext;
+				
+				var ca = coachchatarea.text;
+				var hours = new Date().hours; 
+				var minutes = new Date().minutes;
+				
+				coachchatarea.text =  ca + "Coach " + hours + ":" + minutes + " " + coachinput_text + "\n";
+				
+				coachchatarea.verticalScrollPosition = coachchatarea.maxVerticalScrollPosition;
+				
+			}
+			
+			public function scrolltobottom(event:ResultEvent){
+				if(event.target.lastResult.returntext == "NO")
+					return;
+				
+				if(user_id != "0"){
+				   	
+				   chatarea.verticalScrollPosition = chatarea.maxVerticalScrollPosition;
+				   
+				}else{
+				   coachchatarea.verticalScrollPosition = coachchatarea.maxVerticalScrollPosition;
+				}
+				//chatarea.setStyle("color", 0xE30B1B);
+				
+				
+			}
+			
+			public function defaultFault(event:FaultEvent):void{
+				//Alert.show("Server Error Occured Please try later  \n" + event.toString());
+			}
+			
+			
+			public function lastusermessagesResult(event:ResultEvent):void{
+		     	var text_tmp = event.target.lastResult.returntext;
+		     	lastmessages.text = text_tmp;
+		     	
+		     }
+		     
+			
+		]]>
+	</mx:Script>
+<mx:HTTPService id="sendtext" url="/main_dev.php/index/flexsavecomments" method="POST" requestTimeout="40" result="defaultResult(event)" fault="defaultFault(event)">
+	<mx:request xmlns="">
+	<chatinput>
+		{chatinput.text}
+	</chatinput>	
+	<type>
+		{workouttype}
+	</type>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:HTTPService id="sendcoachtext" url="/main_dev.php/index/flexsavecoachcomments" method="POST" requestTimeout="40" result="coachdefaultResult(event)" fault="defaultFault(event)">
+	<mx:request xmlns="">
+	<chatinput>
+		{coachinput.text}
+	</chatinput>	
+	<userid>
+		{users.selectedItem.code}
+	</userid>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:HTTPService id="userlist_dataprovider" url="/main_dev.php/index/flexuser_selectbox" method="POST" showBusyCursor="true"  requestTimeout="30"  fault="defaultFault(event)"/>
+<mx:HTTPService id="gettext" url="/main_dev.php/index/flexgetcoachcomments" requestTimeout="40" result="gettextResult(event)" fault="defaultFault(event)"/>
+<mx:HTTPService id="checkmessagetimes" url="/main_dev.php/index/flexcheckmessagecomments" requestTimeout="40" result="scrolltobottom(event);" fault="defaultFault(event)"/>
+<mx:HTTPService id="checklastusermessages" url="/main_dev.php/index/flexchecklastusermessages" requestTimeout="40" result="lastusermessagesResult(event);" fault="defaultFault(event)"/>
+
+<mx:HTTPService id="getusertext" url="/main_dev.php/index/flexgetusercomments" requestTimeout="40" result="getusertextResult(event)" fault="defaultFault(event)">
+	<mx:request xmlns="">
+	<userid>
+		{users.selectedItem.code}
+	</userid>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:Canvas id="coachscreen" horizontalScrollPolicy="off" verticalScrollPolicy="off" visible="false">
+	<mx:VBox>
+	<mx:ComboBox id="users" dataProvider="{userlist_dataprovider.lastResult.USERSELECT.SELECTITEM}" change="getusertext.send();"/>
+		<mx:HBox>
+			<mx:TextArea id="coachchatarea" width="400" height="300" editable="false" />
+			<mx:TextArea id="lastmessages" text="" width="200" height="300" editable="false"/>
+		</mx:HBox>
+		
+		<mx:HBox>
+			<mx:TextArea id="coachinput" width='350' height='70' text="Chat Here" click="cleartextinput()" keyUp="coachkeyHandler(event)"/>
+				
+			<mx:Button click="sendcoachtext.send();" label="Send"/>
+		</mx:HBox>
+	</mx:VBox>
+</mx:Canvas>
+
+	<mx:Canvas id="userscreen" horizontalScrollPolicy="off" visible="false">
+		<mx:VBox>
+			<mx:TextArea id="chatarea" width="400" height="190"  editable="false"  borderStyle="none" />
+			<mx:HBox>
+			<mx:TextInput text="Chat Here" click="cleartextinput()" id="chatinput"  keyUp="keyHandler(event)" width="340"/>
+			<mx:Button click="sendchat(); Alert.show(user_id.toString())" label="Send"/>	
+			</mx:HBox>
+		</mx:VBox>
+	</mx:Canvas>
+</mx:Application>

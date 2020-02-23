@@ -1,0 +1,214 @@
+Dec 26 05:23:39 symfony [info] {sfContext} initialization
+Dec 26 05:23:39 symfony [info] {sfController} initialization
+Dec 26 05:23:39 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Dec 26 05:23:39 symfony [info] {sfRequest} request parameters array (  'user_id' => '183',  'searchdate' => '2016-12-26',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Dec 26 05:23:39 symfony [info] {sfController} dispatch request
+Dec 26 05:23:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 26 05:23:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 26 05:23:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 26 05:23:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 26 05:23:39 symfony [info] {sfAction} call "indexActions->executeComments()"
+Dec 26 05:23:39 symfony [info] {sfView} initialize view for "index/comments"
+Dec 26 05:23:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Dec 26 05:23:39 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 26 05:23:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 26 05:23:39 symfony [info] {sfFilter} render to client
+Dec 26 05:23:39 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 26 05:23:39 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 26 05:23:39 symfony [info] {sfResponse} send content (4932 o)
+Dec 26 05:23:39 symfony [info] {sfTimerManager} Configuration 1.43 ms (10)
+Dec 26 05:23:39 symfony [info] {sfTimerManager} Action "index/comments" 5.44 ms (1)
+Dec 26 05:23:39 symfony [info] {sfTimerManager} View "Success" for "index/comments" 8.53 ms (1)
+Dec 29 20:54:32 symfony [info] {sfRouting} connect "/"
+Dec 29 20:54:32 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Dec 29 20:54:32 symfony [info] {sfRouting} connect "/:module"
+Dec 29 20:54:32 symfony [info] {sfRouting} connect "/:module/:action/*"
+Dec 29 20:54:32 symfony [info] {sfContext} initialization
+Dec 29 20:54:32 symfony [info] {sfController} initialization
+Dec 29 20:54:32 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Dec 29 20:54:32 symfony [info] {sfRequest} request parameters array (  'user_id' => '14',  'searchdate' => '2016-12-29',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Dec 29 20:54:32 symfony [info] {sfController} dispatch request
+Dec 29 20:54:32 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 29 20:54:32 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 29 20:54:32 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 29 20:54:32 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 29 20:54:32 symfony [info] {sfAction} call "indexActions->executeComments()"
+Dec 29 20:54:32 symfony [info] {sfView} initialize view for "index/comments"
+Dec 29 20:54:32 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Dec 29 20:54:32 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:54:32 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:54:32 symfony [info] {sfFilter} render to client
+Dec 29 20:54:32 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 29 20:54:32 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 29 20:54:32 symfony [info] {sfResponse} send content (4930 o)
+Dec 29 20:54:32 symfony [info] {sfTimerManager} Configuration 7.69 ms (9)
+Dec 29 20:54:32 symfony [info] {sfTimerManager} Action "index/comments" 1.09 ms (1)
+Dec 29 20:54:32 symfony [info] {sfTimerManager} View "Success" for "index/comments" 3.61 ms (1)
+Dec 29 20:58:55 symfony [info] {sfContext} initialization
+Dec 29 20:58:55 symfony [info] {sfController} initialization
+Dec 29 20:58:55 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Dec 29 20:58:55 symfony [info] {sfRequest} request parameters array (  'user_id' => '14',  'searchdate' => '2016-12-29',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Dec 29 20:58:55 symfony [info] {sfController} dispatch request
+Dec 29 20:58:55 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 29 20:58:55 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 29 20:58:55 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 29 20:58:55 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 29 20:58:55 symfony [info] {sfAction} call "indexActions->executeComments()"
+Dec 29 20:58:55 symfony [info] {sfView} initialize view for "index/comments"
+Dec 29 20:58:55 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Dec 29 20:58:55 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:58:55 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:58:55 symfony [info] {sfFilter} render to client
+Dec 29 20:58:55 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 29 20:58:55 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 29 20:58:55 symfony [info] {sfResponse} send content (4930 o)
+Dec 29 20:58:55 symfony [info] {sfTimerManager} Configuration 0.67 ms (10)
+Dec 29 20:58:55 symfony [info] {sfTimerManager} Action "index/comments" 1.16 ms (1)
+Dec 29 20:58:55 symfony [info] {sfTimerManager} View "Success" for "index/comments" 1.04 ms (1)
+Dec 29 20:59:09 symfony [info] {sfContext} initialization
+Dec 29 20:59:09 symfony [info] {sfController} initialization
+Dec 29 20:59:09 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Dec 29 20:59:09 symfony [info] {sfRequest} request parameters array (  'user_id' => '',  'searchdate' => '',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Dec 29 20:59:09 symfony [info] {sfController} dispatch request
+Dec 29 20:59:09 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 29 20:59:09 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 29 20:59:09 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 29 20:59:09 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 29 20:59:09 symfony [info] {sfAction} call "indexActions->executeComments()"
+Dec 29 20:59:09 symfony [info] {sfView} initialize view for "index/comments"
+Dec 29 20:59:09 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Dec 29 20:59:09 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:59:09 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 29 20:59:09 symfony [info] {sfFilter} render to client
+Dec 29 20:59:09 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 29 20:59:09 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 29 20:59:09 symfony [info] {sfResponse} send content (4930 o)
+Dec 29 20:59:09 symfony [info] {sfTimerManager} Configuration 0.55 ms (10)
+Dec 29 20:59:09 symfony [info] {sfTimerManager} Action "index/comments" 1.12 ms (1)
+Dec 29 20:59:09 symfony [info] {sfTimerManager} View "Success" for "index/comments" 0.79 ms (1)
+Dec 30 02:33:24 symfony [info] {sfContext} initialization
+Dec 30 02:33:24 symfony [info] {sfController} initialization
+Dec 30 02:33:24 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Dec 30 02:33:24 symfony [info] {sfRequest} request parameters array (  'user_id' => '14',  'searchdate' => '2016-12-29',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Dec 30 02:33:24 symfony [info] {sfController} dispatch request
+Dec 30 02:33:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 30 02:33:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 30 02:33:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 30 02:33:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 30 02:33:24 symfony [info] {sfAction} call "indexActions->executeComments()"
+Dec 30 02:33:24 symfony [info] {sfView} initialize view for "index/comments"
+Dec 30 02:33:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Dec 30 02:33:24 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 30 02:33:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Dec 30 02:33:24 symfony [info] {sfFilter} render to client
+Dec 30 02:33:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 30 02:33:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 30 02:33:24 symfony [info] {sfResponse} send content (4930 o)
+Dec 30 02:33:24 symfony [info] {sfTimerManager} Configuration 0.88 ms (10)
+Dec 30 02:33:24 symfony [info] {sfTimerManager} Action "index/comments" 1.30 ms (1)
+Dec 30 02:33:24 symfony [info] {sfTimerManager} View "Success" for "index/comments" 4.35 ms (1)
+Sep 16 21:08:36 symfony [info] {sfContext} initialization
+Sep 16 21:08:36 symfony [info] {sfController} initialization
+Sep 16 21:08:36 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Sep 16 21:08:36 symfony [info] {sfRequest} request parameters array (  'user_id' => '14',  'searchdate' => '2017-09-16',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Sep 16 21:08:36 symfony [info] {sfController} dispatch request
+Sep 16 21:08:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Sep 16 21:08:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Sep 16 21:08:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Sep 16 21:08:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Sep 16 21:08:36 symfony [info] {sfAction} call "indexActions->executeComments()"
+Sep 16 21:08:36 symfony [info] {sfView} initialize view for "index/comments"
+Sep 16 21:08:36 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Sep 16 21:08:36 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:36 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:36 symfony [info] {sfFilter} render to client
+Sep 16 21:08:36 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Sep 16 21:08:36 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Sep 16 21:08:36 symfony [info] {sfResponse} send content (4930 o)
+Sep 16 21:08:36 symfony [info] {sfTimerManager} Configuration 0.92 ms (10)
+Sep 16 21:08:36 symfony [info] {sfTimerManager} Action "index/comments" 1.23 ms (1)
+Sep 16 21:08:36 symfony [info] {sfTimerManager} View "Success" for "index/comments" 3.29 ms (1)
+Sep 16 21:08:46 symfony [info] {sfContext} initialization
+Sep 16 21:08:46 symfony [info] {sfController} initialization
+Sep 16 21:08:46 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Sep 16 21:08:46 symfony [info] {sfRequest} request parameters array (  'user_id' => '',  'searchdate' => '',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Sep 16 21:08:46 symfony [info] {sfController} dispatch request
+Sep 16 21:08:46 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Sep 16 21:08:46 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Sep 16 21:08:46 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Sep 16 21:08:46 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Sep 16 21:08:46 symfony [info] {sfAction} call "indexActions->executeComments()"
+Sep 16 21:08:46 symfony [info] {sfView} initialize view for "index/comments"
+Sep 16 21:08:46 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Sep 16 21:08:46 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:46 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:46 symfony [info] {sfFilter} render to client
+Sep 16 21:08:46 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Sep 16 21:08:46 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Sep 16 21:08:46 symfony [info] {sfResponse} send content (4930 o)
+Sep 16 21:08:46 symfony [info] {sfTimerManager} Configuration 0.60 ms (10)
+Sep 16 21:08:46 symfony [info] {sfTimerManager} Action "index/comments" 1.25 ms (1)
+Sep 16 21:08:46 symfony [info] {sfTimerManager} View "Success" for "index/comments" 1.00 ms (1)
+Sep 16 21:08:48 symfony [info] {sfContext} initialization
+Sep 16 21:08:48 symfony [info] {sfController} initialization
+Sep 16 21:08:48 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Sep 16 21:08:48 symfony [info] {sfRequest} request parameters array (  'user_id' => '',  'searchdate' => '',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Sep 16 21:08:48 symfony [info] {sfController} dispatch request
+Sep 16 21:08:48 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Sep 16 21:08:48 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Sep 16 21:08:48 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Sep 16 21:08:48 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Sep 16 21:08:48 symfony [info] {sfAction} call "indexActions->executeComments()"
+Sep 16 21:08:48 symfony [info] {sfView} initialize view for "index/comments"
+Sep 16 21:08:48 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Sep 16 21:08:48 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:48 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Sep 16 21:08:48 symfony [info] {sfFilter} render to client
+Sep 16 21:08:48 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Sep 16 21:08:48 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Sep 16 21:08:48 symfony [info] {sfResponse} send content (4930 o)
+Sep 16 21:08:48 symfony [info] {sfTimerManager} Configuration 0.53 ms (10)
+Sep 16 21:08:48 symfony [info] {sfTimerManager} Action "index/comments" 0.94 ms (1)
+Sep 16 21:08:48 symfony [info] {sfTimerManager} View "Success" for "index/comments" 0.85 ms (1)
+Nov 28 20:12:48 symfony [info] {sfContext} initialization
+Nov 28 20:12:48 symfony [info] {sfController} initialization
+Nov 28 20:12:48 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Nov 28 20:12:48 symfony [info] {sfRequest} request parameters array (  'user_id' => '282',  'searchdate' => '2017-11-28',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Nov 28 20:12:48 symfony [info] {sfController} dispatch request
+Nov 28 20:12:48 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 28 20:12:48 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 28 20:12:48 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 28 20:12:48 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 28 20:12:49 symfony [info] {sfAction} call "indexActions->executeComments()"
+Nov 28 20:12:49 symfony [info] {sfView} initialize view for "index/comments"
+Nov 28 20:12:49 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Nov 28 20:12:49 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Nov 28 20:12:49 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Nov 28 20:12:49 symfony [info] {sfFilter} render to client
+Nov 28 20:12:49 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 28 20:12:49 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 28 20:12:49 symfony [info] {sfResponse} send content (4932 o)
+Nov 28 20:12:49 symfony [info] {sfTimerManager} Configuration 0.82 ms (10)
+Nov 28 20:12:49 symfony [info] {sfTimerManager} Action "index/comments" 2.82 ms (1)
+Nov 28 20:12:49 symfony [info] {sfTimerManager} View "Success" for "index/comments" 2.04 ms (1)
+Nov 28 20:14:15 symfony [info] {sfContext} initialization
+Nov 28 20:14:15 symfony [info] {sfController} initialization
+Nov 28 20:14:15 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Nov 28 20:14:15 symfony [info] {sfRequest} request parameters array (  'user_id' => '15',  'searchdate' => '2017-11-28',  'type' => '',  'module' => 'index',  'action' => 'comments',)
+Nov 28 20:14:15 symfony [info] {sfController} dispatch request
+Nov 28 20:14:15 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 28 20:14:15 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 28 20:14:15 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 28 20:14:15 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 28 20:14:15 symfony [info] {sfAction} call "indexActions->executeComments()"
+Nov 28 20:14:15 symfony [info] {sfView} initialize view for "index/comments"
+Nov 28 20:14:15 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/modules/index/templates/commentsSuccess.php"
+Nov 28 20:14:15 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Nov 28 20:14:15 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Nov 28 20:14:15 symfony [info] {sfFilter} render to client
+Nov 28 20:14:15 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 28 20:14:15 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 28 20:14:15 symfony [info] {sfResponse} send content (4930 o)
+Nov 28 20:14:15 symfony [info] {sfTimerManager} Configuration 0.60 ms (10)
+Nov 28 20:14:15 symfony [info] {sfTimerManager} Action "index/comments" 1.24 ms (1)
+Nov 28 20:14:15 symfony [info] {sfTimerManager} View "Success" for "index/comments" 0.86 ms (1)

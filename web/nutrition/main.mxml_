@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="vertical"
+	creationComplete="init()" styleName="plain" xmlns:nutrition="com.nutrition.*"
+	paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.collections.XMLListCollection;
+			import com.nutrition.MealItem;
+			import mx.controls.Alert;
+			import mx.rpc.events.FaultEvent;
+			import mx.rpc.events.ResultEvent;
+			
+			//	initialize
+			private function init():void
+			{
+				hsNutrition.send();
+				addEventListener('addToMeal', addToMealHandler);
+				addEventListener('removeMeal', removeMealHandler);
+			}
+			
+			[Bindable]
+			private var nutritionData:XML;
+			
+			//	nutrition result handler
+			private function nutritionResultHandler(event:ResultEvent):void
+			{	
+				nutritionData = event.result as XML;
+			}	
+			
+			//	nutrition fault handler
+			private function nutritionFaultHandler(event:FaultEvent):void
+			{
+				Alert.show(event.toString());
+			}	
+			
+			//	create breakfast
+			private function createBreakfast():void
+			{
+				vsMain.selectedIndex = 1;
+			}
+			
+			[Bindable]
+			private var plantype:String = 'Breakfast';
+			
+			[Bindable]
+			private var customMeals:XMLListCollection = new XMLListCollection;
+			
+			//	addToMeal event Handler
+			private function addToMealHandler(event:Event):void
+			{
+				//customMeals.addItem((event.target as MealItem).mealDetails);
+			}
+			
+			//	removeMeal event Handler
+			private function removeMealHandler(event:Event):void
+			{
+				customMeals.removeItemAt(ls.selectedIndex);
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:HTTPService id="hsNutrition" url="nutrition.xml"
+		result="nutritionResultHandler(event)"
+		fault="nutritionFaultHandler(event)" resultFormat="e4x"/>
+	
+	<mx:Label text="Today's Meal Plan is based on a 2000 Calorie Diet" fontWeight="bold" fontSize="18"/>
+
+	<mx:Button label="Print Meal Menu" />	
+	
+	<mx:ViewStack id="vsMain" width="100%" height="100%">
+		
+		<mx:HBox width="100%" height="100%">
+			<mx:VBox width="70%" height="100%">
+				<mx:Button label="Create your own Breakfast" click="createBreakfast()"/>
+				
+				<nutrition:MealPanel id="pnlBreakfast" meal="{nutritionData.breakfast}"
+					title="Breakfast : Please select one meal from below(500 Cal Goal)"/>
+				<nutrition:MealPanel id="pnlSnack1" meal="{nutritionData.snack1}"
+					title="Snack : Please select one snack from below(150 Cal Goal)"/>
+				<nutrition:MealPanel id="pnlLunch" meal="{nutritionData.lunch}"
+					title="Lunch : Please select one meal from below(600 Cal Goal)"/>
+				<nutrition:MealPanel id="pnlSnack2" meal="{nutritionData.snack2}"
+					title="Snack : Please select one snack from below(150 Cal Goal)"/>
+				<nutrition:MealPanel id="pnlDinner" meal="{nutritionData.dinner}"
+					title="Dinner : Please select one meal from below(500 Cal Goal)"/>
+				<nutrition:MealPanel id="pnlSnack3" meal="{nutritionData.snack3}"
+					title="Snack : Please select one snack from below(150 Cal Goal)"/>
+			</mx:VBox>	
+			<mx:SWFLoader id="vfc_guy" source="welcomenutrition.swf" height="400" width="400" autoLoad="true" />
+		</mx:HBox>
+		
+		<mx:HBox width="100%" height="100%">
+			
+			<mx:VBox width="30%" height="100%">
+				<mx:Label text="{'My Custom ' + plantype}"/>
+				<mx:List id="ls" dataProvider="{customMeals}" width="100%">
+					<mx:itemRenderer>
+						<mx:Component>
+							<mx:VBox>
+								<mx:Image width="100" height="100"/>	
+								<mx:Button label="Remove" click="dispatchEvent(new Event('removeMeal', true))"/>
+								<mx:Label text="{data.serving}"/>
+							</mx:VBox>
+						</mx:Component>
+					</mx:itemRenderer>
+				</mx:List>
+			</mx:VBox>
+			
+			<mx:VBox width="100%" height="100%">
+				<mx:Label text="Please select ONE ITEM from list below"/>
+				<mx:ViewStack width="100%" height="100%">
+					<nutrition:MealPanel id="pnlCreateBreakfast" meal="{nutritionData.breakfast}"/>
+				</mx:ViewStack>	
+			</mx:VBox>
+			
+		</mx:HBox>
+		
+	</mx:ViewStack>
+	
+</mx:Application>

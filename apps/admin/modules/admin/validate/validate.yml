@@ -1,0 +1,15 @@
+methods:
+  post:               [file]
+
+names:
+  file:
+    required:         Yes
+    required_msg:     Please upload a file
+    validators:       myFileValidator
+    file:             true
+
+myFileValidator:
+  class:              sfFileValidator
+  param:
+    max_size:         912000
+    max_size_error:   Max size is 912Kb

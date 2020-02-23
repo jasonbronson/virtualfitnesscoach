@@ -1,0 +1,471 @@
+Nov 04 13:01:34 symfony [warning] {sfPhpConfigHandler} php.ini "session.auto_start" key is better set to "false" (current value is "'1'" - php.ini location: "/usr/local/lib/php.ini").
+Nov 04 13:01:34 symfony [info] {sfRouting} connect "/"
+Nov 04 13:01:34 symfony [info] {sfRouting} connect "/symfony/:action/*"
+Nov 04 13:01:34 symfony [info] {sfRouting} connect "/:module"
+Nov 04 13:01:34 symfony [info] {sfRouting} connect "/:module/:action/*"
+Nov 04 13:01:34 symfony [info] {sfContext} initialization
+Nov 04 13:01:34 symfony [info] {sfController} initialization
+Nov 04 13:01:34 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 04 13:01:34 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Nov 04 13:01:34 symfony [info] {sfController} dispatch request
+Nov 04 13:01:34 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 04 13:01:34 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 04 13:01:34 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 04 13:01:34 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 04 13:01:34 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 04 13:06:00 symfony [warning] {sfPhpConfigHandler} php.ini "session.auto_start" key is better set to "false" (current value is "'1'" - php.ini location: "/usr/local/lib/php.ini").
+Nov 04 13:06:00 symfony [info] {sfContext} initialization
+Nov 04 13:06:00 symfony [info] {sfController} initialization
+Nov 04 13:06:00 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 04 13:06:00 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Nov 04 13:06:00 symfony [info] {sfController} dispatch request
+Nov 04 13:06:00 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 04 13:06:00 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 04 13:06:00 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 04 13:06:00 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 04 13:06:00 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 04 13:06:00 symfony [debug] select * from fitness_users order by user_id  *ROWS RETURNED* 87* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='14' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='14' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='14' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='14' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='14' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='14' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='14' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='14' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='15' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='15' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='15' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='15' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='15' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='15' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='15' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='15' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='101' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='101' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='101' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='101' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='101' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='101' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='101' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='101' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='102' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='102' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='102' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='102' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='102' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='102' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='102' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='102' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='103' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='103' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='103' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='103' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='103' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='103' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='103' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='103' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='104' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='104' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='104' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='104' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='104' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='104' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='104' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='104' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='105' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='105' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='105' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='105' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 17* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='105' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 17* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='105' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='105' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='105' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='109' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='109' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='109' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='109' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 2* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='109' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 2* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='109' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='109' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='109' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='110' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='110' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='110' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='110' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='110' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='110' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='110' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='110' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='111' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='111' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='111' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='111' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='111' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='111' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='111' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='111' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='112' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='112' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='112' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='112' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='112' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='112' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='112' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='112' order by datetime desc limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT max(weight) as max, min(weight) as min  FROM statistics where user_id='113' and datetime between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='113' and data='timeloggedin' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='113' and data='login' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select sum(totaltime) from reporting where user_id='113' and data='timeloggedin' and occured between '2009-01-01' and '2009-12-31'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-01-01' and '2009-12-31' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 12* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 3* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-01-01' and '2009-12-31' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select count(*) from reporting where user_id='113' and data='login' and occured between '2009-10-01' and '2009-11-05'  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-10-01' and '2009-11-05' and
+  		(data = 'loadresistance' OR data = 'loadrest' OR data = 'loadcardio')   *ROWS RETURNED* 12* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadnutrition'   *ROWS RETURNED* 3* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'NutritionTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'ExerciseTutorial'   *ROWS RETURNED* 0* 
+Nov 04 13:06:00 symfony [debug] select * from reporting where 
+  		user_id='113' and occured between '2009-10-01' and '2009-11-05' and
+  		data = 'loadmotivation'   *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_start FROM statistics where user_id='113' order by datetime limit 1  *ROWS RETURNED* 1* 
+Nov 04 13:06:00 symfony [debug] SELECT weight as weight_end FROM statistics where user_id='113' order by datetime desc limit 1  *ROWS RETURNED* 1* 

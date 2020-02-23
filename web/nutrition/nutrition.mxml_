@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" 
+	xmlns:coverflow="com.dougmccune.coverflow.*" xmlns:containers="com.dougmccune.containers.*" creationComplete="init()"
+	 backgroundColor="#FFFFFF" width="100%" height="100%">
+		<mx:Script source="nutrition.as"/>
+		<mx:Script source="createmeals.as"/>
+	    <mx:Script source="loaditems.as"/>
+	    <mx:Script source="capabilities.as"/>
+		<mx:Script>
+			<![CDATA[
+
+			import com.MealPanel;
+			import com.createmealPanel;
+			import mx.controls.HScrollBar;
+			import mx.controls.*;
+			import mx.rpc.events.ResultEvent;
+            import mx.rpc.events.FaultEvent;
+            import flash.system.Capabilities;
+
+			[Bindable]
+			public var screenx:Number;
+			public var screeny:Number;
+			public var public_bk_image1:String;
+			public var public_bk_image2:String;
+			public var public_bk_image3:String;
+			public var public_bk_item1_label:String;
+			public var public_bk_item2_label:String;
+			public var public_bk_item3_label:String;
+			public var public_bk_serving1_label:String;
+			public var public_bk_serving2_label:String;
+			public var public_bk_serving3_label:String;
+			public var public_lunch_image1:String;
+			public var public_lunch_image2:String;
+			public var public_lunch_image3:String;
+			public var public_lunch_item1_label:String;
+			public var public_lunch_item2_label:String;
+			public var public_lunch_item3_label:String;
+			public var public_lunch_serving1_label:String;
+			public var public_lunch_serving2_label:String;
+			public var public_lunch_serving3_label:String;
+			public var public_dinner_image1:String;
+			public var public_dinner_image2:String;
+			public var public_dinner_image3:String;
+			public var public_dinner_item1_label:String;
+			public var public_dinner_item2_label:String;
+			public var public_dinner_item3_label:String;
+			public var public_dinner_serving1_label:String;
+			public var public_dinner_serving2_label:String;
+			public var public_dinner_serving3_label:String;
+
+			private var nutritionXML:XML;
+			private var createmealXML:XML;
+
+		public function init(){
+					//createmeal_http.send();
+					//nutrition_http.send();
+					 //showCapabilities();
+					 loaditems();
+					 
+					//Alert.show(screenx.toString() + " Yaxis is : " + screeny.toString());
+					//httpservice_load("/beta_front/data.xml", this["nutrition_resultHandler"]);
+		}
+				
+				
+				
+				
+				
+		private function createItems():void
+			{
+				
+				var i:int;
+				var carousel:String;
+				
+				for(i=1; i < 7; i++){
+				
+				switch(i){
+					case 1:
+				carousel = "breakfast";	
+					break;
+				case 2:
+				carousel = "snack1";	
+					break;
+				case 3:
+				carousel = "lunch";	
+					break;
+				case 4:
+				carousel = "snack2";	
+					break;
+				case 5:
+				carousel = "dinner";	
+					break;			
+				case 6:
+				carousel = "snack3";	
+					break;	
+				}
+						
+						//for each(var item:Object in nutritionXML[carousel].itemdata)
+						for each(var item:Object in nutritionXML.child(carousel).itemdata)
+						{
+							//Alert.show("** "); //+ item.toString());
+							if(item.available == "yes")
+							{
+								var panel:MealPanel = new MealPanel;
+								panel.itemData = item;
+								this["coverflow" + i].addChild(panel);
+							}
+						}
+				
+				}
+				
+				
+				
+			}
+			
+			
+		private function createmealItems():void
+			{
+				
+				var i:int;
+				var a:int;
+				var carousel:String;
+				var type:String;
+				
+				i=1;
+				//for(i=1; i < 2; i++){
+				
+				switch(i){
+					case 1:
+				carousel =  "bb1";	
+					break;
+				case 2:
+				carousel =  "bb2";	
+					break;
+				case 3:
+				carousel = "bb3";	
+					break;
+					
+				}
+						var b:int;
+						b=1;
+						//Alert.show("CAROUSEL " + createmealXML.child(carousel).itemdata);
+						for each(var item:Object in createmealXML.child(carousel).itemdata)
+						{
+							//Alert.show("** "+ item.toString());
+							if(item.available == "yes")
+							{
+								
+								//Alert("B IS !" + b.toString());
+								//b = b +1;		
+								//Alert.show("made it");
+								//Alert.show(" I is "+ i);
+								var panel_tmp:createmealPanel = new createmealPanel;
+								panel_tmp.createmeal_itemData = item;
+								this["createownmeal" + i].addChild(panel_tmp);
+								
+							}
+						}
+						
+				
+				//}//end of for i = 4
+				
+				
+				
+				
+			}
+			
+			
+			
+			public function loadswf_EventHandler(swf:String):void {
+        		//var result:Boolean = b1.dispatchEvent(new MouseEvent(MouseEvent.CLICK, true, false));
+        		//Alert.show("TEST " + swf);
+        		
+        		vfc_guy.source = "/uploads/swf/" + swf;
+				vfc_guy.load();
+				           
+		    }
+		
+				
+		   private function httpService_fault(evt:FaultEvent):void {
+                var title:String = evt.type + " (" + evt.fault.faultCode + ")";
+                var text:String = evt.fault.faultString;
+                Alert.show("FAULT " + text, title);
+                //listDP.removeAll();
+            }
+			
+            private function httpService_result(evt:ResultEvent):void {
+                var xmlList:XMLList = XML(evt.result).cal_1200;
+            }
+
+			private function httpservice_load(url_src:String, resulthandler:Function):void{
+				
+				httpService.url = url_src;
+				httpService.addEventListener(ResultEvent.RESULT, resulthandler);
+                httpService.send();
+
+			}
+			
+			private function nutrition_resultHandler(event:ResultEvent):void
+			{
+				nutritionXML = event.result as XML;
+				createItems();
+			}			
+
+			]]>
+		</mx:Script>
+		
+	 <mx:ArrayCollection id="arrColl" collectionChange="arrColl_collectionChange(event);" />
+	 <!--mx:HTTPService id="createmeal_http" url="/nutrition/createmeals.xml" resultFormat="e4x" /-->
+	 <!--mx:HTTPService id="nutrition_http" url="/nutrition/nutrition.xml" resultFormat="e4x" /-->
+ 
+ <mx:HTTPService id="httpService"
+            resultFormat="e4x"
+            fault="httpService_fault(event);"
+            result="httpService_result(event)" />
+
+
+<mx:Canvas width="100%" height="100%">
+	
+	<mx:SWFLoader id="vfc_guy" source="welcomenutrition.swf" height="400" width="400"  autoLoad="true" x="550" y="53"/>
+		
+			<mx:Label text="Today's Meal Plan" x="80" y="10" fontWeight="bold" fontSize="18"/>
+			<!--mx:Button label="Print Meal Menu" click="" x="650" y="20"/-->	
+					
+				<mx:ViewStack id="nutrition_viewstack" width="100%" height="100%" x="0" y="40" >
+				   <mx:Canvas id="nutrition_canvas">
+				   	  <!-- CANVAS NUTRITION-->
+				   	  
+				   	  <mx:VBox width="100%" height="100%" horizontalAlign="left">
+		 
+		 <mx:ViewStack id="breakfast_area_viewstack"  >
+		 	<mx:VBox width="100%" height="100%" id="breakfast_default">
+		 	
+		 	<mx:HBox>
+		 		<mx:Label text="Breakfast: Please select one meal from below (500 Cal Goal)" color="red" fontWeight="bold"/>	
+		 		<!--mx:Button label="Create your own Breakfast" click="choose_custom_meal(1)"/-->
+		 	</mx:HBox>	
+			 
+				
+	
+	 		<mx:HBox verticalAlign="middle">		 		
+	 <mx:VBox id="box1" verticalGap="0" height="300" width="500" horizontalAlign="right">
+	 		<containers:CoverFlowContainer id="coverflow1" width="100%" height="100%" 
+	horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF" segments="9" reflectionEnabled="true">
+			</containers:CoverFlowContainer>
+		</mx:VBox>	
+			</mx:HBox>	
+		</mx:VBox>
+			
+		
+	   <mx:VBox width="50%" id="breakfast_custom_meal" borderThickness="2" borderStyle="solid" horizontalAlign="center">
+	     <mx:Label text="Breakfast" fontWeight="bold"  fontSize="18"/> 
+			<mx:HBox width="100%">
+			<mx:VBox>
+	   		   <mx:Image id="breakfast_img_item1" source="{public_bk_image1}" width="120" height="120"/>
+	   		   <mx:Label id="breakfast_lb_item1" text="{public_bk_item1_label}"/>
+	   		    <mx:Label id="breakfast_serving_item1" text="{public_bk_serving1_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="breakfast_img_item2" source="{public_bk_image2}" width="120" height="120"/>
+	   			<mx:Label id="breakfast_lb_item2" text="{public_bk_item2_label}"/>
+	   			<mx:Label id="breakfast_serving_item2" text="{public_bk_serving2_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="breakfast_img_item3" source="{public_bk_image3}" width="120" height="120"/>
+	   			<mx:Label id="breakfast_lb_item3" text="{public_bk_item3_label}"/>
+	   			<mx:Label id="breakfast_serving_item3" text="{public_bk_serving3_label}"/>
+	   		</mx:VBox>
+	   		    
+	   		</mx:HBox>
+	   		
+	   	
+	   </mx:VBox>
+		
+	</mx:ViewStack>
+
+
+
+		<mx:Label text="Snack: Please select one snack from below (150 Cal Goal)" color="red" fontWeight="bold"/>	
+				
+	<mx:VBox width="100%" height="100%" >
+	 		<mx:HBox verticalAlign="middle">
+	 		
+	 <mx:VBox id="box2" verticalGap="0" height="300" width="500" horizontalAlign="right">
+	
+	 			
+	 		<containers:CoverFlowContainer id="coverflow2" width="100%" height="100%" 
+				horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="9" reflectionEnabled="true">
+							
+			</containers:CoverFlowContainer>
+			
+		</mx:VBox>	
+			
+			</mx:HBox>	
+		</mx:VBox>
+
+
+
+<mx:ViewStack id="lunch_area_viewstack" >
+
+ 	<mx:VBox width="100%" height="100%" id="lunch_default">
+		<mx:HBox>
+			<mx:Label text="Lunch: Please select one meal from below (600 Cal Goal)" color="red" fontWeight="bold"/>		
+			<!--mx:Button label="Create your own Lunch" click="choose_custom_meal(2)"/-->
+		</mx:HBox>
+			
+	 		<mx:HBox verticalAlign="middle">
+	 		
+	<mx:VBox id="box3" verticalGap="0" height="300" width="500" horizontalAlign="right"> 			
+	 		<containers:CoverFlowContainer id="coverflow3" width="100%" height="100%" 
+				horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="9" reflectionEnabled="true">
+				
+			</containers:CoverFlowContainer>
+			
+		</mx:VBox>	
+			
+			</mx:HBox>	
+	</mx:VBox>		
+
+ 	<mx:VBox width="50%" id="lunch_custom_meal" borderThickness="2" borderStyle="solid" horizontalAlign="center">
+	     <mx:Label text="Lunch" fontWeight="bold"  fontSize="18"/> 
+			<mx:HBox width="100%">
+			<mx:VBox>
+	   		   <mx:Image id="lunch_img_item1" source="{public_lunch_image1}" width="120" height="120"/>
+	   		   <mx:Label id="lunch_lb_item1" text="{public_lunch_item1_label}"/>
+	   		    <mx:Label id="lunch_serving_item1" text="{public_lunch_serving1_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="lunch_img_item2" source="{public_lunch_image2}" width="120" height="120"/>
+	   			<mx:Label id="lunch_lb_item2" text="{public_lunch_item2_label}"/>
+	   			<mx:Label id="lunch_serving_item2" text="{public_lunch_serving2_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="lunch_img_item3" source="{public_lunch_image3}" width="120" height="120"/>
+	   			<mx:Label id="lunch_lb_item3" text="{public_lunch_item3_label}"/>
+	   			<mx:Label id="lunch_serving_item3" text="{public_lunch_serving3_label}"/>
+	   		</mx:VBox>
+	   		    
+	   		</mx:HBox>
+	   			
+	   	
+	   </mx:VBox>
+	
+	</mx:ViewStack>
+	
+
+
+	<mx:Label text="Snack: Please select one snack from below (150 Cal Goal)" color="red" fontWeight="bold"/>
+				
+	<mx:VBox width="100%" height="100%" >
+	 		<mx:HBox verticalAlign="middle">
+	 		
+	 <mx:VBox id="box4" verticalGap="0" height="300" width="500" horizontalAlign="right">
+	
+	 			
+	 		<containers:CoverFlowContainer id="coverflow4" width="100%" height="100%" 
+				horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="9" reflectionEnabled="true">
+			</containers:CoverFlowContainer>
+			
+			
+		</mx:VBox>	
+			
+			</mx:HBox>	
+		</mx:VBox>
+	
+<mx:ViewStack id="dinner_area_viewstack" >
+	
+	<mx:VBox id="dinner_default" width="100%" height="100%">
+	<mx:HBox>
+	       <mx:Label text="Dinner: Please select one meal from below (500 Cal Goal)" color="red" fontWeight="bold"/>	
+			<!--mx:Button label="Create your own Dinner" click="choose_custom_meal(3)"/-->
+		</mx:HBox>
+	
+
+	 		<mx:HBox verticalAlign="middle">
+	 		
+	 <mx:VBox id="box5" verticalGap="0" height="300" width="500" horizontalAlign="right">
+	 			
+	 		<containers:CoverFlowContainer id="coverflow5" width="100%" height="100%" 
+				horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="9" reflectionEnabled="true">
+				
+			</containers:CoverFlowContainer>
+			
+			
+		</mx:VBox>	
+			
+			</mx:HBox>	
+   </mx:VBox>
+
+	   <mx:VBox width="50%" id="dinner_custom_meal" borderThickness="2" borderStyle="solid" horizontalAlign="center">
+	     <mx:Label text="Dinner" fontWeight="bold"  fontSize="18"/> 
+			<mx:HBox width="100%">
+			<mx:VBox>
+	   		   <mx:Image id="dinner_img_item1" source="{public_dinner_image1}" width="120" height="120"/>
+	   		   <mx:Label id="dinner_lb_item1" text="{public_dinner_item1_label}"/>
+	   		    <mx:Label id="dinner_serving_item1" text="{public_dinner_serving1_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="dinner_img_item2" source="{public_dinner_image2}" width="120" height="120"/>
+	   			<mx:Label id="dinner_lb_item2" text="{public_dinner_item2_label}"/>
+	   			<mx:Label id="dinner_serving_item2" text="{public_dinner_serving2_label}"/>
+	   		</mx:VBox>
+	   		<mx:VBox>
+	   		   <mx:Image id="dinner_img_item3" source="{public_dinner_image3}" width="120" height="120"/>
+	   			<mx:Label id="dinner_lb_item3" text="{public_dinner_item3_label}"/>
+	   			<mx:Label id="dinner_serving_item3" text="{public_dinner_serving3_label}"/>
+	   		</mx:VBox>
+	   		    
+	   		</mx:HBox>
+	   		
+	   	
+	   </mx:VBox>
+
+	</mx:ViewStack>
+
+
+
+	
+
+	<mx:Label text="Snack: Please select one snack from below (150 Cal Goal)" color="red" fontWeight="bold"/>
+				
+	<mx:VBox width="100%" height="100%" >
+	 		<mx:HBox verticalAlign="middle">
+	 		
+	 <mx:VBox id="box6" verticalGap="0" height="300" width="500" horizontalAlign="right">
+	
+	 			
+	 		<containers:CoverFlowContainer id="coverflow6" width="100%" height="100%" 
+				horizontalGap="1" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="9" reflectionEnabled="true">
+				
+			</containers:CoverFlowContainer>
+			
+			
+		</mx:VBox>	
+			
+			</mx:HBox>	
+		</mx:VBox>
+
+
+	
+	</mx:VBox>				
+
+				   	  
+					  <!-- END OF NUTRITION -->   	  
+				   </mx:Canvas>
+				   <mx:Canvas id="createmeal">
+				      
+				   	    <!-- START OF CREATEMEALS-->
+				   	    
+				   	    
+ <mx:TabNavigator id="selectitem_tabnav" width="300" height="28" x="290" y="370" change="switch_carousel()" >
+			<mx:Canvas label="Item #1"/>
+			<mx:Canvas label="Side Item #1"/>
+			<mx:Canvas label="Side Item #2"/>
+</mx:TabNavigator>
+	
+	<mx:VBox x="650" y="370">
+	   	<mx:HBox>
+	   	<mx:Button label="Save Your {plantype}" click="saveplan();"/>
+	   	<!--mx:Button label="Cancel" click="nutrition_viewstack.selectedChild=nutrition_canvas"/-->
+	   	</mx:HBox>
+   </mx:VBox>
+	
+	<mx:VBox width="100%" >
+	   
+	<mx:VBox width="100%" height="100%" horizontalAlign="left" >	
+	<mx:Label text="Build Your Own {plantype}" fontSize="12" fontWeight="bold"/>
+	
+	<mx:HBox width="100%" height="100%">
+		<mx:VBox>
+			<mx:Label text="My Custom {plantype} "/>
+			
+			<mx:HBox verticalAlign="middle">
+				<mx:Image id="image1" source="" width="100" height="100"/>	
+				<mx:Button id="item1_remove" label="Remove" visible="false" click="removeitem(0)"/>
+				<mx:Label id="serving1_label" text="" visible="false"/>
+			</mx:HBox>
+				<mx:Label id="item1_label" text=""/>
+			<mx:HRule strokeWidth="1"/>
+			
+			
+			<mx:HBox verticalAlign="middle">
+				<mx:Image id="image2" source="" width="100" height="100"/>	
+				<mx:Button id="item2_remove" label="Remove" visible="false"  click="removeitem(1)"/>
+				<mx:Label id="serving2_label" text=""  visible="false"/>
+			</mx:HBox>
+				<mx:Label id="item2_label" text=""/>
+			<mx:HRule strokeWidth="1"/>
+			
+			
+			<mx:HBox verticalAlign="middle">
+				<mx:Image id="image3" source="" width="100" height="100"/>
+				<mx:Button id="item3_remove" label="Remove" visible="false"  click="removeitem(2)"/>
+				<mx:Label id="serving3_label" text=""  visible="false"/>
+			</mx:HBox>
+			<mx:Label id="item3_label" text=""/>
+		
+			<mx:HRule strokeWidth="1"/>
+			
+			<mx:Label id="totalcalories" text="Total Calories "/>
+			<mx:HRule strokeWidth="1"/>
+			
+			<mx:Label text="Calorie Target 400" color="red" fontWeight="bold"/>
+		</mx:VBox>
+	<mx:ViewStack id="createmeal_viewstack" >
+		
+	 <mx:VBox id="cm_box1" verticalGap="0" height="100%" width="100%" >
+			<mx:Label text="Please select ONE ITEM from list below"/>
+			<containers:CoverFlowContainer id="createownmeal0" width="100%" height="100%" 
+				horizontalGap="90" borderStyle="inset" backgroundColor="0xFFFFFF" segments="9" reflectionEnabled="true" >
+			</containers:CoverFlowContainer>
+			
+				
+			
+		</mx:VBox>
+		
+	<mx:VBox id="cm_box2" verticalGap="0" height="100%" width="100%" >
+			<mx:Label text="Please select ONE ITEM from list below"/>
+			<containers:CoverFlowContainer id="createownmeal1" width="100%" height="100%" 
+				horizontalGap="40" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="6" reflectionEnabled="true">
+			</containers:CoverFlowContainer>
+			
+		</mx:VBox>
+	
+			
+		<mx:VBox id="cm_box3" verticalGap="0" height="100%" width="100%" >
+			<mx:Label text="Please select ONE ITEM from list below"/>
+			<containers:CoverFlowContainer id="createownmeal2" width="100%" height="100%" 
+				horizontalGap="40" borderStyle="inset" backgroundColor="0xFFFFFF"
+				segments="6" reflectionEnabled="true">
+			</containers:CoverFlowContainer>
+				
+		</mx:VBox>
+	</mx:ViewStack>
+	
+	</mx:HBox>
+	
+	
+	</mx:VBox>				
+
+				   	    
+				   	    <!-- END OF CREATEMEALS-->
+				   	   </mx:VBox> 	
+				   </mx:Canvas>
+				   
+				</mx:ViewStack>
+				
+</mx:Canvas>
+</mx:Application>

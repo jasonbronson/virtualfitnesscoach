@@ -1,0 +1,528 @@
+Jan 13 04:52:44 symfony [info] {sfContext} initialization
+Jan 13 04:52:44 symfony [info] {sfController} initialization
+Jan 13 04:52:44 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 13 04:52:44 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 13 04:52:44 symfony [info] {sfController} dispatch request
+Jan 13 04:52:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 13 04:52:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 13 04:52:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 13 04:52:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 13 04:52:44 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 13 04:52:44 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 13 04:52:44 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 13 04:52:44 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 13 04:52:44 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 13 04:52:44 symfony [info] {sfFilter} render to client
+Jan 13 04:52:44 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 13 04:52:44 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 13 04:52:44 symfony [info] {sfResponse} send content (3478 o)
+Jan 13 07:38:37 symfony [info] {sfContext} initialization
+Jan 13 07:38:37 symfony [info] {sfController} initialization
+Jan 13 07:38:37 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 13 07:38:37 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 13 07:38:37 symfony [info] {sfController} dispatch request
+Jan 13 07:38:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 13 07:38:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 13 07:38:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 13 07:38:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 13 07:38:37 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 13 07:38:37 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 13 07:38:37 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 13 07:38:37 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 13 07:38:37 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 13 07:38:37 symfony [info] {sfFilter} render to client
+Jan 13 07:38:37 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 13 07:38:37 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 13 07:38:37 symfony [info] {sfResponse} send content (3478 o)
+Jan 14 02:23:39 symfony [info] {sfContext} initialization
+Jan 14 02:23:39 symfony [info] {sfController} initialization
+Jan 14 02:23:39 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 14 02:23:39 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 14 02:23:39 symfony [info] {sfController} dispatch request
+Jan 14 02:23:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 14 02:23:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 14 02:23:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 14 02:23:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 14 02:23:39 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 14 02:23:39 symfony [info] {sfView} initialize view for "default/index"
+Jan 14 02:23:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/indexSuccess.php"
+Jan 14 02:23:39 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 02:23:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 02:23:39 symfony [info] {sfFilter} render to client
+Jan 14 02:23:39 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 14 02:23:39 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 14 02:23:39 symfony [info] {sfResponse} send content (3607 o)
+Jan 14 04:50:08 symfony [info] {sfContext} initialization
+Jan 14 04:50:08 symfony [info] {sfController} initialization
+Jan 14 04:50:08 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 14 04:50:08 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 14 04:50:08 symfony [info] {sfController} dispatch request
+Jan 14 04:50:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 14 04:50:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 14 04:50:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 14 04:50:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 14 04:50:08 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 14 04:50:08 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 14 04:50:08 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 14 04:50:08 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 04:50:08 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 04:50:08 symfony [info] {sfFilter} render to client
+Jan 14 04:50:08 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 14 04:50:08 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 14 04:50:08 symfony [info] {sfResponse} send content (3478 o)
+Jan 14 08:14:13 symfony [info] {sfContext} initialization
+Jan 14 08:14:13 symfony [info] {sfController} initialization
+Jan 14 08:14:13 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 14 08:14:13 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 14 08:14:13 symfony [info] {sfController} dispatch request
+Jan 14 08:14:13 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 14 08:14:13 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 14 08:14:13 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 14 08:14:13 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 14 08:14:13 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 14 08:14:13 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 14 08:14:13 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 14 08:14:13 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 08:14:13 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 14 08:14:13 symfony [info] {sfFilter} render to client
+Jan 14 08:14:13 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 14 08:14:13 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 14 08:14:13 symfony [info] {sfResponse} send content (3478 o)
+Jan 15 20:52:35 symfony [info] {sfContext} initialization
+Jan 15 20:52:35 symfony [info] {sfController} initialization
+Jan 15 20:52:35 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 15 20:52:35 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 15 20:52:35 symfony [info] {sfController} dispatch request
+Jan 15 20:52:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:52:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:52:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:52:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:52:35 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 15 20:52:35 symfony [debug] SELECT * FROM `fitness_users` where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:52:35 symfony [debug] PASSED.... TRUE/FALSE 1 == TRUE BOOLEAN 1
+Jan 15 20:52:35 symfony [info] {sfAction} forward to action "index/index"
+Jan 15 20:52:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:52:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:52:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:52:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:52:36 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 15 20:52:36 symfony [info] USERID:385 Viewdateworkout:2014-01-15
+Jan 15 20:52:36 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate = '2014-01-15'  *ROWS RETURNED* 0* 
+Jan 15 20:52:36 symfony [debug] SELECT * FROM fitness_users where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:52:36 symfony [info]  WORKOUTTYPE VAR
+Jan 15 20:52:36 symfony [info] TYPE NOT REQUESTED SHOW DEFAULT Getexeriseday returned type 
+Jan 15 20:52:36 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate > curdate() order by workoutdate limit 2   *ROWS RETURNED* 0* 
+Jan 15 20:52:36 symfony [debug] SELECT * FROM assessment where user_id='385'  *ROWS RETURNED* 0* 
+Jan 15 20:52:36 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:52:36 symfony [info] {sfView} initialize view for "index/index"
+Jan 15 20:52:36 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/indexSuccess.php"
+Jan 15 20:52:36 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:52:36 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:52:36 symfony [info] {sfFilter} render to client
+Jan 15 20:52:36 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:52:36 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 15 20:52:36 symfony [info] {sfResponse} send content (7222 o)
+Jan 15 20:53:06 symfony [info] {sfContext} initialization
+Jan 15 20:53:06 symfony [info] {sfController} initialization
+Jan 15 20:53:06 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:53:06 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'ajax_report',  'userid' => '385',  'rndval' => '1389837185944',)
+Jan 15 20:53:06 symfony [info] {sfController} dispatch request
+Jan 15 20:53:06 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:53:06 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:53:06 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:53:06 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:53:06 symfony [info] {sfAction} call "indexActions->executeAjax_report()"
+Jan 15 20:53:06 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:53:06 symfony [info] {sfFilter} render to client
+Jan 15 20:53:06 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:53:06 symfony [info] {sfResponse} send content (2 o)
+Jan 15 20:54:36 symfony [info] {sfContext} initialization
+Jan 15 20:54:36 symfony [info] {sfController} initialization
+Jan 15 20:54:36 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 15 20:54:36 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 15 20:54:36 symfony [info] {sfController} dispatch request
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:54:36 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 15 20:54:36 symfony [debug] SELECT * FROM `fitness_users` where user_id='386'  *ROWS RETURNED* 1* 
+Jan 15 20:54:36 symfony [debug] PASSED.... TRUE/FALSE 1 == TRUE BOOLEAN 1
+Jan 15 20:54:36 symfony [info] {sfAction} forward to action "index/index"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:54:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:54:36 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 15 20:54:36 symfony [info] USERID:386 Viewdateworkout:2014-01-15
+Jan 15 20:54:36 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='386' and workoutdate = '2014-01-15'  *ROWS RETURNED* 0* 
+Jan 15 20:54:36 symfony [debug] SELECT * FROM fitness_users where user_id='386'  *ROWS RETURNED* 1* 
+Jan 15 20:54:36 symfony [info]  WORKOUTTYPE VAR
+Jan 15 20:54:36 symfony [info] TYPE NOT REQUESTED SHOW DEFAULT Getexeriseday returned type 
+Jan 15 20:54:36 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='386' and workoutdate > curdate() order by workoutdate limit 2   *ROWS RETURNED* 0* 
+Jan 15 20:54:36 symfony [debug] SELECT * FROM assessment where user_id='386'  *ROWS RETURNED* 0* 
+Jan 15 20:54:36 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:54:36 symfony [info] {sfView} initialize view for "index/index"
+Jan 15 20:54:36 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/indexSuccess.php"
+Jan 15 20:54:36 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:54:36 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:54:36 symfony [info] {sfFilter} render to client
+Jan 15 20:54:36 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:54:36 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 15 20:54:36 symfony [info] {sfResponse} send content (7222 o)
+Jan 15 20:57:14 symfony [info] {sfContext} initialization
+Jan 15 20:57:14 symfony [info] {sfController} initialization
+Jan 15 20:57:14 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 15 20:57:14 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 15 20:57:14 symfony [info] {sfController} dispatch request
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:14 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 15 20:57:14 symfony [debug] SELECT * FROM `fitness_users` where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:14 symfony [debug] PASSED.... TRUE/FALSE 1 == TRUE BOOLEAN 1
+Jan 15 20:57:14 symfony [info] {sfAction} forward to action "index/index"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:14 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:14 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 15 20:57:14 symfony [info] USERID:385 Viewdateworkout:2014-01-15
+Jan 15 20:57:14 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate = '2014-01-15'  *ROWS RETURNED* 1* 
+Jan 15 20:57:14 symfony [debug] SELECT * FROM fitness_users where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:14 symfony [info] generic_initial_cardio_welcome.swf WORKOUTTYPE VAR
+Jan 15 20:57:14 symfony [info] TYPE NOT REQUESTED SHOW DEFAULT Getexeriseday returned type 2
+Jan 15 20:57:14 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate > curdate() order by workoutdate limit 2   *ROWS RETURNED* 2* 
+Jan 15 20:57:14 symfony [debug] SELECT * FROM assessment where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:14 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:57:14 symfony [info] {sfView} initialize view for "index/index"
+Jan 15 20:57:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/indexSuccess.php"
+Jan 15 20:57:14 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:57:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:57:14 symfony [info] {sfFilter} render to client
+Jan 15 20:57:14 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:14 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 15 20:57:14 symfony [info] {sfResponse} send content (8247 o)
+Jan 15 20:57:15 symfony [info] {sfContext} initialization
+Jan 15 20:57:15 symfony [info] {sfController} initialization
+Jan 15 20:57:15 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:57:15 symfony [info] {sfRequest} request parameters array (  '_' => '1389837435286',  'user_id' => '385',  'module' => 'index',  'action' => 'commentsLoadLog',)
+Jan 15 20:57:15 symfony [info] {sfController} dispatch request
+Jan 15 20:57:15 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:15 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:15 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:15 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:15 symfony [info] {sfAction} call "indexActions->executeCommentsLoadLog()"
+Jan 15 20:57:15 symfony [debug] 
+				SELECT c.id, c.user_id, u.user_firstname, u.user_lastname, c.comment, c.commentdate
+				FROM fitnessuser_comments c join fitness_users u on u.user_id = c.user_id
+				where c.activeflag=1 and u.user_id='385'
+				union
+				SELECT c.id, c.user_id, u.user_firstname, u.user_lastname, c.comment, c.commentdate
+				FROM fitnessuser_comments c join fitness_users u on u.user_id = c.sendto
+				where c.activeflag=1 and c.sendto='385'
+				order by 1 asc  *ROWS RETURNED* 0* 
+Jan 15 20:57:15 symfony [info] {sfFilter} render to client
+Jan 15 20:57:15 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:15 symfony [info] {sfResponse} send content (0 o)
+Jan 15 20:57:20 symfony [info] {sfContext} initialization
+Jan 15 20:57:20 symfony [info] {sfController} initialization
+Jan 15 20:57:20 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:57:20 symfony [info] {sfRequest} request parameters array (  '_' => '1389837440302',  'user_id' => '385',  'module' => 'index',  'action' => 'commentsLoadLog',)
+Jan 15 20:57:20 symfony [info] {sfController} dispatch request
+Jan 15 20:57:20 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:20 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:20 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:20 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:20 symfony [info] {sfAction} call "indexActions->executeCommentsLoadLog()"
+Jan 15 20:57:20 symfony [debug] 
+				SELECT c.id, c.user_id, u.user_firstname, u.user_lastname, c.comment, c.commentdate
+				FROM fitnessuser_comments c join fitness_users u on u.user_id = c.user_id
+				where c.activeflag=1 and u.user_id='385'
+				union
+				SELECT c.id, c.user_id, u.user_firstname, u.user_lastname, c.comment, c.commentdate
+				FROM fitnessuser_comments c join fitness_users u on u.user_id = c.sendto
+				where c.activeflag=1 and c.sendto='385'
+				order by 1 asc  *ROWS RETURNED* 0* 
+Jan 15 20:57:20 symfony [info] {sfFilter} render to client
+Jan 15 20:57:20 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:20 symfony [info] {sfResponse} send content (0 o)
+Jan 15 20:57:23 symfony [info] {sfContext} initialization
+Jan 15 20:57:23 symfony [info] {sfController} initialization
+Jan 15 20:57:23 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 15 20:57:23 symfony [info] {sfRequest} request parameters array (  'type' => '4',  'module' => 'default',  'action' => 'index',)
+Jan 15 20:57:23 symfony [info] {sfController} dispatch request
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:23 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 15 20:57:23 symfony [debug] SELECT * FROM `fitness_users` where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:23 symfony [debug] PASSED.... TRUE/FALSE 1 == TRUE BOOLEAN 1
+Jan 15 20:57:23 symfony [info] {sfAction} forward to action "index/index"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:23 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:23 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 15 20:57:23 symfony [info] USERID:385 Viewdateworkout:2014-01-15
+Jan 15 20:57:23 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate = '2014-01-15'  *ROWS RETURNED* 1* 
+Jan 15 20:57:23 symfony [debug] SELECT * FROM fitness_users where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:23 symfony [info]  WORKOUTTYPE VAR
+Jan 15 20:57:23 symfony [info] TYPE 4 REQUESTED 
+Jan 15 20:57:23 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate > curdate() order by workoutdate limit 2   *ROWS RETURNED* 2* 
+Jan 15 20:57:23 symfony [debug] SELECT * FROM assessment where user_id='385'  *ROWS RETURNED* 1* 
+Jan 15 20:57:23 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:57:23 symfony [info] {sfView} initialize view for "index/index"
+Jan 15 20:57:23 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/indexSuccess.php"
+Jan 15 20:57:23 symfony [info] {sfView} initialize view for "index/_nutrition"
+Jan 15 20:57:23 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/index/templates/_nutrition.php"
+Jan 15 20:57:23 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:57:23 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 15 20:57:23 symfony [info] {sfFilter} render to client
+Jan 15 20:57:23 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:23 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 15 20:57:23 symfony [info] {sfResponse} send content (7490 o)
+Jan 15 20:57:25 symfony [info] {sfContext} initialization
+Jan 15 20:57:25 symfony [info] {sfController} initialization
+Jan 15 20:57:25 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:57:25 symfony [info] {sfRequest} request parameters array (  'module' => 'flexnutrition',  'action' => 'loadcalories',)
+Jan 15 20:57:25 symfony [info] {sfController} dispatch request
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:25 symfony [info] {sfAction} call "flexnutritionActions->executeLoadcalories()"
+Jan 15 20:57:25 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate = '2014-01-15'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM usersdailycalories where user_id='385' and workouttype='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [info] {sfAction} change layout to ""
+Jan 15 20:57:25 symfony [info] {sfView} initialize view for "flexnutrition/loadcalories"
+Jan 15 20:57:25 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/flexnutrition/templates/loadcaloriesSuccess.php"
+Jan 15 20:57:25 symfony [info] {sfContext} initialization
+Jan 15 20:57:25 symfony [info] {sfController} initialization
+Jan 15 20:57:25 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:57:25 symfony [info] {sfRequest} request parameters array (  'module' => 'flexnutrition',  'action' => 'nutritioncal',)
+Jan 15 20:57:25 symfony [info] {sfFilter} render to client
+Jan 15 20:57:25 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:25 symfony [info] {sfResponse} send header "Content-Type": "text/xml; charset=utf-8"
+Jan 15 20:57:25 symfony [info] {sfResponse} send content (236 o)
+Jan 15 20:57:25 symfony [info] {sfController} dispatch request
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:25 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:25 symfony [info] {sfAction} call "flexnutritionActions->executeNutritioncal()"
+Jan 15 20:57:25 symfony [debug] SELECT * FROM fitness_exercise_day where user_id='385' and workoutdate = '2014-01-15'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM usersdailycalories where user_id='385' and workouttype='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='bm' and dailycal='2400' limit 7  *ROWS RETURNED* 6* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='lm' and dailycal='2400' limit 7  *ROWS RETURNED* 7* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='dm' and dailycal='2400' limit 7  *ROWS RETURNED* 6* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='bs' and dailycal='2400' limit 7  *ROWS RETURNED* 7* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='ls' and dailycal='2400' limit 7  *ROWS RETURNED* 7* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutritioncal_workouttype where dailycaltype='2400' and type='2'  *ROWS RETURNED* 1* 
+Jan 15 20:57:25 symfony [debug] SELECT * FROM nutrition_cal where type='ds' and dailycal='2400' limit 7  *ROWS RETURNED* 7* 
+Jan 15 20:57:25 symfony [info] {sfAction} change layout to ""
+Jan 15 20:57:25 symfony [info] {sfFilter} render to client
+Jan 15 20:57:25 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:25 symfony [info] {sfResponse} send content (14497 o)
+Jan 15 20:57:54 symfony [info] {sfContext} initialization
+Jan 15 20:57:54 symfony [info] {sfController} initialization
+Jan 15 20:57:54 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 15 20:57:54 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'ajax_report',  'userid' => '385',  'rndval' => '1389837473544',)
+Jan 15 20:57:54 symfony [info] {sfController} dispatch request
+Jan 15 20:57:54 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 15 20:57:54 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 15 20:57:54 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 15 20:57:54 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 15 20:57:54 symfony [info] {sfAction} call "indexActions->executeAjax_report()"
+Jan 15 20:57:54 symfony [debug] halt reporting attribute set NOT REPORTING DATA
+Jan 15 20:57:54 symfony [info] {sfFilter} render to client
+Jan 15 20:57:54 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 15 20:57:54 symfony [info] {sfResponse} send content (2 o)
+Jan 16 18:50:14 symfony [info] {sfContext} initialization
+Jan 16 18:50:14 symfony [info] {sfController} initialization
+Jan 16 18:50:14 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 16 18:50:14 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 16 18:50:14 symfony [info] {sfController} dispatch request
+Jan 16 18:50:14 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 16 18:50:14 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 16 18:50:14 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 16 18:50:14 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 16 18:50:14 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 16 18:50:14 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 16 18:50:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 16 18:50:14 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 16 18:50:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 16 18:50:14 symfony [info] {sfFilter} render to client
+Jan 16 18:50:14 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 16 18:50:14 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 16 18:50:14 symfony [info] {sfResponse} send content (3478 o)
+Jan 16 21:36:32 symfony [info] {sfContext} initialization
+Jan 16 21:36:32 symfony [info] {sfController} initialization
+Jan 16 21:36:32 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 16 21:36:32 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 16 21:36:32 symfony [info] {sfController} dispatch request
+Jan 16 21:36:32 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 16 21:36:32 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 16 21:36:32 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 16 21:36:32 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 16 21:36:32 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 16 21:36:32 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 16 21:36:32 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 16 21:36:32 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 16 21:36:32 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 16 21:36:32 symfony [info] {sfFilter} render to client
+Jan 16 21:36:32 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 16 21:36:32 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 16 21:36:32 symfony [info] {sfResponse} send content (3478 o)
+Jan 17 01:59:59 symfony [info] {sfContext} initialization
+Jan 17 01:59:59 symfony [info] {sfController} initialization
+Jan 17 01:59:59 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 17 01:59:59 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 17 01:59:59 symfony [info] {sfController} dispatch request
+Jan 17 01:59:59 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 17 01:59:59 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 17 01:59:59 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 17 01:59:59 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 17 01:59:59 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 17 01:59:59 symfony [info] {sfView} initialize view for "default/index"
+Jan 17 01:59:59 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/indexSuccess.php"
+Jan 17 01:59:59 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 01:59:59 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 01:59:59 symfony [info] {sfFilter} render to client
+Jan 17 01:59:59 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 17 01:59:59 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 17 01:59:59 symfony [info] {sfResponse} send content (3607 o)
+Jan 17 09:17:35 symfony [info] {sfContext} initialization
+Jan 17 09:17:35 symfony [info] {sfController} initialization
+Jan 17 09:17:35 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 17 09:17:35 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 17 09:17:35 symfony [info] {sfController} dispatch request
+Jan 17 09:17:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 17 09:17:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 17 09:17:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 17 09:17:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 17 09:17:35 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 17 09:17:35 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 17 09:17:35 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 17 09:17:35 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 09:17:35 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 09:17:35 symfony [info] {sfFilter} render to client
+Jan 17 09:17:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 17 09:17:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 17 09:17:35 symfony [info] {sfResponse} send content (3478 o)
+Jan 17 09:19:46 symfony [info] {sfContext} initialization
+Jan 17 09:19:46 symfony [info] {sfController} initialization
+Jan 17 09:19:46 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 17 09:19:46 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 17 09:19:46 symfony [info] {sfController} dispatch request
+Jan 17 09:19:46 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 17 09:19:46 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 17 09:19:46 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 17 09:19:46 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 17 09:19:46 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 17 09:19:46 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 17 09:19:46 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 17 09:19:46 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 09:19:46 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 09:19:46 symfony [info] {sfFilter} render to client
+Jan 17 09:19:46 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 17 09:19:46 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 17 09:19:46 symfony [info] {sfResponse} send content (3478 o)
+Jan 17 23:20:14 symfony [info] {sfContext} initialization
+Jan 17 23:20:14 symfony [info] {sfController} initialization
+Jan 17 23:20:14 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 17 23:20:14 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 17 23:20:14 symfony [info] {sfController} dispatch request
+Jan 17 23:20:14 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 17 23:20:14 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 17 23:20:14 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 17 23:20:14 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 17 23:20:14 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 17 23:20:14 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 17 23:20:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 17 23:20:14 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 23:20:14 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 17 23:20:14 symfony [info] {sfFilter} render to client
+Jan 17 23:20:14 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 17 23:20:14 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 17 23:20:14 symfony [info] {sfResponse} send content (3478 o)
+Jan 18 11:57:51 symfony [info] {sfContext} initialization
+Jan 18 11:57:51 symfony [info] {sfController} initialization
+Jan 18 11:57:51 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 18 11:57:51 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 18 11:57:51 symfony [info] {sfController} dispatch request
+Jan 18 11:57:51 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 18 11:57:51 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 18 11:57:51 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 18 11:57:51 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 18 11:57:51 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 18 11:57:51 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 18 11:57:51 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 18 11:57:51 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 11:57:51 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 11:57:51 symfony [info] {sfFilter} render to client
+Jan 18 11:57:51 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 18 11:57:51 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 18 11:57:51 symfony [info] {sfResponse} send content (3478 o)
+Jan 18 18:37:43 symfony [info] {sfContext} initialization
+Jan 18 18:37:43 symfony [info] {sfController} initialization
+Jan 18 18:37:43 symfony [info] {sfRouting} match route [default] "/:module/:action/*"
+Jan 18 18:37:43 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'forgotpassword',)
+Jan 18 18:37:43 symfony [info] {sfController} dispatch request
+Jan 18 18:37:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 18 18:37:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 18 18:37:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 18 18:37:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 18 18:37:43 symfony [info] {sfAction} call "defaultActions->executeForgotpassword()"
+Jan 18 18:37:43 symfony [info] {sfView} initialize view for "default/forgotpassword"
+Jan 18 18:37:43 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/forgotpasswordSuccess.php"
+Jan 18 18:37:43 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 18:37:43 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 18:37:43 symfony [info] {sfFilter} render to client
+Jan 18 18:37:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 18 18:37:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 18 18:37:43 symfony [info] {sfResponse} send content (3478 o)
+Jan 18 19:25:42 symfony [info] {sfContext} initialization
+Jan 18 19:25:42 symfony [info] {sfController} initialization
+Jan 18 19:25:42 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 18 19:25:42 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 18 19:25:42 symfony [info] {sfController} dispatch request
+Jan 18 19:25:42 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 18 19:25:42 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 18 19:25:42 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 18 19:25:42 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 18 19:25:42 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 18 19:25:42 symfony [info] {sfView} initialize view for "default/index"
+Jan 18 19:25:42 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/indexSuccess.php"
+Jan 18 19:25:43 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 19:25:43 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 18 19:25:43 symfony [info] {sfFilter} render to client
+Jan 18 19:25:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 18 19:25:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 18 19:25:43 symfony [info] {sfResponse} send content (3607 o)
+Jan 19 20:06:24 symfony [info] {sfContext} initialization
+Jan 19 20:06:24 symfony [info] {sfController} initialization
+Jan 19 20:06:24 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 19 20:06:24 symfony [info] {sfRequest} request parameters array (  'module' => 'default',  'action' => 'index',)
+Jan 19 20:06:24 symfony [info] {sfController} dispatch request
+Jan 19 20:06:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 19 20:06:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 19 20:06:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 19 20:06:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 19 20:06:24 symfony [info] {sfAction} call "defaultActions->executeIndex()"
+Jan 19 20:06:24 symfony [info] {sfView} initialize view for "default/index"
+Jan 19 20:06:24 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/modules/default/templates/indexSuccess.php"
+Jan 19 20:06:24 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 19 20:06:24 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/main/templates/layout.php"
+Jan 19 20:06:24 symfony [info] {sfFilter} render to client
+Jan 19 20:06:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 19 20:06:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 19 20:06:24 symfony [info] {sfResponse} send content (3607 o)

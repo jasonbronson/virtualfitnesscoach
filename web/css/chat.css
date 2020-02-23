@@ -1,0 +1,112 @@
+@CHARSET "UTF-8";
+
+#wrapper{
+	text-align: center;
+	margin: 0 auto;
+	border:0px solid green;
+}
+
+
+#chatWrapper {
+	
+	text-align: center;
+	width: 820px;
+	height: 350px;
+	border: 0px solid red;
+	margin: auto;
+}
+
+#messageSend{
+		clear:both;
+		border:0px solid #ACD8F0;
+		height: 60px;
+	   
+}
+
+#users {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	background:#fff;
+	height:270px;
+	width:130px;
+	border:1px solid #ACD8F0;
+	overflow:auto;
+	float:left;
+}
+
+#chatbox {
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:25px;
+	padding:10px;
+	background:#fff;
+	height:270px;
+	width:630px;
+	border:1px solid #ACD8F0;
+	overflow:auto;
+	float: right;
+
+}
+ 
+#usermsg {
+	width:395px;
+	height: 40px;
+	border:1px solid #ACD8F0; }
+ 
+#submit { width: 60px; }
+ 
+.error { color: #ff0000; }
+ 
+#menu { padding:12.5px 25px 12.5px 25px; }
+ 
+.welcome { float:left; }
+ 
+.logout { float:right; }
+ 
+.msgln { margin:0 0 2px 0; }
+
+
+
+
+
+#frontEndwrapper{
+	text-align: left;
+	margin: 0 auto;
+	border: 0px solid green;
+}
+
+
+#frontEndchatWrapper {
+	
+	text-align: center;
+	width: 100%;
+	height: 250px;
+	border: 0px solid red;
+	margin: auto;
+}
+
+#frontEndmessageSend{
+		clear:both;
+		border:0px solid #ACD8F0;
+		height: 60px;
+	   
+}
+
+#frontEndchatbox {
+	text-align:left;
+	padding:5px 5px 5px 5px;
+	background:#fff;
+	height:130px;
+	width:95%;
+	border:1px solid #ACD8F0;
+	overflow:auto;
+	
+
+}
+ 
+#frontEndusermsg {
+	width:320px;
+	height: 40px;
+	border:1px solid #ACD8F0; }

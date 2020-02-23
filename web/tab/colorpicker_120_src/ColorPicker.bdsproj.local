@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2008/01/06 19:29:27.162.pas,C:\delphi_proj\npp\simplescript\Unit1.pas=C:\delphi_proj\npp\simplescript\color001.pas</Transaction>
+    <Transaction>2008/01/06 19:29:27.178.dfm,C:\delphi_proj\npp\simplescript\Unit1.dfm=C:\delphi_proj\npp\simplescript\color001.dfm</Transaction>
+    <Transaction>2008/01/09 00:10:00.734.pas,C:\delphi_proj\npp\simplescript\AboutForms.pas=</Transaction>
+    <Transaction>2008/01/09 00:10:00.750.dfm,C:\delphi_proj\npp\simplescript\AboutForms.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Virtual Fitness Coach
+    robots:       index, follow
+    description:  Creating workout's for users using a virtual webspace, when dieting doesn't work, or diet pills don't work
+    keywords:     workout, lose weight, weight loss, weight loss pills, diet pills, diet doesn't work, diet pills suck
+    language:     en
+
+  stylesheets:    [Stylesheet]
+
+  javascripts:    []
+
+  has_layout:     on
+  layout:         layout

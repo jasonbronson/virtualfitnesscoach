@@ -1,0 +1,6 @@
+database:
+  hostname: localhost
+  username: demovfc
+  password: vfc
+  databasename: demovfc
+  environment: development

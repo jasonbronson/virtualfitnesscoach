@@ -1,0 +1,285 @@
+Mar 02 13:16:07 symfony [info] {sfContext} initialization
+Mar 02 13:16:07 symfony [info] {sfController} initialization
+Mar 02 13:16:07 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 02 13:16:07 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 02 13:16:07 symfony [info] {sfController} dispatch request
+Mar 02 13:16:08 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:08 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:08 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:08 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:08 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:08 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 0* 
+Mar 02 13:16:08 symfony [info] {sfAction} change template to "index"
+Mar 02 13:16:08 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:08 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 02 13:16:08 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:08 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:08 symfony [info] {sfFilter} render to client
+Mar 02 13:16:08 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:08 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:08 symfony [info] {sfResponse} send content (6614 o)
+Mar 02 13:16:08 symfony [info] {sfTimerManager} Configuration 5.65 ms (10)
+Mar 02 13:16:08 symfony [info] {sfTimerManager} Action "index/index" 3.31 ms (1)
+Mar 02 13:16:08 symfony [info] {sfTimerManager} View "Success" for "index/index" 22.56 ms (1)
+Mar 02 13:16:21 symfony [info] {sfContext} initialization
+Mar 02 13:16:21 symfony [info] {sfController} initialization
+Mar 02 13:16:21 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:21 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'cardiovascular_goal' => 'ON',  'other_goal_details' => '',  'how_going_to_make_you_feel' => '',  'other_specific_fitness_goals' => '',  'Next' => 'Next',)
+Mar 02 13:16:21 symfony [info] {sfController} dispatch request
+Mar 02 13:16:21 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:21 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:21 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:21 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:21 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:21 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 0* 
+Mar 02 13:16:21 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 0* 
+Mar 02 13:16:21 symfony [debug] INSERT into assessment set data='YToxOntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fX0=', date_time=NOW(), user_id='388'  
+Mar 02 13:16:21 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:21 symfony [info] {sfAction} change template to "page2"
+Mar 02 13:16:21 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:21 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page2Success.php"
+Mar 02 13:16:21 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:21 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:21 symfony [info] {sfFilter} render to client
+Mar 02 13:16:21 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:21 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:21 symfony [info] {sfResponse} send content (7613 o)
+Mar 02 13:16:21 symfony [info] {sfTimerManager} Configuration 1.83 ms (10)
+Mar 02 13:16:21 symfony [info] {sfTimerManager} Action "index/index" 34.61 ms (1)
+Mar 02 13:16:21 symfony [info] {sfTimerManager} View "Success" for "index/index" 14.30 ms (1)
+Mar 02 13:16:35 symfony [info] {sfContext} initialization
+Mar 02 13:16:35 symfony [info] {sfController} initialization
+Mar 02 13:16:35 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:35 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'age' => '',  'Sex' => 'female',  'person_height' => '',  'weight' => '',  'orthopedic_problems_injuries' => '',  'medical_conditions' => '',  'names_of_medications' => '',  'physicians_restriction_advise' => '',  'Smoke_quantity' => '',  'occupation' => '',  'current_exercise' => '',  'past_exercise' => '',  'recent_weight_training_exercises' => '',  'pagenumber' => '2',  'Next' => 'Next',)
+Mar 02 13:16:35 symfony [info] {sfController} dispatch request
+Mar 02 13:16:35 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:35 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:35 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:35 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:35 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:35 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 0* 
+Mar 02 13:16:35 symfony [debug] INSERT INTO statistics set datetime=now(), user_id='388',  weight=''    
+Mar 02 13:16:35 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:35 symfony [debug] UPDATE assessment set data='YToyOntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fX0=', date_time=NOW() where user_id='388'  
+Mar 02 13:16:35 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:35 symfony [info] {sfAction} change template to "page3"
+Mar 02 13:16:35 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:35 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page3Success.php"
+Mar 02 13:16:35 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:35 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:35 symfony [info] {sfFilter} render to client
+Mar 02 13:16:35 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:35 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:35 symfony [info] {sfResponse} send content (2824 o)
+Mar 02 13:16:35 symfony [info] {sfTimerManager} Configuration 1.53 ms (10)
+Mar 02 13:16:35 symfony [info] {sfTimerManager} Action "index/index" 29.61 ms (1)
+Mar 02 13:16:35 symfony [info] {sfTimerManager} View "Success" for "index/index" 19.97 ms (1)
+Mar 02 13:16:42 symfony [info] {sfContext} initialization
+Mar 02 13:16:42 symfony [info] {sfController} initialization
+Mar 02 13:16:42 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:42 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'resting_heart_rate' => '',  'pagenumber' => '3',  'Next' => 'Next',)
+Mar 02 13:16:42 symfony [info] {sfController} dispatch request
+Mar 02 13:16:42 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:42 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:42 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:42 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:42 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:42 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:42 symfony [debug] UPDATE statistics set  restingheartrate=''  where user_id='388' and id='1053'  
+Mar 02 13:16:42 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:42 symfony [debug] UPDATE assessment set data='YTozOntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO319', date_time=NOW() where user_id='388'  
+Mar 02 13:16:42 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:42 symfony [info] {sfAction} change template to "page4"
+Mar 02 13:16:42 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:42 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page4Success.php"
+Mar 02 13:16:42 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:42 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:42 symfony [info] {sfFilter} render to client
+Mar 02 13:16:42 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:42 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:42 symfony [info] {sfResponse} send content (3904 o)
+Mar 02 13:16:42 symfony [info] {sfTimerManager} Configuration 2.02 ms (10)
+Mar 02 13:16:42 symfony [info] {sfTimerManager} Action "index/index" 7.22 ms (1)
+Mar 02 13:16:42 symfony [info] {sfTimerManager} View "Success" for "index/index" 7.12 ms (1)
+Mar 02 13:16:44 symfony [info] {sfContext} initialization
+Mar 02 13:16:44 symfony [info] {sfController} initialization
+Mar 02 13:16:44 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:44 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'measure_chest' => '',  'measure_arm' => '',  'measure_thigh' => '',  'measure_waist' => '',  'measure_hips' => '',  'pagenumber' => '4',  'Next' => 'Next',)
+Mar 02 13:16:44 symfony [info] {sfController} dispatch request
+Mar 02 13:16:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:44 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:44 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:44 symfony [debug] UPDATE statistics set  chest='', arms='', thighs='', hips='', waist=''   where user_id='388' and id='1053'  
+Mar 02 13:16:44 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:44 symfony [debug] UPDATE assessment set data='YTo0OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO319', date_time=NOW() where user_id='388'  
+Mar 02 13:16:44 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:44 symfony [info] {sfAction} change template to "page5"
+Mar 02 13:16:44 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:44 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page5Success.php"
+Mar 02 13:16:44 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:44 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:44 symfony [info] {sfFilter} render to client
+Mar 02 13:16:44 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:44 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:44 symfony [info] {sfResponse} send content (3193 o)
+Mar 02 13:16:44 symfony [info] {sfTimerManager} Configuration 1.62 ms (10)
+Mar 02 13:16:44 symfony [info] {sfTimerManager} Action "index/index" 7.13 ms (1)
+Mar 02 13:16:44 symfony [info] {sfTimerManager} View "Success" for "index/index" 7.45 ms (1)
+Mar 02 13:16:45 symfony [info] {sfContext} initialization
+Mar 02 13:16:45 symfony [info] {sfController} initialization
+Mar 02 13:16:45 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:45 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'regular_pushups' => '',  'modified_pushups' => '',  'pushups_against_table' => '',  'pushups_against_wall' => '',  'why_i_cant_do_pushups' => '',  'pagenumber' => '5',  'Next' => 'Next',)
+Mar 02 13:16:45 symfony [info] {sfController} dispatch request
+Mar 02 13:16:45 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:45 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:45 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:45 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:45 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:45 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:45 symfony [debug] UPDATE statistics set  pushups=''  where user_id='388' and id='1053'  
+Mar 02 13:16:45 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:45 symfony [debug] UPDATE assessment set data='YTo1OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO31pOjU7YTo1OntzOjE1OiJyZWd1bGFyX3B1c2h1cHMiO3M6MDoiIjtzOjE2OiJtb2RpZmllZF9wdXNodXBzIjtzOjA6IiI7czoyMToicHVzaHVwc19hZ2FpbnN0X3RhYmxlIjtzOjA6IiI7czoyMDoicHVzaHVwc19hZ2FpbnN0X3dhbGwiO3M6MDoiIjtzOjIxOiJ3aHlfaV9jYW50X2RvX3B1c2h1cHMiO3M6MDoiIjt9fQ==', date_time=NOW() where user_id='388'  
+Mar 02 13:16:45 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:45 symfony [info] {sfAction} change template to "page6"
+Mar 02 13:16:45 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:45 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page6Success.php"
+Mar 02 13:16:45 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:45 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:45 symfony [info] {sfFilter} render to client
+Mar 02 13:16:45 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:45 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:45 symfony [info] {sfResponse} send content (3051 o)
+Mar 02 13:16:45 symfony [info] {sfTimerManager} Configuration 1.51 ms (10)
+Mar 02 13:16:45 symfony [info] {sfTimerManager} Action "index/index" 6.76 ms (1)
+Mar 02 13:16:45 symfony [info] {sfTimerManager} View "Success" for "index/index" 7.30 ms (1)
+Mar 02 13:16:47 symfony [info] {sfContext} initialization
+Mar 02 13:16:47 symfony [info] {sfController} initialization
+Mar 02 13:16:47 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:47 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'fitness_test_beats_per_minute' => '',  'fitness_test_minutes_stepping' => '',  'fitness_test_inches_high' => '',  'why_i_cant_do_stepups' => '',  'pagenumber' => '6',  'Next' => 'Next',)
+Mar 02 13:16:47 symfony [info] {sfController} dispatch request
+Mar 02 13:16:47 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:47 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:47 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:47 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:47 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:47 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:47 symfony [debug] UPDATE statistics set  steptest=''  where user_id='388' and id='1053'  
+Mar 02 13:16:47 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:47 symfony [debug] UPDATE assessment set data='YTo2OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO31pOjU7YTo1OntzOjE1OiJyZWd1bGFyX3B1c2h1cHMiO3M6MDoiIjtzOjE2OiJtb2RpZmllZF9wdXNodXBzIjtzOjA6IiI7czoyMToicHVzaHVwc19hZ2FpbnN0X3RhYmxlIjtzOjA6IiI7czoyMDoicHVzaHVwc19hZ2FpbnN0X3dhbGwiO3M6MDoiIjtzOjIxOiJ3aHlfaV9jYW50X2RvX3B1c2h1cHMiO3M6MDoiIjt9aTo2O2E6NDp7czoyOToiZml0bmVzc190ZXN0X2JlYXRzX3Blcl9taW51dGUiO3M6MDoiIjtzOjI5OiJmaXRuZXNzX3Rlc3RfbWludXRlc19zdGVwcGluZyI7czowOiIiO3M6MjQ6ImZpdG5lc3NfdGVzdF9pbmNoZXNfaGlnaCI7czowOiIiO3M6MjE6IndoeV9pX2NhbnRfZG9fc3RlcHVwcyI7czowOiIiO319', date_time=NOW() where user_id='388'  
+Mar 02 13:16:47 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:47 symfony [info] {sfAction} change template to "page7"
+Mar 02 13:16:47 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:47 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page7Success.php"
+Mar 02 13:16:47 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:47 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:47 symfony [info] {sfFilter} render to client
+Mar 02 13:16:47 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:47 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:47 symfony [info] {sfResponse} send content (7036 o)
+Mar 02 13:16:47 symfony [info] {sfTimerManager} Configuration 1.57 ms (10)
+Mar 02 13:16:47 symfony [info] {sfTimerManager} Action "index/index" 6.58 ms (1)
+Mar 02 13:16:47 symfony [info] {sfTimerManager} View "Success" for "index/index" 11.05 ms (1)
+Mar 02 13:16:51 symfony [info] {sfContext} initialization
+Mar 02 13:16:51 symfony [info] {sfController} initialization
+Mar 02 13:16:51 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:51 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'other_activities_with_program' => '',  'type_of_free_weights_i_own' => '',  'pagenumber' => '7',  'Next' => 'Next',)
+Mar 02 13:16:51 symfony [info] {sfController} dispatch request
+Mar 02 13:16:51 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:51 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:51 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:51 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:51 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:51 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:51 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:51 symfony [debug] UPDATE assessment set data='YTo3OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO31pOjU7YTo1OntzOjE1OiJyZWd1bGFyX3B1c2h1cHMiO3M6MDoiIjtzOjE2OiJtb2RpZmllZF9wdXNodXBzIjtzOjA6IiI7czoyMToicHVzaHVwc19hZ2FpbnN0X3RhYmxlIjtzOjA6IiI7czoyMDoicHVzaHVwc19hZ2FpbnN0X3dhbGwiO3M6MDoiIjtzOjIxOiJ3aHlfaV9jYW50X2RvX3B1c2h1cHMiO3M6MDoiIjt9aTo2O2E6NDp7czoyOToiZml0bmVzc190ZXN0X2JlYXRzX3Blcl9taW51dGUiO3M6MDoiIjtzOjI5OiJmaXRuZXNzX3Rlc3RfbWludXRlc19zdGVwcGluZyI7czowOiIiO3M6MjQ6ImZpdG5lc3NfdGVzdF9pbmNoZXNfaGlnaCI7czowOiIiO3M6MjE6IndoeV9pX2NhbnRfZG9fc3RlcHVwcyI7czowOiIiO31pOjc7YTozNjp7czoyODoicHJlZmVyX3RvX2V4ZXJjaXNlX29uX21vbmRheSI7czowOiIiO3M6Mjk6InByZWZlcl90b19leGVyY2lzZV9vbl90dWVzZGF5IjtzOjA6IiI7czozMToicHJlZmVyX3RvX2V4ZXJjaXNlX29uX3dlZG5lc2RheSI7czowOiIiO3M6MzA6InByZWZlcl90b19leGVyY2lzZV9vbl90aHVyc2RheSI7czowOiIiO3M6Mjg6InByZWZlcl90b19leGVyY2lzZV9vbl9mcmlkYXkiO3M6MDoiIjtzOjMwOiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc2F0dXJkYXkiO3M6MDoiIjtzOjI4OiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc3VuZGF5IjtzOjA6IiI7czoyOToib3RoZXJfYWN0aXZpdGllc193aXRoX3Byb2dyYW0iO3M6MDoiIjtzOjI4OiJleGVyY2lzZV9hdF9maXRuZXNzX2ZhY2lsaXR5IjtzOjA6IiI7czoxNjoiZXhlcmNpc2VfYXRfaG9tZSI7czowOiIiO3M6MTY6ImV4ZXJjaXNlX291dHNpZGUiO3M6MDoiIjtzOjIyOiJub19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoyMjoiZnJlZV93ZWlnaHRzX2F2YWlsYWJsZSI7czowOiIiO3M6MjU6IndlaWdodF9tYWNoaW5lc19hdmFpbGFibGUiO3M6MDoiIjtzOjI2OiJyZXNpc3RhbmNlX3R1YmVzX2F2YWlsYWJsZSI7czowOiIiO3M6MjY6ImNhcmRpb19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoxNzoiYmljeWNsZV9hdmFpbGFibGUiO3M6MDoiIjtzOjI0OiJhZXJvYmljX3ZpZGVvc19hdmFpbGFibGUiO3M6MDoiIjtzOjM2OiJpX2hhdmVfbm9fcHJlZmVyZW5jZXNfZm9yX2FjdGl2aXRpZXMiO3M6MDoiIjtzOjIwOiJpbmNsdWRlX2ZyZWVfd2VpZ2h0cyI7czowOiIiO3M6MjM6ImluY2x1ZGVfd2VpZ2h0X21hY2hpbmVzIjtzOjA6IiI7czoyNDoiaW5jbHVkZV9yZXNpc3RhbmNlX3R1YmVzIjtzOjA6IiI7czoxNToiaW5jbHVkZV93YWxraW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9qb2dnaW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9ydW5uaW5nIjtzOjA6IiI7czoxNDoiaW5jbHVkZV9oaWtpbmciO3M6MDoiIjtzOjIzOiJpbmNsdWRlX2Flcm9iaWNfY2xhc3NlcyI7czowOiIiO3M6MTc6ImluY2x1ZGVfYmljeWNsaW5nIjtzOjA6IiI7czoyMzoiaW5jbHVkZV9zdGF0aW9uYXJ5X2Jpa2UiO3M6MDoiIjtzOjIxOiJpbmNsdWRlX3N0YWlyX21hY2hpbmUiO3M6MDoiIjtzOjE4OiJpbmNsdWRlX2VsbGlwdGljYWwiO3M6MDoiIjtzOjE3OiJpbmNsdWRlX3RyZWFkbWlsbCI7czowOiIiO3M6MTY6ImluY2x1ZGVfc3Bpbm5pbmciO3M6MDoiIjtzOjIyOiJpbmNsdWRlX3Jvd2luZ19tYWNoaW5lIjtzOjA6IiI7czoxNjoiaW5jbHVkZV9zd2ltbWluZyI7czowOiIiO3M6MjY6InR5cGVfb2ZfZnJlZV93ZWlnaHRzX2lfb3duIjtzOjA6IiI7fX0=', date_time=NOW() where user_id='388'  
+Mar 02 13:16:51 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:51 symfony [info] {sfAction} change template to "page8"
+Mar 02 13:16:51 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:51 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page8Success.php"
+Mar 02 13:16:51 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:51 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:51 symfony [info] {sfFilter} render to client
+Mar 02 13:16:51 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:51 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:51 symfony [info] {sfResponse} send content (6424 o)
+Mar 02 13:16:51 symfony [info] {sfTimerManager} Configuration 1.53 ms (10)
+Mar 02 13:16:51 symfony [info] {sfTimerManager} Action "index/index" 26.02 ms (1)
+Mar 02 13:16:51 symfony [info] {sfTimerManager} View "Success" for "index/index" 9.71 ms (1)
+Mar 02 13:16:54 symfony [info] {sfContext} initialization
+Mar 02 13:16:54 symfony [info] {sfController} initialization
+Mar 02 13:16:54 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:54 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'my_accomplishments' => '',  'pagenumber' => '8',  'Next' => 'Next',)
+Mar 02 13:16:54 symfony [info] {sfController} dispatch request
+Mar 02 13:16:54 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:54 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:54 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:54 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:54 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:54 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:54 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:54 symfony [debug] UPDATE assessment set data='YTo4OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO31pOjU7YTo1OntzOjE1OiJyZWd1bGFyX3B1c2h1cHMiO3M6MDoiIjtzOjE2OiJtb2RpZmllZF9wdXNodXBzIjtzOjA6IiI7czoyMToicHVzaHVwc19hZ2FpbnN0X3RhYmxlIjtzOjA6IiI7czoyMDoicHVzaHVwc19hZ2FpbnN0X3dhbGwiO3M6MDoiIjtzOjIxOiJ3aHlfaV9jYW50X2RvX3B1c2h1cHMiO3M6MDoiIjt9aTo2O2E6NDp7czoyOToiZml0bmVzc190ZXN0X2JlYXRzX3Blcl9taW51dGUiO3M6MDoiIjtzOjI5OiJmaXRuZXNzX3Rlc3RfbWludXRlc19zdGVwcGluZyI7czowOiIiO3M6MjQ6ImZpdG5lc3NfdGVzdF9pbmNoZXNfaGlnaCI7czowOiIiO3M6MjE6IndoeV9pX2NhbnRfZG9fc3RlcHVwcyI7czowOiIiO31pOjc7YTozNjp7czoyODoicHJlZmVyX3RvX2V4ZXJjaXNlX29uX21vbmRheSI7czowOiIiO3M6Mjk6InByZWZlcl90b19leGVyY2lzZV9vbl90dWVzZGF5IjtzOjA6IiI7czozMToicHJlZmVyX3RvX2V4ZXJjaXNlX29uX3dlZG5lc2RheSI7czowOiIiO3M6MzA6InByZWZlcl90b19leGVyY2lzZV9vbl90aHVyc2RheSI7czowOiIiO3M6Mjg6InByZWZlcl90b19leGVyY2lzZV9vbl9mcmlkYXkiO3M6MDoiIjtzOjMwOiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc2F0dXJkYXkiO3M6MDoiIjtzOjI4OiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc3VuZGF5IjtzOjA6IiI7czoyOToib3RoZXJfYWN0aXZpdGllc193aXRoX3Byb2dyYW0iO3M6MDoiIjtzOjI4OiJleGVyY2lzZV9hdF9maXRuZXNzX2ZhY2lsaXR5IjtzOjA6IiI7czoxNjoiZXhlcmNpc2VfYXRfaG9tZSI7czowOiIiO3M6MTY6ImV4ZXJjaXNlX291dHNpZGUiO3M6MDoiIjtzOjIyOiJub19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoyMjoiZnJlZV93ZWlnaHRzX2F2YWlsYWJsZSI7czowOiIiO3M6MjU6IndlaWdodF9tYWNoaW5lc19hdmFpbGFibGUiO3M6MDoiIjtzOjI2OiJyZXNpc3RhbmNlX3R1YmVzX2F2YWlsYWJsZSI7czowOiIiO3M6MjY6ImNhcmRpb19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoxNzoiYmljeWNsZV9hdmFpbGFibGUiO3M6MDoiIjtzOjI0OiJhZXJvYmljX3ZpZGVvc19hdmFpbGFibGUiO3M6MDoiIjtzOjM2OiJpX2hhdmVfbm9fcHJlZmVyZW5jZXNfZm9yX2FjdGl2aXRpZXMiO3M6MDoiIjtzOjIwOiJpbmNsdWRlX2ZyZWVfd2VpZ2h0cyI7czowOiIiO3M6MjM6ImluY2x1ZGVfd2VpZ2h0X21hY2hpbmVzIjtzOjA6IiI7czoyNDoiaW5jbHVkZV9yZXNpc3RhbmNlX3R1YmVzIjtzOjA6IiI7czoxNToiaW5jbHVkZV93YWxraW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9qb2dnaW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9ydW5uaW5nIjtzOjA6IiI7czoxNDoiaW5jbHVkZV9oaWtpbmciO3M6MDoiIjtzOjIzOiJpbmNsdWRlX2Flcm9iaWNfY2xhc3NlcyI7czowOiIiO3M6MTc6ImluY2x1ZGVfYmljeWNsaW5nIjtzOjA6IiI7czoyMzoiaW5jbHVkZV9zdGF0aW9uYXJ5X2Jpa2UiO3M6MDoiIjtzOjIxOiJpbmNsdWRlX3N0YWlyX21hY2hpbmUiO3M6MDoiIjtzOjE4OiJpbmNsdWRlX2VsbGlwdGljYWwiO3M6MDoiIjtzOjE3OiJpbmNsdWRlX3RyZWFkbWlsbCI7czowOiIiO3M6MTY6ImluY2x1ZGVfc3Bpbm5pbmciO3M6MDoiIjtzOjIyOiJpbmNsdWRlX3Jvd2luZ19tYWNoaW5lIjtzOjA6IiI7czoxNjoiaW5jbHVkZV9zd2ltbWluZyI7czowOiIiO3M6MjY6InR5cGVfb2ZfZnJlZV93ZWlnaHRzX2lfb3duIjtzOjA6IiI7fWk6ODthOjIwOntzOjM1OiJvYnN0YWNsZV9pbnRpbWlkYXRlZF9vcl9lbWJhcnJhc3NlZCI7czowOiIiO3M6MzE6Im9ic3RhY2xlX2hvbGlkYXlzX2FuZF92YWNhdGlvbnMiO3M6MDoiIjtzOjE1OiJvYnN0YWNsZV90cmF2ZWwiO3M6MDoiIjtzOjIxOiJvYnN0YWNsZV93b3JrX2RlbWFuZHMiO3M6MDoiIjtzOjIxOiJvYnN0YWNsZV9maW5kaW5nX3RpbWUiO3M6MDoiIjtzOjI1OiJvYnN0YWNsZV9kb250X3NlZV9yZXN1bHRzIjtzOjA6IiI7czoyNzoib2JzdGFjbGVfZmFtaWx5X29ibGlnYXRpb25zIjtzOjA6IiI7czoxOToib2JzdGFjbGVfbm9fc3VwcG9ydCI7czowOiIiO3M6MzE6Im9ic3RhY2xlX2V4ZXJjaXNlX25vdF9lbmpveWFibGUiO3M6MDoiIjtzOjI3OiJvYnN0YWNsZV9leGVyY2lzZV9pc19ib3JpbmciO3M6MDoiIjtzOjI2OiJvYnN0YWNsZV90aXJlZF9vcl9mYXRpZ3VlZCI7czowOiIiO3M6MjA6Im9ic3RhY2xlX2ZvcmdldF9nb2FsIjtzOjA6IiI7czoyMzoib2JzdGFjbGVfZXhlcmNpc2VfYWxvbmUiO3M6MDoiIjtzOjM1OiJvYnN0YWNsZV9kZWZpY2llbnRfZXhlcmNpc2Vfc2V0dGluZyI7czowOiIiO3M6MjA6Im9ic3RhY2xlX2JhZF93ZWF0aGVyIjtzOjA6IiI7czoxMzoib2JzdGFjbGVfbm9uZSI7czowOiIiO3M6MTg6Im15X2FjY29tcGxpc2htZW50cyI7czowOiIiO3M6MTE6InRvdWdoX2NvYWNoIjtzOjA6IiI7czoxMjoidGVuZGVyX2NvYWNoIjtzOjA6IiI7czoyMjoidGVuZGVyX2FuZF90b3VnaF9jb2FjaCI7czowOiIiO319', date_time=NOW() where user_id='388'  
+Mar 02 13:16:54 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:54 symfony [info] {sfAction} change template to "page9"
+Mar 02 13:16:54 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:54 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page9Success.php"
+Mar 02 13:16:54 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:54 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:54 symfony [info] {sfFilter} render to client
+Mar 02 13:16:54 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:54 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:54 symfony [info] {sfResponse} send content (9343 o)
+Mar 02 13:16:54 symfony [info] {sfTimerManager} Configuration 1.59 ms (10)
+Mar 02 13:16:54 symfony [info] {sfTimerManager} Action "index/index" 6.73 ms (1)
+Mar 02 13:16:54 symfony [info] {sfTimerManager} View "Success" for "index/index" 6.98 ms (1)
+Mar 02 13:16:57 symfony [info] {sfContext} initialization
+Mar 02 13:16:57 symfony [info] {sfController} initialization
+Mar 02 13:16:57 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 02 13:16:57 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',  'six_am_time' => '',  'seven_am_time' => '',  'eight_am_time' => '',  'nine_am_time' => '',  'ten_am_time' => '',  'eleven_am_time' => '',  'tweleve_pm_time' => '',  'one_pm_time' => '',  'two_pm_time' => '',  'three_pm_time' => '',  'four_pm_time' => '',  'five_pm_time' => '',  'six_pm_time' => '',  'seven_pm_time' => '',  'eight_pm_time' => '',  'nine_pm_time' => '',  'ten_pm_time' => '',  'eleven_pm_time' => '',  'tweleve_am_time' => '',  'one_am_time' => '',  'two_am_time' => '',  'three_am_time' => '',  'four_am_time' => '',  'five_am_time' => '',  'protein_likes' => '',  'dairy_likes' => '',  'fruit_likes' => '',  'vegies_likes' => '',  'starches_likes' => '',  'protein_dislikes' => '',  'dairy_dislikes' => '',  'fruit_dislikes' => '',  'vegies_dislikes' => '',  'starches_dislikes' => '',  'alcohol_consumption' => '',  'sweet_drinks_consumption' => '',  'starches_consumption' => '',  'whole_milk_consumption' => '',  'sweets_consumption' => '',  'fast_food_consumption' => '',  'fruit_consumption' => '',  'vegies_consumption' => '',  'water_consumption' => '',  'lean_meat_consumption2' => '',  'pagenumber' => '9',  'Next' => 'Next',)
+Mar 02 13:16:57 symfony [info] {sfController} dispatch request
+Mar 02 13:16:57 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:16:57 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:16:57 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:16:57 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:16:57 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:16:57 symfony [debug] SELECT * FROM statistics where user_id='388' order by id asc limit 1  *ROWS RETURNED* 1* 
+Mar 02 13:16:57 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:57 symfony [debug] UPDATE assessment set data='YTo5OntpOjE7YToyMTp7czoxNToiYXBwZWFyYW5jZV9nb2FsIjtzOjA6IiI7czoxOToiY2FyZGlvdmFzY3VsYXJfZ29hbCI7czoyOiJPTiI7czoxODoiZmF0X3JlZHVjdGlvbl9nb2FsIjtzOjA6IiI7czoxNjoiZmxleGliaWxpdHlfZ29hbCI7czowOiIiO3M6MTE6ImhlYWx0aF9nb2FsIjtzOjA6IiI7czoxNToiZGVmaW5pdGlvbl9nb2FsIjtzOjA6IiI7czoyMzoibXVzY3VsYXJfZW5kdXJhbmNlX2dvYWwiO3M6MDoiIjtzOjE4OiJtdXNjdWxhcl9zaXplX2dvYWwiO3M6MDoiIjtzOjEzOiJzdHJlbmd0aF9nb2FsIjtzOjA6IiI7czoxMDoicG93ZXJfZ29hbCI7czowOiIiO3M6MTY6InNlbGZfZXN0ZWVtX2dvYWwiO3M6MDoiIjtzOjEwOiJzcGVlZF9nb2FsIjtzOjA6IiI7czoxMToic3BvcnRzX2dvYWwiO3M6MDoiIjtzOjExOiJzdHJlc3NfZ29hbCI7czowOiIiO3M6MTE6InRvbmluZ19nb2FsIjtzOjA6IiI7czoxMToid2VpZ2h0X2dvYWwiO3M6MDoiIjtzOjc6InBvc3R1cmUiO3M6MDoiIjtzOjEwOiJvdGhlcl9nb2FsIjtzOjA6IiI7czoxODoib3RoZXJfZ29hbF9kZXRhaWxzIjtzOjA6IiI7czoyNjoiaG93X2dvaW5nX3RvX21ha2VfeW91X2ZlZWwiO3M6MDoiIjtzOjI4OiJvdGhlcl9zcGVjaWZpY19maXRuZXNzX2dvYWxzIjtzOjA6IiI7fWk6MjthOjIwOntzOjM6ImFnZSI7czowOiIiO3M6Mzoic2V4IjtzOjA6IiI7czoxMzoicGVyc29uX2hlaWdodCI7czowOiIiO3M6Njoid2VpZ2h0IjtzOjA6IiI7czo4OiJwcmVnbmFudCI7czowOiIiO3M6Mjg6Im9ydGhvcGVkaWNfcHJvYmxlbXNfaW5qdXJpZXMiO3M6MDoiIjtzOjE4OiJtZWRpY2FsX2NvbmRpdGlvbnMiO3M6MDoiIjtzOjIwOiJuYW1lc19vZl9tZWRpY2F0aW9ucyI7czowOiIiO3M6MjI6InBoeXNpY2lhbnNfcmVzdHJpY3Rpb24iO3M6MDoiIjtzOjI5OiJwaHlzaWNpYW5zX3Jlc3RyaWN0aW9uX2FkdmlzZSI7czowOiIiO3M6NToic21va2UiO3M6MDoiIjtzOjE0OiJzbW9rZV9xdWFudGl0eSI7czowOiIiO3M6MTA6Im9jY3VwYXRpb24iO3M6MDoiIjtzOjE0OiJhY3Rpdml0eV9sZXZlbCI7czowOiIiO3M6MTY6ImN1cnJlbnRfZXhlcmNpc2UiO3M6MDoiIjtzOjEzOiJwYXN0X2V4ZXJjaXNlIjtzOjA6IiI7czozMjoicmVjZW50X3dlaWdodF90cmFpbmluZ19leGVyY2lzZXMiO3M6MDoiIjtzOjE0OiJjYXJkaW9fZml0bmVzcyI7czowOiIiO3M6MTA6ImV4cGVyaWVuY2UiO3M6MDoiIjtzOjg6ImV4ZXJjaXNlIjtzOjA6IiI7fWk6MzthOjE6e3M6MTg6InJlc3RpbmdfaGVhcnRfcmF0ZSI7czowOiIiO31pOjQ7YTo1OntzOjEzOiJtZWFzdXJlX2NoZXN0IjtzOjA6IiI7czoxMToibWVhc3VyZV9hcm0iO3M6MDoiIjtzOjEzOiJtZWFzdXJlX3RoaWdoIjtzOjA6IiI7czoxMzoibWVhc3VyZV93YWlzdCI7czowOiIiO3M6MTI6Im1lYXN1cmVfaGlwcyI7czowOiIiO31pOjU7YTo1OntzOjE1OiJyZWd1bGFyX3B1c2h1cHMiO3M6MDoiIjtzOjE2OiJtb2RpZmllZF9wdXNodXBzIjtzOjA6IiI7czoyMToicHVzaHVwc19hZ2FpbnN0X3RhYmxlIjtzOjA6IiI7czoyMDoicHVzaHVwc19hZ2FpbnN0X3dhbGwiO3M6MDoiIjtzOjIxOiJ3aHlfaV9jYW50X2RvX3B1c2h1cHMiO3M6MDoiIjt9aTo2O2E6NDp7czoyOToiZml0bmVzc190ZXN0X2JlYXRzX3Blcl9taW51dGUiO3M6MDoiIjtzOjI5OiJmaXRuZXNzX3Rlc3RfbWludXRlc19zdGVwcGluZyI7czowOiIiO3M6MjQ6ImZpdG5lc3NfdGVzdF9pbmNoZXNfaGlnaCI7czowOiIiO3M6MjE6IndoeV9pX2NhbnRfZG9fc3RlcHVwcyI7czowOiIiO31pOjc7YTozNjp7czoyODoicHJlZmVyX3RvX2V4ZXJjaXNlX29uX21vbmRheSI7czowOiIiO3M6Mjk6InByZWZlcl90b19leGVyY2lzZV9vbl90dWVzZGF5IjtzOjA6IiI7czozMToicHJlZmVyX3RvX2V4ZXJjaXNlX29uX3dlZG5lc2RheSI7czowOiIiO3M6MzA6InByZWZlcl90b19leGVyY2lzZV9vbl90aHVyc2RheSI7czowOiIiO3M6Mjg6InByZWZlcl90b19leGVyY2lzZV9vbl9mcmlkYXkiO3M6MDoiIjtzOjMwOiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc2F0dXJkYXkiO3M6MDoiIjtzOjI4OiJwcmVmZXJfdG9fZXhlcmNpc2Vfb25fc3VuZGF5IjtzOjA6IiI7czoyOToib3RoZXJfYWN0aXZpdGllc193aXRoX3Byb2dyYW0iO3M6MDoiIjtzOjI4OiJleGVyY2lzZV9hdF9maXRuZXNzX2ZhY2lsaXR5IjtzOjA6IiI7czoxNjoiZXhlcmNpc2VfYXRfaG9tZSI7czowOiIiO3M6MTY6ImV4ZXJjaXNlX291dHNpZGUiO3M6MDoiIjtzOjIyOiJub19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoyMjoiZnJlZV93ZWlnaHRzX2F2YWlsYWJsZSI7czowOiIiO3M6MjU6IndlaWdodF9tYWNoaW5lc19hdmFpbGFibGUiO3M6MDoiIjtzOjI2OiJyZXNpc3RhbmNlX3R1YmVzX2F2YWlsYWJsZSI7czowOiIiO3M6MjY6ImNhcmRpb19lcXVpcG1lbnRfYXZhaWxhYmxlIjtzOjA6IiI7czoxNzoiYmljeWNsZV9hdmFpbGFibGUiO3M6MDoiIjtzOjI0OiJhZXJvYmljX3ZpZGVvc19hdmFpbGFibGUiO3M6MDoiIjtzOjM2OiJpX2hhdmVfbm9fcHJlZmVyZW5jZXNfZm9yX2FjdGl2aXRpZXMiO3M6MDoiIjtzOjIwOiJpbmNsdWRlX2ZyZWVfd2VpZ2h0cyI7czowOiIiO3M6MjM6ImluY2x1ZGVfd2VpZ2h0X21hY2hpbmVzIjtzOjA6IiI7czoyNDoiaW5jbHVkZV9yZXNpc3RhbmNlX3R1YmVzIjtzOjA6IiI7czoxNToiaW5jbHVkZV93YWxraW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9qb2dnaW5nIjtzOjA6IiI7czoxNToiaW5jbHVkZV9ydW5uaW5nIjtzOjA6IiI7czoxNDoiaW5jbHVkZV9oaWtpbmciO3M6MDoiIjtzOjIzOiJpbmNsdWRlX2Flcm9iaWNfY2xhc3NlcyI7czowOiIiO3M6MTc6ImluY2x1ZGVfYmljeWNsaW5nIjtzOjA6IiI7czoyMzoiaW5jbHVkZV9zdGF0aW9uYXJ5X2Jpa2UiO3M6MDoiIjtzOjIxOiJpbmNsdWRlX3N0YWlyX21hY2hpbmUiO3M6MDoiIjtzOjE4OiJpbmNsdWRlX2VsbGlwdGljYWwiO3M6MDoiIjtzOjE3OiJpbmNsdWRlX3RyZWFkbWlsbCI7czowOiIiO3M6MTY6ImluY2x1ZGVfc3Bpbm5pbmciO3M6MDoiIjtzOjIyOiJpbmNsdWRlX3Jvd2luZ19tYWNoaW5lIjtzOjA6IiI7czoxNjoiaW5jbHVkZV9zd2ltbWluZyI7czowOiIiO3M6MjY6InR5cGVfb2ZfZnJlZV93ZWlnaHRzX2lfb3duIjtzOjA6IiI7fWk6ODthOjIwOntzOjM1OiJvYnN0YWNsZV9pbnRpbWlkYXRlZF9vcl9lbWJhcnJhc3NlZCI7czowOiIiO3M6MzE6Im9ic3RhY2xlX2hvbGlkYXlzX2FuZF92YWNhdGlvbnMiO3M6MDoiIjtzOjE1OiJvYnN0YWNsZV90cmF2ZWwiO3M6MDoiIjtzOjIxOiJvYnN0YWNsZV93b3JrX2RlbWFuZHMiO3M6MDoiIjtzOjIxOiJvYnN0YWNsZV9maW5kaW5nX3RpbWUiO3M6MDoiIjtzOjI1OiJvYnN0YWNsZV9kb250X3NlZV9yZXN1bHRzIjtzOjA6IiI7czoyNzoib2JzdGFjbGVfZmFtaWx5X29ibGlnYXRpb25zIjtzOjA6IiI7czoxOToib2JzdGFjbGVfbm9fc3VwcG9ydCI7czowOiIiO3M6MzE6Im9ic3RhY2xlX2V4ZXJjaXNlX25vdF9lbmpveWFibGUiO3M6MDoiIjtzOjI3OiJvYnN0YWNsZV9leGVyY2lzZV9pc19ib3JpbmciO3M6MDoiIjtzOjI2OiJvYnN0YWNsZV90aXJlZF9vcl9mYXRpZ3VlZCI7czowOiIiO3M6MjA6Im9ic3RhY2xlX2ZvcmdldF9nb2FsIjtzOjA6IiI7czoyMzoib2JzdGFjbGVfZXhlcmNpc2VfYWxvbmUiO3M6MDoiIjtzOjM1OiJvYnN0YWNsZV9kZWZpY2llbnRfZXhlcmNpc2Vfc2V0dGluZyI7czowOiIiO3M6MjA6Im9ic3RhY2xlX2JhZF93ZWF0aGVyIjtzOjA6IiI7czoxMzoib2JzdGFjbGVfbm9uZSI7czowOiIiO3M6MTg6Im15X2FjY29tcGxpc2htZW50cyI7czowOiIiO3M6MTE6InRvdWdoX2NvYWNoIjtzOjA6IiI7czoxMjoidGVuZGVyX2NvYWNoIjtzOjA6IiI7czoyMjoidGVuZGVyX2FuZF90b3VnaF9jb2FjaCI7czowOiIiO31pOjk7YTo1Mzp7czoxMToic2l4X2FtX3RpbWUiO3M6MDoiIjtzOjEzOiJzZXZlbl9hbV90aW1lIjtzOjA6IiI7czoxMzoiZWlnaHRfYW1fdGltZSI7czowOiIiO3M6MTI6Im5pbmVfYW1fdGltZSI7czowOiIiO3M6MTE6InRlbl9hbV90aW1lIjtzOjA6IiI7czoxNDoiZWxldmVuX2FtX3RpbWUiO3M6MDoiIjtzOjE1OiJ0d2VsZXZlX3BtX3RpbWUiO3M6MDoiIjtzOjExOiJvbmVfcG1fdGltZSI7czowOiIiO3M6MTE6InR3b19wbV90aW1lIjtzOjA6IiI7czoxMzoidGhyZWVfcG1fdGltZSI7czowOiIiO3M6MTI6ImZvdXJfcG1fdGltZSI7czowOiIiO3M6MTI6ImZpdmVfcG1fdGltZSI7czowOiIiO3M6MTE6InNpeF9wbV90aW1lIjtzOjA6IiI7czoxMzoic2V2ZW5fcG1fdGltZSI7czowOiIiO3M6MTM6ImVpZ2h0X3BtX3RpbWUiO3M6MDoiIjtzOjEyOiJuaW5lX3BtX3RpbWUiO3M6MDoiIjtzOjExOiJ0ZW5fcG1fdGltZSI7czowOiIiO3M6MTQ6ImVsZXZlbl9wbV90aW1lIjtzOjA6IiI7czoxNToidHdlbGV2ZV9hbV90aW1lIjtzOjA6IiI7czoxMToib25lX2FtX3RpbWUiO3M6MDoiIjtzOjExOiJ0d29fYW1fdGltZSI7czowOiIiO3M6MTM6InRocmVlX2FtX3RpbWUiO3M6MDoiIjtzOjEyOiJmb3VyX2FtX3RpbWUiO3M6MDoiIjtzOjEyOiJmaXZlX2FtX3RpbWUiO3M6MDoiIjtzOjEzOiJwcm90ZWluX2xpa2VzIjtzOjA6IiI7czoxMToiZGFpcnlfbGlrZXMiO3M6MDoiIjtzOjExOiJmcnVpdF9saWtlcyI7czowOiIiO3M6MTI6InZlZ2llc19saWtlcyI7czowOiIiO3M6MTQ6InN0YXJjaGVzX2xpa2VzIjtzOjA6IiI7czoxNjoicHJvdGVpbl9kaXNsaWtlcyI7czowOiIiO3M6MTQ6ImRhaXJ5X2Rpc2xpa2VzIjtzOjA6IiI7czoxNDoiZnJ1aXRfZGlzbGlrZXMiO3M6MDoiIjtzOjE1OiJ2ZWdpZXNfZGlzbGlrZXMiO3M6MDoiIjtzOjE3OiJzdGFyY2hlc19kaXNsaWtlcyI7czowOiIiO3M6MTk6ImFsY29ob2xfY29uc3VtcHRpb24iO3M6MDoiIjtzOjI0OiJzd2VldF9kcmlua3NfY29uc3VtcHRpb24iO3M6MDoiIjtzOjIwOiJzdGFyY2hlc19jb25zdW1wdGlvbiI7czowOiIiO3M6MjI6Indob2xlX21pbGtfY29uc3VtcHRpb24iO3M6MDoiIjtzOjE4OiJzd2VldHNfY29uc3VtcHRpb24iO3M6MDoiIjtzOjIxOiJmYXN0X2Zvb2RfY29uc3VtcHRpb24iO3M6MDoiIjtzOjE3OiJmcnVpdF9jb25zdW1wdGlvbiI7czowOiIiO3M6MTg6InZlZ2llc19jb25zdW1wdGlvbiI7czowOiIiO3M6MTc6IndhdGVyX2NvbnN1bXB0aW9uIjtzOjA6IiI7czoyMjoibGVhbl9tZWF0X2NvbnN1bXB0aW9uMiI7czowOiIiO3M6Mjc6ImFmdGVyYnJlYWtmYXN0X3N0aWxsX2h1bmdyeSI7czowOiIiO3M6MjQ6ImFmdGVyYnJlYWtmYXN0X3NhdGlzZmllZCI7czowOiIiO3M6MzA6ImFmdGVyYnJlYWtmYXN0X2Z1bGxfb3JfYmxvYXRlZCI7czowOiIiO3M6MjM6ImFmdGVybHVuY2hfc3RpbGxfaHVuZ3J5IjtzOjA6IiI7czoyMDoiYWZ0ZXJsdW5jaF9zYXRpc2ZpZWQiO3M6MDoiIjtzOjI2OiJhZnRlcmx1bmNoX2Z1bGxfb3JfYmxvYXRlZCI7czowOiIiO3M6MjQ6ImFmdGVyZGlubmVyX3N0aWxsX2h1bmdyeSI7czowOiIiO3M6MjE6ImFmdGVyZGlubmVyX3NhdGlzZmllZCI7czowOiIiO3M6Mjc6ImFmdGVyZGlubmVyX2Z1bGxfb3JfYmxvYXRlZCI7czowOiIiO319', date_time=NOW() where user_id='388'  
+Mar 02 13:16:57 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:16:57 symfony [info] {sfAction} change template to "page10"
+Mar 02 13:16:57 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:16:57 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/page10Success.php"
+Mar 02 13:16:57 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:57 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:16:57 symfony [info] {sfFilter} render to client
+Mar 02 13:16:57 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:16:57 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:16:57 symfony [info] {sfResponse} send content (2866 o)
+Mar 02 13:16:57 symfony [info] {sfTimerManager} Configuration 1.91 ms (10)
+Mar 02 13:16:57 symfony [info] {sfTimerManager} Action "index/index" 310.76 ms (1)
+Mar 02 13:16:57 symfony [info] {sfTimerManager} View "Success" for "index/index" 10.58 ms (1)
+Mar 02 13:38:39 symfony [info] {sfContext} initialization
+Mar 02 13:38:39 symfony [info] {sfController} initialization
+Mar 02 13:38:39 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 02 13:38:39 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 02 13:38:39 symfony [info] {sfController} dispatch request
+Mar 02 13:38:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 02 13:38:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 02 13:38:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 02 13:38:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 02 13:38:39 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 02 13:38:39 symfony [debug] SELECT * FROM assessment where user_id='388'  *ROWS RETURNED* 1* 
+Mar 02 13:38:39 symfony [info] {sfAction} change template to "index"
+Mar 02 13:38:39 symfony [info] {sfView} initialize view for "index/index"
+Mar 02 13:38:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 02 13:38:39 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:38:39 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 02 13:38:39 symfony [info] {sfFilter} render to client
+Mar 02 13:38:39 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 02 13:38:39 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 02 13:38:39 symfony [info] {sfResponse} send content (6622 o)
+Mar 02 13:38:39 symfony [info] {sfTimerManager} Configuration 1.70 ms (10)
+Mar 02 13:38:39 symfony [info] {sfTimerManager} Action "index/index" 3.71 ms (1)
+Mar 02 13:38:39 symfony [info] {sfTimerManager} View "Success" for "index/index" 6.78 ms (1)

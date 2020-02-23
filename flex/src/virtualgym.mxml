@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute" 
+	xmlns:comp="com.adobe.flex.extras.controls.*"	
+	xmlns:fc="http://www.adobe.com/2006/fc" creationComplete="exercisename_dataprovider.send(); loadimages(); userlist_dataprovider.send();">
+
+<mx:Script>
+<![CDATA[
+        	import mx.managers.PopUpManager;
+            import mx.rpc.events.ResultEvent;
+            import mx.rpc.events.FaultEvent;
+            import mx.controls.Alert;
+                    	
+           	private function defaultFault(event:FaultEvent):void
+        	{
+        		
+        		Alert.show(event.fault.message, "Could not Reach Server");
+        		
+        	}
+        	
+        	protected function defaultResult(event:ResultEvent):void
+            {
+               var result:Object = event.result;
+               
+               //tester.dataProvider = event.target.lastResult.DATARESULTS.SELECT_ITEM;
+              // if(event.target.lastResult.RESPONSE.CODE == "ERROR"){
+                //   Alert.show("ERROR Occured " + event.target.lastResult.RESPONSE.MESSAGE);
+                   //Alert.show("loaded ");
+                 //  return;  
+                //}
+                
+                loadworkout_dataprovider.send();
+            }
+            
+            public function defaultSave(event:ResultEvent):void{
+            	 
+            	if(event.target.lastResult.RESPONSE.CODE == "ERROR"){
+                  Alert.show("ERROR Occured " + event.target.lastResult.RESPONSE.MESSAGE);
+                   return;  
+                }
+                Alert.show("Save Success");
+            }
+            
+            public function changetabs(which:String):void{
+            	if(which == "r"){
+            		w_res.enabled=true;
+            		w_cardio.enabled=false;
+            		w_rest.enabled=false;
+            	}
+            	if(which == "c"){
+            		w_res.enabled=false;
+            		w_cardio.enabled=true;
+            		w_rest.enabled=false;
+            	}
+            	if(which == "rest"){
+            		w_res.enabled=false;
+            		w_cardio.enabled=false;
+            		w_rest.enabled=true;
+            	}
+            	
+            }
+            public function update_workout():void{
+            	
+            	var item = workoutsgrid.selectedIndex;
+            	if(item == -1){
+            		Alert.show("Select a workout to update");
+            		return;
+            	}
+            	
+            	
+            }
+            
+            public function deleteitem():void{
+            	if(circuitgrid.selectedIndex == -1){
+            		Alert.show("Please select an item first");
+            		return;
+            	}
+            	exercise_deleteitem.send();
+            	
+            }
+            
+            public function loadimages():void{
+            	cardioimage_dataprovider.send();
+            	swffile_dataprovider.send();
+            }
+            public function changeworkoutlist():void{
+            	showallworkouts_dataprovider.send();
+            	
+            }
+	
+            
+]]>
+</mx:Script>
+<mx:HTTPService id="exercisename_dataprovider"  url="/admin_dev.php/admin/flex_exercisenames" fault="defaultFault(event);" method="POST"  requestTimeout="50" />
+<mx:HTTPService id="cardioimage_dataprovider"  url="/admin_dev.php/admin/flex_loadcardioimages" fault="defaultFault(event);" method="POST"  requestTimeout="50" />
+<mx:HTTPService id="swffile_dataprovider"  url="/admin_dev.php/admin/flex_loadswffiles" fault="defaultFault(event);" method="POST"  requestTimeout="50" />
+<mx:HTTPService id="userlist_dataprovider"  url="/admin_dev.php/admin/flex_loaduserlist" fault="defaultFault(event);" method="POST"  requestTimeout="50" />
+
+<mx:HTTPService id="showallworkouts_dataprovider"  url="/admin_dev.php/admin/flex_loadschedulelist" fault="defaultFault(event);" method="POST"  requestTimeout="50">
+	<mx:request xmlns="">
+		<userid>{username1.selectedItem.code}</userid>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:HTTPService id="saveworkout" url="/admin_dev.php/admin/flex_saveworkout" fault="defaultFault(event)" result="defaultSave(event)" requestTimeout="39">
+	<mx:request xmlns="">
+		<username>{username1.selectedItem.code}</username>
+		<cc_numminutes>{cc_numminutes.text}</cc_numminutes>
+		<cc_pace>{cc_pace.text}</cc_pace>
+		<cc_image1>{cc_image1.text}</cc_image1>
+		<cc_image2>{cc_image2.text}</cc_image2>
+		<cc_image3>{cc_image3.text}</cc_image3>
+		<wc_numminutes>{wc_numminutes.text}</wc_numminutes>
+		<wc_pace>{wc_pace.text}</wc_pace>
+		<wc_image1>{wc_image1.text}</wc_image1>
+		<wc_image2>{wc_image2.text}</wc_image2>
+		<wc_image3>{wc_image3.text}</wc_image3>
+		
+		<swf_image1>{swf_image1.text}</swf_image1>
+		<swf_image2>{swf_image2.text}</swf_image2>
+		<swf_image3>{swf_image3.text}</swf_image3>
+		<swf_image4>{swf_image4.text}</swf_image4>
+		<swf_image5>{swf_image5.text}</swf_image5>
+		<swf_image6>{swf_image6.text}</swf_image6>
+		<workoutdate>{workoutdate.text}</workoutdate>
+	</mx:request>
+</mx:HTTPService>
+
+
+<mx:HTTPService id="savecircuit" url="/admin_dev.php/admin/flex_savecircuit" fault="defaultFault(event)" result="defaultResult(event)" requestTimeout="39">
+	<mx:request xmlns="">
+		<sets>{sets.text}</sets>
+		<reps>{reps.text}</reps>
+		<resistance>{resistance.text}</resistance>
+		<circuit>{circuit.text}</circuit>
+		<exercisename>{exercisename.selectedItem.code}</exercisename>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:HTTPService id="exercise_deleteitem" url="/admin_dev.php/admin/flex_removecircuit" fault="defaultFault(event)" result="defaultResult(event)" requestTimeout="39">
+	<mx:request  xmlns="">
+		<removeindex>
+			{circuitgrid.selectedIndex}
+		</removeindex>
+	</mx:request>
+</mx:HTTPService>
+
+<mx:HTTPService id="exercise_removeall" url="/admin_dev.php/admin/flex_destroycircuits" fault="defaultFault(event)" result="defaultResult(event)" requestTimeout="39"/>
+
+<mx:HTTPService id="loadworkout_dataprovider"  url="/admin_dev.php/admin/flex_loadcircuit" fault="defaultFault(event);" method="POST"  requestTimeout="50" />
+
+	<!--mx:TabNavigator id="tabNavigator" width="100%" height="100%" tabHeight="24">
+	<mx:VBox label="Dashboard">
+		<mx:Label text="test" />
+	</mx:VBox-->
+	
+	<mx:VBox label="Workout Schedules" width="885" height="605">
+		<mx:HBox>
+			<mx:Label text="Username" /> 
+			<mx:ComboBox id="username1" dataProvider="{userlist_dataprovider.lastResult.DATARESULTS.SELECT_ITEM}" change="changeworkoutlist();"></mx:ComboBox>	
+		</mx:HBox>
+		
+		<mx:TabNavigator id="tabnavigator_workoutschedule" width="100%" height="100%" tabHeight="24">
+			<mx:VBox label="Create">
+			  <mx:HBox>
+			  <mx:RadioButtonGroup />
+			  	<mx:RadioButton label="Resistance" click="tabnavigator_workoutcreate.selectedIndex=0; changetabs('r');" />
+			  	<mx:RadioButton label="Cardio"  click="tabnavigator_workoutcreate.selectedIndex=1; changetabs('c');"  />
+				<mx:RadioButton label="Rest"  click="tabnavigator_workoutcreate.selectedIndex=2;  changetabs('rest');"/>
+				
+			  </mx:HBox>
+			  <mx:TabNavigator id="tabnavigator_workoutcreate" width="100%" height="100%" tabHeight="24"  visible="true">
+			   <mx:Canvas label="Resistance" id="w_res" enabled="false">
+			     <mx:Button label="Save"  x="455" y="8" themeColor="#FF0000" cornerRadius="6" click="saveworkout.send();"/>
+			     <mx:TabNavigator x="10" y="61" width="600" height="340">
+			       <mx:Canvas label="Circuit Cardio" width="100%" height="100%">
+			       
+			           <mx:Label x="10" y="10" text="Number of Minutes"/>
+			           <mx:TextInput x="128" y="8" width="33" id="cc_numminutes"/>
+			           <mx:Label x="10" y="36" text="Pace" width="110"/>
+			           <mx:TextInput x="128" y="34" width="33" id="cc_pace" />
+			           <mx:Label x="10" y="62" text="Cardio Image #1" width="110"/>
+			           <mx:Label x="10" y="88" text="Cardio Image #2"/>
+			           <mx:Label x="10" y="114" text="Cardio Image #3"/>
+			           <mx:ComboBox x="128" y="60" id="cc_image1" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			           <mx:ComboBox x="128" y="86" id="cc_image2"  dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			           <mx:ComboBox x="128" y="112" id="cc_image3"  dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			      
+			       </mx:Canvas>
+			       <mx:Canvas label="WarmupCardio" width="100%" height="100%">
+			         <mx:Label x="10" y="26" text="Number of Minutes"/>
+			         <mx:Label x="10" y="52" text="Pace"/>
+			         <mx:Label x="10" y="78" text="Cardio Image #1"/>
+			         <mx:Label x="10" y="104" text="Cardio Image #2"/>
+			         <mx:Label x="10" y="130" text="Cardio Image #3"/>
+			         <mx:TextInput x="128" y="50" width="48" id="wc_numminutes"/>
+			         <mx:TextInput x="128" y="24" width="48" id="wc_pace"/>
+			         <mx:ComboBox x="128" y="76" id="wc_image1" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="128" y="102" id="wc_image2" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="128" y="128" id="wc_image3" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			       </mx:Canvas>
+			       <mx:Canvas label="Swf Files" width="100%" height="100%">
+			         <mx:Label x="10" y="40" text="Morning After"/>
+			         <mx:Label x="10" y="10" text="First Morning"/>
+			         <mx:Label x="10" y="70" text="First Afternoon"/>
+			         <mx:Label x="10" y="105" text="Afternoon After"/>
+			         <mx:Label x="13" y="142" text="First Dinner"/>
+			         <mx:Label x="10" y="181" text="Dinner After"/>
+			         <mx:ComboBox x="118" y="8" id="swf_image1" dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="38" id="swf_image2"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="68" id="swf_image3"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="103" id="swf_image4"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="140" id="swf_image5"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="179" id="swf_image6"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			       </mx:Canvas>
+			       <mx:Canvas label="Workout Details" width="100%" height="100%">
+			         <mx:DataGrid id="circuitgrid" x="10" y="111" width="404" height="186" dataProvider="{loadworkout_dataprovider.lastResult.DATARESULTS.grid}">
+			           <mx:columns>
+			             
+			             <mx:DataGridColumn headerText="Reps" dataField="reps" width="10"/>
+			             <mx:DataGridColumn headerText="Sets" dataField="sets" width="10"/>
+			             <mx:DataGridColumn headerText="Resistance" dataField="resistance" width="10"/>
+			             <mx:DataGridColumn headerText="Exercisename" dataField="exercisename" width="40"/>
+			             <mx:DataGridColumn headerText="Circuit" dataField="circuit" width="10"/>
+			             
+			           </mx:columns>
+			         </mx:DataGrid>
+			         <mx:Button x="371" y="43" label="Add Circuit" click="savecircuit.send();"/>
+			         <mx:Button x="422" y="169" label="Delete" click="deleteitem();"/>
+			         <mx:Button x="422" y="196" label="DELETE ALL" click="exercise_removeall.send();"/>
+			         	
+			         <mx:Label x="10" y="12" text="Sets"/>
+			         <mx:TextInput x="75" y="10" width="45" id="sets"/>
+			         <mx:Label x="10" y="45" text="Reps"/>
+			         <mx:TextInput x="75" y="43" width="45" id="reps"/>
+			         <mx:Label x="10" y="75" text="Resistance"/>
+			         <mx:TextInput x="75" y="73" width="63" id="resistance"/>
+			         <mx:Label x="180" y="12" text="Circuit #"/>
+			         <mx:TextInput x="239" y="10" width="40" id="circuit"/>
+			         <fc:AutoComplete x="216" y="77" id="exercisename" dataProvider="{exercisename_dataprovider.lastResult.DATARESULTS.SELECT_ITEM}" />
+			         <!--mx:ComboBox id="tester"  /-->
+			         
+			         <mx:Label x="216" y="56" text="Exercise Name 2" width="94"/>
+			       </mx:Canvas>
+			     </mx:TabNavigator>
+			     <mx:DateField x="100" y="10" id="workoutdate"/>
+			     <mx:Label x="10" y="12" text="Workout Date"/>
+			   </mx:Canvas>
+			   <mx:VBox label="Cardio" id="w_cardio" enabled="false">
+			     <mx:Label text="cardio" />
+			   </mx:VBox>
+			   <mx:VBox label="Rest" id="w_rest" enabled="false">
+			     <mx:Label text="rest" />
+			   </mx:VBox>
+			  </mx:TabNavigator>	
+			</mx:VBox>
+			<mx:VBox label="Update" visible="false">
+			<!-- UPDATE WORKOUT -->
+			
+			  <mx:Button label="Update"  x="455" y="8" themeColor="#FF0000" cornerRadius="6" click="saveworkout.send();"/>
+			     <mx:TabNavigator x="10" y="61" width="600" height="340">
+			       <mx:Canvas label="Circuit Cardio" width="100%" height="100%">
+			       
+			           <mx:Label x="10" y="10" text="Number of Minutes"/>
+			           <mx:TextInput x="128" y="8" width="33" id="update_cc_numminutes"/>
+			           <mx:Label x="10" y="36" text="Pace" width="110"/>
+			           <mx:TextInput x="128" y="34" width="33" id="update_cc_pace" />
+			           <mx:Label x="10" y="62" text="Cardio Image #1" width="110"/>
+			           <mx:Label x="10" y="88" text="Cardio Image #2"/>
+			           <mx:Label x="10" y="114" text="Cardio Image #3"/>
+			           <mx:ComboBox x="128" y="60" id="update_cc_image1" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			           <mx:ComboBox x="128" y="86" id="update_cc_image2"  dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			           <mx:ComboBox x="128" y="112" id="update_cc_image3"  dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			      
+			       </mx:Canvas>
+			       <mx:Canvas label="WarmupCardio" width="100%" height="100%">
+			         <mx:Label x="10" y="26" text="Number of Minutes"/>
+			         <mx:Label x="10" y="52" text="Pace"/>
+			         <mx:Label x="10" y="78" text="Cardio Image #1"/>
+			         <mx:Label x="10" y="104" text="Cardio Image #2"/>
+			         <mx:Label x="10" y="130" text="Cardio Image #3"/>
+			         <mx:TextInput x="128" y="50" width="48" id="update_wc_numminutes"/>
+			         <mx:TextInput x="128" y="24" width="48" id="update_wc_pace"/>
+			         <mx:ComboBox x="128" y="76" id="update_wc_image1" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="128" y="102" id="update_wc_image2" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="128" y="128" id="update_wc_image3" dataProvider="{cardioimage_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			       </mx:Canvas>
+			       <mx:Canvas label="Swf Files" width="100%" height="100%">
+			         <mx:Label x="10" y="40" text="Morning After"/>
+			         <mx:Label x="10" y="10" text="First Morning"/>
+			         <mx:Label x="10" y="70" text="First Afternoon"/>
+			         <mx:Label x="10" y="105" text="Afternoon After"/>
+			         <mx:Label x="13" y="142" text="First Dinner"/>
+			         <mx:Label x="10" y="181" text="Dinner After"/>
+			         <mx:ComboBox x="118" y="8" id="update_swf_image1" dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="38" id="update_swf_image2"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="68" id="update_swf_image3"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="103" id="update_swf_image4"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="140" id="update_swf_image5"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			         <mx:ComboBox x="118" y="179" id="update_swf_image6"  dataProvider="{swffile_dataprovider.lastResult.DATARESULTS.FILE}"></mx:ComboBox>
+			       </mx:Canvas>
+			       <mx:Canvas label="Workout Details" width="100%" height="100%">
+			         <mx:DataGrid id="update_circuitgrid" x="10" y="111" width="404" height="186" dataProvider="{loadworkout_dataprovider.lastResult.DATARESULTS.grid}">
+			           <mx:columns>
+			             
+			             <mx:DataGridColumn headerText="Reps" dataField="reps" width="10"/>
+			             <mx:DataGridColumn headerText="Sets" dataField="sets" width="10"/>
+			             <mx:DataGridColumn headerText="Resistance" dataField="resistance" width="10"/>
+			             <mx:DataGridColumn headerText="Exercisename" dataField="exercisename" width="40"/>
+			             <mx:DataGridColumn headerText="Circuit" dataField="circuit" width="10"/>
+			             
+			           </mx:columns>
+			         </mx:DataGrid>
+			         <mx:Button x="371" y="43" label="Add Circuit" click="savecircuit.send();"/>
+			         <mx:Button x="422" y="169" label="Delete" click="deleteitem();"/>
+			         <mx:Button x="422" y="196" label="DELETE ALL" click="exercise_removeall.send();"/>
+			         	
+			         <mx:Label x="10" y="12" text="Sets"/>
+			         <mx:TextInput x="75" y="10" width="45" id="update_sets"/>
+			         <mx:Label x="10" y="45" text="Reps"/>
+			         <mx:TextInput x="75" y="43" width="45" id="update_reps"/>
+			         <mx:Label x="10" y="75" text="Resistance"/>
+			         <mx:TextInput x="75" y="73" width="63" id="update_resistance"/>
+			         <mx:Label x="180" y="12" text="Circuit #"/>
+			         <mx:TextInput x="239" y="10" width="40" id="update_circuit"/>
+			         <fc:AutoComplete x="216" y="77" id="update_exercisename" dataProvider="{exercisename_dataprovider.lastResult.DATARESULTS.SELECT_ITEM}" />
+			         <!--mx:ComboBox id="tester"  /-->
+			         
+			         <mx:Label x="216" y="56" text="Exercise Name 2" width="94"/>
+					</mx:Canvas>    
+				
+					
+				</mx:TabNavigator>
+			</mx:VBox>  
+			<mx:VBox label="Show All" visible="false">
+				 <mx:DataGrid id="workoutsgrid" x="10" y="111" width="100%" height="186" dataProvider="{showallworkouts_dataprovider.lastResult.DATARESULTS.WORKOUT}">
+			           <mx:columns>
+			             <mx:DataGridColumn headerText="Workout Date" dataField="WORKOUTDATE" width="10"/>
+			             <mx:DataGridColumn headerText="userid" dataField="USERID" width="10" visible="false"/>
+			           </mx:columns>
+			         </mx:DataGrid>
+				<mx:Button label="Update Workout" click="update_workout();" />
+			</mx:VBox>
+		</mx:TabNavigator>	
+		 
+	</mx:VBox>
+	
+	<!--mx:VBox label="Add Exercises">
+	</mx:VBox>
+	
+	<mx:VBox label="Print Workouts">
+	</mx:VBox>
+	
+	<mx:VBox label="Nutrition Area">
+	</mx:VBox>
+	
+	<mx:VBox label="Upload Files">
+	</mx:VBox>
+	
+	<mx:VBox label="Add Users">
+	</mx:VBox>
+	
+	<mx:VBox label="Logout">
+	</mx:VBox>
+	
+	
+		
+	</mx:TabNavigator-->
+</mx:Application>

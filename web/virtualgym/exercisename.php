@@ -1,0 +1,1 @@
+/www/virtualgym/web/exercisename.php

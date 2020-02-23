@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project openfiles="C:\Program Files (x86)\Character Builder\Library\Addons\PhotoFitManBodyHairPack1\PhotoFitManBodyHairPack1.msx,Audio\A0010.wav" loader="standard" compress="true" prerendertext="false" singlefile="true">
+	<include ref="Library/Objects/AudioButton/MuteBtn1.xml"/>
+	<stage id="Stage1" name="" size="400,400">
+		<scene id="Scene1" name="Scene 1">
+			<presentation id="Pres1" name="Presentation 1">				
+				<mouthsmile/>
+				<say audio="A0033">
+					<palmup/> Lorem ipsum dolor.
+				</say>
+				<say audio="A1292">
+					<palmup/> <handup/> <hold/> Lorem ipsum dolor sit amet consectetuer <handsup/> <hold/> adipiscing elit  suspendisse <handsout/> sit amet neque integer velit praesent sollicitudin <handstogether/> eros  nec sem nam placerat mollis <eyesnarrow/> ipsum quisque nec tortor et sem molestie <eyeswide/> tristique vivamus quis velit a nibh condimentum <gestureright/> mattis nulla lacus augue  vulputate ut placerat ac convallis <handstogether/> nec lectus nulla facilisi suspendisse vitae  enim quis neque luctus posuere morbi nibh integer nec elit lorem ipsum dolor  sit amet consectetuer adipiscing elit suspendisse sit amet neque integer velit  praesent sollicitudin <handsinback/> eros nec sem nam placerat mollis ipsum quisque nec  tortor et sem molestie tristique vivamus quis velit a nibh condimentum mattis  nulla lacus augue vulputate ut placerat ac <handup/> <hold/> convallis nec lectus nulla facilisi  suspendisse vitae enim quis neque <handstogether/> luctus posuere morbi nibh integer nec  elit lorem ipsum dolor sit amet consectetuer adipiscing elit suspendisse sit  amet neque integer velit praesent sollicitudin eros nec sem nam placerat mollis  ipsum quisque nec tortor et sem <handup/> <hold/> molestie tristique vivamus <handsup/> <hold/> quis  velit a nibh condimentum mattis <handsout/> nulla lacus augue vulputate ut placerat ac  convallis nec lectus.
+				</say>
+				<say audio="A1293">
+					<fingerup/> <hold/> <eyeswide/> Lorem ipsum dolor sit amet <eyesnarrow/> consectetuer adipiscing <handup/> <hold/> elit  suspendisse sit amet neque integer velit praesent sollicitudin <gestureright/> eros nec sem  nam placerat mollis <handstogether/> ipsum quisque nec tortor et sem molestie tristique  vivamus quis velit a nibh condimentum mattis nulla lacus augue vulputate ut  placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim quis neque  luctus posuere morbi nibh integer nec elit lorem <handsinback/> ipsum dolor sit amet  consectetuer adipiscing elit suspendisse sit amet neque integer velit praesent  sollicitudin eros nec sem nam placerat mollis ipsum quisque nec tortor et sem  molestie tristique vivamus quis velit a nibh <handstogether/> condimentum mattis nulla lacus  augue vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse <handup/> vitae enim quis.
+				</say>
+			</presentation>
+			<presentation id="Pres2" name="Presentation 2">				
+				<say audio="A1282">
+					<lookright/> <gestureright/> Lorem ipsum dolor sit amet <fingerup/> consectetuer <eyeswide/> adipiscing <handstogether/> elit suspendisse <headtiltright/> sit amet  neque integer velit <handup/> <hold/> praesent sollicitudin eros nec <headnod/> sem nam placerat mollis ipsum quisque nec  tortor <handstogether/> et sem molestie tristique vivamus <lookupright/> <gestureright/> quis <lookdownright/> velit a nibh condimentum mattis <lookuser/> <handstogether/> nulla lacus augue vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim quis  neque luctus posuere morbi nibh integer nec <lookdownright/> <gestureright/> elit lorem ipsum dolor <handstogether/> sit amet consectetuer  adipiscing elit suspendisse sit amet neque integer velit praesent sollicitudin eros nec sem nam <handsbyside/> placerat mollis ipsum <fingersquote/> quisque nec tortor et sem molestie <handup/> <hold/> tristique vivamus quis velit a nibh <handsup/> condimentum mattis nulla <handsinback/> lacus augue vulputate ut placerat ac convallis nec lectus nulla  facilisi suspendisse vitae enim quis neque luctus posuere morbi nibh integer nec elit lorem ipsum  dolor sit.
+				</say>
+				<say audio="A1283">
+					<fingerup/> Lorem ipsum <handup/> dolor sit amet consectetuer adipiscing elit suspendisse <lookdownright/> <gestureright/> sit amet neque  integer velit praesent <handstogether/> sollicitudin eros nec sem nam placerat mollis ipsum quisque nec tortor et  sem molestie tristique vivamus quis velit a nibh condimentum <handsinback/> mattis nulla lacus augue vulputate ut  placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim quis neque luctus posuere morbi  nibh integer nec elit lorem ipsum dolor sit amet consectetuer adipiscing elit suspendisse sit amet <eyeswide/> neque <gestureright/> integer.
+				</say>
+				<say audio="A1273">
+					<fingerup/> Lorem ipsum dolor sit <lookdownright/> amet <gestureright/> consectetuer adipiscing elit suspendisse sit amet neque <handsbyside/> integer velit praesent <fingersquote/> sollicitudin eros. <handstogether/>
+				</say>
+				<say audio="A1274">
+					<eyesnarrow/> Lorem ipsum dolor sit amet consectetuer adipiscing elit suspendisse <lookdownright/> sit <gestureright/> <hold/> amet neque  integer velit praesent <handup/> sollicitudin eros nec sem nam placerat mollis ipsum <handsinback/> quisque nec tortor et  sem molestie <eyesnarrow/> tristique vivamus quis <eyesnormal/> velit a nibh condimentum <handstogether/> mattis nulla lacus augue  vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim quis neque luctus  posuere <lookdownright/> <gestureright/> morbi nibh integer nec elit lorem <handstogether/> ipsum.
+				</say>
+				<say audio="A1275">
+					<eyesnarrow/> <fingerup/> Lorem ipsum dolor sit amet consectetuer <gestureright/> <hold/> adipiscing elit suspendisse sit <handsup/> amet  neque integer velit praesent sollicitudin <handsinback/> eros nec sem nam placerat mollis ipsum quisque nec tortor  et sem molestie tristique vivamus quis velit a nibh condimentum mattis nulla.
+				</say>
+				<say audio="A1276">
+					<gestureright/> <lookdownright/> Lorem ipsum dolor sit amet consectetuer <lookuser/> adipiscing <handup/> <hold/> elit suspendisse sit amet neque  integer <handsup/> velit praesent sollicitudin eros nec sem nam placerat <handstogether/> mollis ipsum quisque nec tortor  et sem molestie tristique vivamus.
+				</say>
+				<say audio="A1277">
+					<gestureright/> Lorem ipsum dolor sit amet consectetuer <handup/> <hold/> adipiscing elit suspendisse sit amet neque <handsup/> integer velit praesent sollicitudin eros nec sem nam placerat mollis ipsum quisque nec tortor et sem  molestie tristique vivamus quis velit a nibh condimentum mattis nulla lacus augue vulputate ut placerat  ac convallis nec lectus.
+				</say>
+				<say audio="A1278">
+					Lorem ipsum dolor sit amet consectetuer <handup/> adipiscing elit suspendisse sit amet neque integer velit  praesent <fingerup/> sollicitudin eros nec sem <handstogether/> nam placerat mollis ipsum quisque nec tortor et sem  molestie tristique vivamus quis velit a nibh condimentum.
+				</say>
+				<say audio="A1279">
+					<eyesnarrow/> Lorem ipsum <handsup/> <hold/> dolor sit amet consectetuer <handsout/> adipiscing elit suspendisse <handstogether/> sit amet  neque integer velit <lookdownright/> <gestureright/> praesent sollicitudin eros nec sem nam <handstogether/> placerat mollis.
+				</say>
+				<say audio="A1290">
+					<lookupright/> <hold/> Lorem ipsum dolor sit amet consectetuer adipiscing <lookuser/> elit suspendisse sit amet neque  integer velit praesent <handup/> <hold/> sollicitudin eros nec sem nam placerat mollis <handstogether/> ipsum quisque nec  tortor et sem molestie tristique vivamus <lookright/> quis <gestureright/> velit a nibh condimentum <lookuser/> mattis nulla lacus  augue vulputate ut placerat ac <handstogether/> convallis nec lectus <lookupright/> <hold/> nulla facilisi suspendisse vitae <lookuser/> enim  quis neque luctus posuere  morbi nibh integer nec elit lorem ipsum dolor sit amet consectetuer  adipiscing elit suspendisse <handsup/> <hold/> sit amet neque integer velit <handsout/> praesent sollicitudin eros nec  sem.
+				</say>
+				<say audio="A1281">
+					<handup/> Lorem ipsum dolor sit amet <fingerup/> consectetuer adipiscing elit.
+				</say>
+			</presentation>
+			<button id="Btn5" name="Button 5" position="4,4" size="21,19">
+			</button>
+			<character hair="darkcap" clothes="bizcasual" faceref="melnew10Char1.fg" detailstrength="0.00" id="Char1" name="PhotoFit" position="50,-8" animationlibrary="Library/Characters/PhotoFitManBody1208/PhotoFitManBody1208.xml" defaultvoice="Microsoft Anna" defaultidle="blink" foot="shoes2" bottom="pants2" top="shortsleeve1" addons="Library/Addons/PhotoFitManBodyClothesPack1/PhotoFitManBodyClothesPack1.xml,Library/Addons/PhotoFitManBodyHairPack1/PhotoFitManBodyHairPack1.xml,Library/Addons/PhotoFitManBodyHairPack2/PhotoFitManBodyHairPack2.xml"/>
+			<mutebtn1 id="Btn6" name="Button 1" position="5,3"/>
+			<presentation id="Pres3" name="Presentation 3">				
+				<say audio="A1284">
+					<handup/> <hold/> <eyeswide/> Lorem ipsum dolor <eyesnarrow/> sit amet consectetuer adipiscing <handstogether/> elit suspendisse sit amet neque integer velit  praesent sollicitudin.
+				</say>
+				<say audio="A1286">
+					<eyesnarrow/> Lorem <fingerup/> ipsum dolor sit amet consectetuer <handup/> <hold/> adipiscing elit suspendisse sit amet <handsup/> neque integer velit  praesent sollicitudin eros <handstogether/> nec sem nam placerat mollis ipsum quisque nec tortor et sem molestie tristique vivamus  quis velit a nibh condimentum mattis nulla lacus augue vulputate ut placerat ac <handsup/> convallis nec lectus.
+				</say>
+				<say audio="A1287">
+					<handstogether/> Lorem ipsum dolor sit amet consectetuer adipiscing elit suspendisse sit amet neque integer velit praesent  sollicitudin eros nec sem nam placerat mollis ipsum quisque nec tortor et sem molestie tristique vivamus quis velit a  nibh condimentum <handsup/> <hold/> mattis nulla lacus augue vulputate <handsout/> <hold/> ut placerat ac convallis <handsup/> nec lectus nulla  facilisi suspendisse vitae <handstogether/> enim quis neque luctus posuere morbi nibh integer nec elit lorem ipsum dolor sit amet  consectetuer adipiscing elit.
+				</say>
+				<say audio="A1288">
+					Lorem <handsinback/> ipsum dolor sit amet consectetuer adipiscing elit suspendisse sit amet neque integer velit praesent sollicitudin  eros nec sem nam placerat mollis ipsum quisque nec tortor et sem molestie tristique vivamus quis velit a nibh  condimentum mattis nulla <handstogether/> lacus augue vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse vitae  enim quis neque.
+				</say>
+			</presentation>
+			<button id="Btn8" name="Button 1" position="92,373" text="Tour This Page" action="movefocusandstart" target="Pres2" fontheight="12" back="Library\Buttons\SampleButtons\BlueButtonLongUp.png" backdown="Library\Buttons\SampleButtons\BlueButtonLongDn.png" fontheight="12" fontrgb="255,255,255" fontrgbover="255,255,255" fontrgbdown="255,255,255" offsetdown="1,1">	
+			</button>
+			<presentation id="Pres4" name="Presentation 4">				
+				<say audio="A1289">
+					<fingerup/> <eyesnarrow/> Lorem ipsum dolor <eyesnormal/> sit amet consectetuer adipiscing elit suspendisse <handup/> <hold/> sit amet neque  integer velit praesent sollicitudin <handsup/> <hold/> eros nec sem nam placerat <handsout/> mollis ipsum quisque nec  tortor et sem molestie tristique vivamus <handstogether/> quis velit a nibh condimentum mattis nulla lacus augue  vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim quis neque luctus  posuere morbi nibh integer nec <gestureright/> elit lorem ipsum dolor sit amet <handsinback/> consectetuer adipiscing elit  suspendisse sit amet neque integer velit praesent sollicitudin eros nec sem nam placerat mollis ipsum  quisque nec tortor et sem molestie tristique vivamus quis velit a nibh condimentum <handstogether/> mattis nulla  lacus augue vulputate ut placerat ac convallis nec lectus nulla facilisi suspendisse vitae enim.
+				</say>
+			</presentation>
+			<text id="Text2" name="Text 2" position="10,303" width="176">
+				
+			</text>
+			<rectangle id="Rect1" name="Shape 1" position="351,385" size="45,14" stroke="1" rgb="255,255,255"/>
+			<text id="Text4" name="metab prb" position="357,385" width="49" fontname="Arial" fontheight="10">
+				Replay
+			</text>
+			<button id="Btn10" name="Button 10" position="346,380" size="54,23" action="movefocusandstart" target="Pres1" size="54,23" size="54,23" size="54,23" size="54,23" size="54,23" size="54,23" size="54,23" size="54,23">	
+			</button>
+			<character id="Char2" name="PhotoFit" position="227,-123" animationlibrary="Library/Characters/PhotoFitManBody1208/PhotoFitManBody1208.xml" defaultvoice="Microsoft Anna" defaultidle="blink" clothes="suittie" hair="none" addons="Library/Addons/PhotoFitManBodyClothesPack1/PhotoFitManBodyClothesPack1.xml,Library/Addons/PhotoFitManBodyHairPack1/PhotoFitManBodyHairPack1.xml,Library/Addons/PhotoFitManBodyHairPack2/PhotoFitManBodyHairPack2.xml" foot="shoes2" bottom="pants2" top="shortsleeve1"/>
+			<text id="Text5" name="Text 3" position="54,52" width="142" fontname="Arial" fontheight="15" bold="true">
+				Today:
+			</text>
+			<text id="Text6" name="Text 4" position="21,78" width="142" fontname="Arial" fontheight="15">
+				Do 1 full circuit
+			</text>
+			<text id="Text8" name="Text 6" position="20,100" width="151" fontname="Arial" fontheight="15">
+				then, If fatigued, STOP
+			</text>
+			<text id="Text9" name="Text 7" position="35,137" width="218" fontname="Arial" fontheight="15">
+				If NOT fatigued
+			</text>
+			<text id="Text11" name="Text 9" position="46,156" width="142" fontname="Arial" fontheight="15">
+				Do the circuit again
+			</text>
+			<text id="Text12" name="Text 10" position="9,273" width="163" fontname="Arial" fontheight="15" textcolor="0,0,255">
+				q. How do I determine my maximum heart rate?
+			</text>
+			<text id="Text13" name="Text 11" position="10,326" width="163" fontname="Arial" fontheight="15" textcolor="0,0,255">
+				q. When should I click "too easy" or "too hard"?
+			</text>
+			<button id="Btn11" name="Button 11" position="2,323" size="174,39" action="movefocusandstart" target="Pres3" size="174,39" size="174,39" size="174,39">	
+			</button>
+			<button id="Btn12" name="Button 12" position="2,266" size="177,45" action="movefocusandstart" target="Pres4" size="177,45" size="177,45" size="177,45">	
+			</button>
+			<text id="Text14" name="Text 14" position="30,16" width="32" fontname="Arial" fontheight="20">
+				
+			</text>
+		</scene>
+	</stage>
+</project>

@@ -1,0 +1,924 @@
+Dec 25 23:35:37 symfony [info] {sfContext} initialization
+Dec 25 23:35:37 symfony [info] {sfController} initialization
+Dec 25 23:35:37 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 25 23:35:37 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Dec 25 23:35:37 symfony [info] {sfController} dispatch request
+Dec 25 23:35:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 25 23:35:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 25 23:35:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 25 23:35:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 25 23:35:37 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Dec 25 23:35:37 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Dec 25 23:35:37 symfony [info] {sfAction} change template to "index"
+Dec 25 23:35:37 symfony [info] {sfView} initialize view for "index/index"
+Dec 25 23:35:37 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Dec 25 23:35:37 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 25 23:35:37 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 25 23:35:37 symfony [info] {sfFilter} render to client
+Dec 25 23:35:37 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 25 23:35:37 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 25 23:35:37 symfony [info] {sfResponse} send content (7282 o)
+Dec 25 23:35:37 symfony [info] {sfTimerManager} Configuration 1.95 ms (10)
+Dec 25 23:35:37 symfony [info] {sfTimerManager} Action "index/index" 5.53 ms (1)
+Dec 25 23:35:37 symfony [info] {sfTimerManager} View "Success" for "index/index" 6.17 ms (1)
+Dec 28 11:37:47 symfony [info] {sfContext} initialization
+Dec 28 11:37:47 symfony [info] {sfController} initialization
+Dec 28 11:37:47 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 28 11:37:47 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Dec 28 11:37:47 symfony [info] {sfController} dispatch request
+Dec 28 11:37:47 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 28 11:37:47 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 28 11:37:47 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 28 11:37:47 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 28 11:37:47 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Dec 28 11:37:47 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Dec 28 11:37:47 symfony [info] {sfAction} change template to "index"
+Dec 28 11:37:47 symfony [info] {sfView} initialize view for "index/index"
+Dec 28 11:37:47 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Dec 28 11:37:47 symfony [info] {sfView} decorate content with "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 28 11:37:47 symfony [info] {sfView} render "/web/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 28 11:37:47 symfony [info] {sfFilter} render to client
+Dec 28 11:37:47 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 28 11:37:47 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 28 11:37:47 symfony [info] {sfResponse} send content (7282 o)
+Dec 28 11:37:47 symfony [info] {sfTimerManager} Configuration 1.13 ms (10)
+Dec 28 11:37:47 symfony [info] {sfTimerManager} Action "index/index" 3.97 ms (1)
+Dec 28 11:37:47 symfony [info] {sfTimerManager} View "Success" for "index/index" 7.93 ms (1)
+Dec 31 05:03:45 symfony [info] {sfRouting} connect "/"
+Dec 31 05:03:45 symfony [info] {sfRouting} connect "/index/:action/*"
+Dec 31 05:03:45 symfony [info] {sfRouting} connect "/:module"
+Dec 31 05:03:45 symfony [info] {sfRouting} connect "/:module/:action/*"
+Dec 31 05:03:45 symfony [info] {sfContext} initialization
+Dec 31 05:03:45 symfony [info] {sfController} initialization
+Dec 31 05:03:45 symfony [info] {sfRouting} match route [homepage] "/"
+Dec 31 05:03:45 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Dec 31 05:03:45 symfony [info] {sfController} dispatch request
+Dec 31 05:03:45 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 31 05:03:45 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 31 05:03:45 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 31 05:03:45 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 31 05:03:45 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Dec 31 05:03:45 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Dec 31 05:03:45 symfony [info] {sfAction} change template to "index"
+Dec 31 05:03:45 symfony [info] {sfView} initialize view for "index/index"
+Dec 31 05:03:45 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Dec 31 05:03:45 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 31 05:03:45 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 31 05:03:45 symfony [info] {sfFilter} render to client
+Dec 31 05:03:45 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 31 05:03:45 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 31 05:03:45 symfony [info] {sfResponse} send content (7282 o)
+Dec 31 05:03:45 symfony [info] {sfTimerManager} Configuration 12.96 ms (9)
+Dec 31 05:03:45 symfony [info] {sfTimerManager} Action "index/index" 1.64 ms (1)
+Dec 31 05:03:45 symfony [info] {sfTimerManager} View "Success" for "index/index" 3.60 ms (1)
+Jan 04 09:57:10 symfony [info] {sfContext} initialization
+Jan 04 09:57:10 symfony [info] {sfController} initialization
+Jan 04 09:57:10 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 04 09:57:10 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jan 04 09:57:10 symfony [info] {sfController} dispatch request
+Jan 04 09:57:10 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 04 09:57:10 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 04 09:57:10 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 04 09:57:10 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 04 09:57:10 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 04 09:57:10 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jan 04 09:57:10 symfony [info] {sfAction} change template to "index"
+Jan 04 09:57:10 symfony [info] {sfView} initialize view for "index/index"
+Jan 04 09:57:10 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jan 04 09:57:10 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 04 09:57:10 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 04 09:57:10 symfony [info] {sfFilter} render to client
+Jan 04 09:57:10 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 04 09:57:10 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 04 09:57:10 symfony [info] {sfResponse} send content (7282 o)
+Jan 04 09:57:10 symfony [info] {sfTimerManager} Configuration 0.68 ms (10)
+Jan 04 09:57:10 symfony [info] {sfTimerManager} Action "index/index" 1.99 ms (1)
+Jan 04 09:57:10 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.29 ms (1)
+Jan 10 01:22:43 symfony [info] {sfContext} initialization
+Jan 10 01:22:43 symfony [info] {sfController} initialization
+Jan 10 01:22:43 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 10 01:22:43 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jan 10 01:22:43 symfony [info] {sfController} dispatch request
+Jan 10 01:22:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 10 01:22:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 10 01:22:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 10 01:22:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 10 01:22:43 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 10 01:22:43 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jan 10 01:22:43 symfony [info] {sfAction} change template to "index"
+Jan 10 01:22:43 symfony [info] {sfView} initialize view for "index/index"
+Jan 10 01:22:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jan 10 01:22:43 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 10 01:22:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 10 01:22:43 symfony [info] {sfFilter} render to client
+Jan 10 01:22:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 10 01:22:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 10 01:22:43 symfony [info] {sfResponse} send content (7282 o)
+Jan 10 01:22:43 symfony [info] {sfTimerManager} Configuration 0.56 ms (10)
+Jan 10 01:22:43 symfony [info] {sfTimerManager} Action "index/index" 1.86 ms (1)
+Jan 10 01:22:43 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.05 ms (1)
+Jan 10 10:48:31 symfony [info] {sfContext} initialization
+Jan 10 10:48:31 symfony [info] {sfController} initialization
+Jan 10 10:48:31 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 10 10:48:31 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jan 10 10:48:31 symfony [info] {sfController} dispatch request
+Jan 10 10:48:31 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 10 10:48:31 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 10 10:48:31 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 10 10:48:31 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 10 10:48:31 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 10 10:48:31 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jan 10 10:48:31 symfony [info] {sfAction} change template to "index"
+Jan 10 10:48:31 symfony [info] {sfView} initialize view for "index/index"
+Jan 10 10:48:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jan 10 10:48:31 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 10 10:48:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 10 10:48:31 symfony [info] {sfFilter} render to client
+Jan 10 10:48:31 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 10 10:48:31 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 10 10:48:31 symfony [info] {sfResponse} send content (7282 o)
+Jan 10 10:48:31 symfony [info] {sfTimerManager} Configuration 0.75 ms (10)
+Jan 10 10:48:31 symfony [info] {sfTimerManager} Action "index/index" 2.29 ms (1)
+Jan 10 10:48:31 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.02 ms (1)
+Jan 28 14:05:07 symfony [info] {sfContext} initialization
+Jan 28 14:05:07 symfony [info] {sfController} initialization
+Jan 28 14:05:07 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 28 14:05:07 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jan 28 14:05:07 symfony [info] {sfController} dispatch request
+Jan 28 14:05:07 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 28 14:05:07 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 28 14:05:07 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 28 14:05:07 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 28 14:05:07 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 28 14:05:07 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jan 28 14:05:07 symfony [info] {sfAction} change template to "index"
+Jan 28 14:05:07 symfony [info] {sfView} initialize view for "index/index"
+Jan 28 14:05:07 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jan 28 14:05:07 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 28 14:05:07 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 28 14:05:07 symfony [info] {sfFilter} render to client
+Jan 28 14:05:07 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 28 14:05:07 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 28 14:05:07 symfony [info] {sfResponse} send content (7282 o)
+Jan 28 14:05:07 symfony [info] {sfTimerManager} Configuration 0.76 ms (10)
+Jan 28 14:05:07 symfony [info] {sfTimerManager} Action "index/index" 7.51 ms (1)
+Jan 28 14:05:07 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.79 ms (1)
+Jan 31 03:00:27 symfony [info] {sfContext} initialization
+Jan 31 03:00:27 symfony [info] {sfController} initialization
+Jan 31 03:00:27 symfony [info] {sfRouting} match route [homepage] "/"
+Jan 31 03:00:27 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jan 31 03:00:27 symfony [info] {sfController} dispatch request
+Jan 31 03:00:27 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jan 31 03:00:27 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jan 31 03:00:27 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jan 31 03:00:27 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jan 31 03:00:27 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jan 31 03:00:27 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jan 31 03:00:27 symfony [info] {sfAction} change template to "index"
+Jan 31 03:00:27 symfony [info] {sfView} initialize view for "index/index"
+Jan 31 03:00:27 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jan 31 03:00:27 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 31 03:00:27 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jan 31 03:00:27 symfony [info] {sfFilter} render to client
+Jan 31 03:00:27 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jan 31 03:00:27 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jan 31 03:00:27 symfony [info] {sfResponse} send content (7282 o)
+Jan 31 03:00:27 symfony [info] {sfTimerManager} Configuration 0.71 ms (10)
+Jan 31 03:00:27 symfony [info] {sfTimerManager} Action "index/index" 2.51 ms (1)
+Jan 31 03:00:27 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.44 ms (1)
+Feb 07 01:48:37 symfony [info] {sfContext} initialization
+Feb 07 01:48:37 symfony [info] {sfController} initialization
+Feb 07 01:48:37 symfony [info] {sfRouting} match route [homepage] "/"
+Feb 07 01:48:37 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Feb 07 01:48:37 symfony [info] {sfController} dispatch request
+Feb 07 01:48:37 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Feb 07 01:48:37 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Feb 07 01:48:37 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Feb 07 01:48:37 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Feb 07 01:48:37 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Feb 07 01:48:37 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Feb 07 01:48:37 symfony [info] {sfAction} change template to "index"
+Feb 07 01:48:37 symfony [info] {sfView} initialize view for "index/index"
+Feb 07 01:48:37 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Feb 07 01:48:37 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 07 01:48:37 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 07 01:48:37 symfony [info] {sfFilter} render to client
+Feb 07 01:48:37 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Feb 07 01:48:37 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Feb 07 01:48:37 symfony [info] {sfResponse} send content (7282 o)
+Feb 07 01:48:37 symfony [info] {sfTimerManager} Configuration 0.67 ms (10)
+Feb 07 01:48:37 symfony [info] {sfTimerManager} Action "index/index" 3.34 ms (1)
+Feb 07 01:48:37 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.82 ms (1)
+Feb 12 16:02:31 symfony [info] {sfContext} initialization
+Feb 12 16:02:31 symfony [info] {sfController} initialization
+Feb 12 16:02:31 symfony [info] {sfRouting} match route [homepage] "/"
+Feb 12 16:02:31 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Feb 12 16:02:31 symfony [info] {sfController} dispatch request
+Feb 12 16:02:31 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Feb 12 16:02:31 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Feb 12 16:02:31 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Feb 12 16:02:31 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Feb 12 16:02:31 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Feb 12 16:02:31 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Feb 12 16:02:31 symfony [info] {sfAction} change template to "index"
+Feb 12 16:02:31 symfony [info] {sfView} initialize view for "index/index"
+Feb 12 16:02:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Feb 12 16:02:31 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 12 16:02:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 12 16:02:31 symfony [info] {sfFilter} render to client
+Feb 12 16:02:31 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Feb 12 16:02:31 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Feb 12 16:02:31 symfony [info] {sfResponse} send content (7282 o)
+Feb 12 16:02:31 symfony [info] {sfTimerManager} Configuration 0.59 ms (10)
+Feb 12 16:02:31 symfony [info] {sfTimerManager} Action "index/index" 2.22 ms (1)
+Feb 12 16:02:31 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.54 ms (1)
+Feb 15 23:29:02 symfony [info] {sfContext} initialization
+Feb 15 23:29:02 symfony [info] {sfController} initialization
+Feb 15 23:29:02 symfony [info] {sfRouting} match route [homepage] "/"
+Feb 15 23:29:02 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Feb 15 23:29:02 symfony [info] {sfController} dispatch request
+Feb 15 23:29:02 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Feb 15 23:29:02 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Feb 15 23:29:02 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Feb 15 23:29:02 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Feb 15 23:29:02 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Feb 15 23:29:02 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Feb 15 23:29:02 symfony [info] {sfAction} change template to "index"
+Feb 15 23:29:02 symfony [info] {sfView} initialize view for "index/index"
+Feb 15 23:29:02 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Feb 15 23:29:02 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 15 23:29:02 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 15 23:29:02 symfony [info] {sfFilter} render to client
+Feb 15 23:29:02 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Feb 15 23:29:02 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Feb 15 23:29:02 symfony [info] {sfResponse} send content (7282 o)
+Feb 15 23:29:02 symfony [info] {sfTimerManager} Configuration 0.60 ms (10)
+Feb 15 23:29:02 symfony [info] {sfTimerManager} Action "index/index" 1.88 ms (1)
+Feb 15 23:29:02 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.00 ms (1)
+Feb 18 18:10:02 symfony [info] {sfContext} initialization
+Feb 18 18:10:02 symfony [info] {sfController} initialization
+Feb 18 18:10:02 symfony [info] {sfRouting} match route [homepage] "/"
+Feb 18 18:10:02 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Feb 18 18:10:02 symfony [info] {sfController} dispatch request
+Feb 18 18:10:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Feb 18 18:10:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Feb 18 18:10:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Feb 18 18:10:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Feb 18 18:10:03 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Feb 18 18:10:03 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Feb 18 18:10:03 symfony [info] {sfAction} change template to "index"
+Feb 18 18:10:03 symfony [info] {sfView} initialize view for "index/index"
+Feb 18 18:10:03 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Feb 18 18:10:03 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 18 18:10:03 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Feb 18 18:10:03 symfony [info] {sfFilter} render to client
+Feb 18 18:10:03 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Feb 18 18:10:03 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Feb 18 18:10:03 symfony [info] {sfResponse} send content (7282 o)
+Feb 18 18:10:03 symfony [info] {sfTimerManager} Configuration 1.24 ms (10)
+Feb 18 18:10:03 symfony [info] {sfTimerManager} Action "index/index" 11.86 ms (1)
+Feb 18 18:10:03 symfony [info] {sfTimerManager} View "Success" for "index/index" 16.05 ms (1)
+Mar 06 13:48:31 symfony [info] {sfContext} initialization
+Mar 06 13:48:31 symfony [info] {sfController} initialization
+Mar 06 13:48:31 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 06 13:48:31 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 06 13:48:31 symfony [info] {sfController} dispatch request
+Mar 06 13:48:31 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 06 13:48:31 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 06 13:48:31 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 06 13:48:31 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 06 13:48:31 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 06 13:48:31 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Mar 06 13:48:31 symfony [info] {sfAction} change template to "index"
+Mar 06 13:48:31 symfony [info] {sfView} initialize view for "index/index"
+Mar 06 13:48:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 06 13:48:31 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 06 13:48:31 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 06 13:48:31 symfony [info] {sfFilter} render to client
+Mar 06 13:48:31 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 06 13:48:31 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 06 13:48:31 symfony [info] {sfResponse} send content (7282 o)
+Mar 06 13:48:31 symfony [info] {sfTimerManager} Configuration 0.85 ms (10)
+Mar 06 13:48:31 symfony [info] {sfTimerManager} Action "index/index" 1.83 ms (1)
+Mar 06 13:48:31 symfony [info] {sfTimerManager} View "Success" for "index/index" 5.12 ms (1)
+Mar 07 09:45:05 symfony [info] {sfContext} initialization
+Mar 07 09:45:05 symfony [info] {sfController} initialization
+Mar 07 09:45:05 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 07 09:45:05 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 07 09:45:05 symfony [info] {sfController} dispatch request
+Mar 07 09:45:05 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 07 09:45:05 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 07 09:45:05 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 07 09:45:05 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 07 09:45:05 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 07 09:45:05 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Mar 07 09:45:05 symfony [info] {sfAction} change template to "index"
+Mar 07 09:45:05 symfony [info] {sfView} initialize view for "index/index"
+Mar 07 09:45:05 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 07 09:45:05 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 07 09:45:05 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 07 09:45:05 symfony [info] {sfFilter} render to client
+Mar 07 09:45:05 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 07 09:45:05 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 07 09:45:05 symfony [info] {sfResponse} send content (7282 o)
+Mar 07 09:45:05 symfony [info] {sfTimerManager} Configuration 0.61 ms (10)
+Mar 07 09:45:05 symfony [info] {sfTimerManager} Action "index/index" 1.82 ms (1)
+Mar 07 09:45:05 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.12 ms (1)
+Mar 09 09:00:43 symfony [info] {sfContext} initialization
+Mar 09 09:00:43 symfony [info] {sfController} initialization
+Mar 09 09:00:43 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 09 09:00:43 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 09 09:00:43 symfony [info] {sfController} dispatch request
+Mar 09 09:00:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 09 09:00:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 09 09:00:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 09 09:00:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 09 09:00:43 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 09 09:00:43 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Mar 09 09:00:43 symfony [info] {sfAction} change template to "index"
+Mar 09 09:00:43 symfony [info] {sfView} initialize view for "index/index"
+Mar 09 09:00:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 09 09:00:43 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 09 09:00:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 09 09:00:43 symfony [info] {sfFilter} render to client
+Mar 09 09:00:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 09 09:00:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 09 09:00:43 symfony [info] {sfResponse} send content (7282 o)
+Mar 09 09:00:43 symfony [info] {sfTimerManager} Configuration 0.51 ms (10)
+Mar 09 09:00:43 symfony [info] {sfTimerManager} Action "index/index" 1.75 ms (1)
+Mar 09 09:00:43 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.93 ms (1)
+Mar 13 22:00:44 symfony [info] {sfContext} initialization
+Mar 13 22:00:44 symfony [info] {sfController} initialization
+Mar 13 22:00:44 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 13 22:00:44 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 13 22:00:44 symfony [info] {sfController} dispatch request
+Mar 13 22:00:44 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 13 22:00:44 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 13 22:00:44 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 13 22:00:44 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 13 22:00:44 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 13 22:00:44 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Mar 13 22:00:44 symfony [info] {sfAction} change template to "index"
+Mar 13 22:00:44 symfony [info] {sfView} initialize view for "index/index"
+Mar 13 22:00:44 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 13 22:00:44 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 13 22:00:44 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 13 22:00:44 symfony [info] {sfFilter} render to client
+Mar 13 22:00:44 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 13 22:00:44 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 13 22:00:44 symfony [info] {sfResponse} send content (7282 o)
+Mar 13 22:00:44 symfony [info] {sfTimerManager} Configuration 0.68 ms (10)
+Mar 13 22:00:44 symfony [info] {sfTimerManager} Action "index/index" 2.02 ms (1)
+Mar 13 22:00:44 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.17 ms (1)
+Mar 18 11:46:24 symfony [info] {sfContext} initialization
+Mar 18 11:46:24 symfony [info] {sfController} initialization
+Mar 18 11:46:24 symfony [info] {sfRouting} match route [homepage] "/"
+Mar 18 11:46:24 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Mar 18 11:46:24 symfony [info] {sfController} dispatch request
+Mar 18 11:46:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 18 11:46:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 18 11:46:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 18 11:46:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 18 11:46:24 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 18 11:46:24 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Mar 18 11:46:24 symfony [info] {sfAction} change template to "index"
+Mar 18 11:46:24 symfony [info] {sfView} initialize view for "index/index"
+Mar 18 11:46:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 18 11:46:24 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 18 11:46:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 18 11:46:24 symfony [info] {sfFilter} render to client
+Mar 18 11:46:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 18 11:46:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 18 11:46:24 symfony [info] {sfResponse} send content (7282 o)
+Mar 18 11:46:24 symfony [info] {sfTimerManager} Configuration 0.77 ms (10)
+Mar 18 11:46:24 symfony [info] {sfTimerManager} Action "index/index" 1.95 ms (1)
+Mar 18 11:46:24 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.02 ms (1)
+Mar 29 20:00:01 symfony [info] {sfContext} initialization
+Mar 29 20:00:01 symfony [info] {sfController} initialization
+Mar 29 20:00:01 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 29 20:00:01 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 29 20:00:01 symfony [info] {sfController} dispatch request
+Mar 29 20:00:01 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 29 20:00:01 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 29 20:00:01 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 29 20:00:01 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 29 20:00:01 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 29 20:00:01 symfony [debug] SELECT * FROM assessment where user_id='476'  *ROWS RETURNED* 0* 
+Mar 29 20:00:01 symfony [info] {sfAction} change template to "index"
+Mar 29 20:00:01 symfony [info] {sfView} initialize view for "index/index"
+Mar 29 20:00:01 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 29 20:00:01 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:01 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:01 symfony [info] {sfFilter} render to client
+Mar 29 20:00:01 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 29 20:00:01 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 29 20:00:01 symfony [info] {sfResponse} send content (6614 o)
+Mar 29 20:00:01 symfony [info] {sfTimerManager} Configuration 1.03 ms (10)
+Mar 29 20:00:01 symfony [info] {sfTimerManager} Action "index/index" 3.63 ms (1)
+Mar 29 20:00:01 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.19 ms (1)
+Mar 29 20:00:26 symfony [info] {sfContext} initialization
+Mar 29 20:00:26 symfony [info] {sfController} initialization
+Mar 29 20:00:26 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 29 20:00:26 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 29 20:00:26 symfony [info] {sfController} dispatch request
+Mar 29 20:00:26 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 29 20:00:26 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 29 20:00:26 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 29 20:00:26 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 29 20:00:26 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 29 20:00:26 symfony [debug] SELECT * FROM assessment where user_id='476'  *ROWS RETURNED* 0* 
+Mar 29 20:00:26 symfony [info] {sfAction} change template to "index"
+Mar 29 20:00:26 symfony [info] {sfView} initialize view for "index/index"
+Mar 29 20:00:26 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 29 20:00:26 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:26 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:26 symfony [info] {sfFilter} render to client
+Mar 29 20:00:26 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 29 20:00:26 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 29 20:00:26 symfony [info] {sfResponse} send content (6614 o)
+Mar 29 20:00:26 symfony [info] {sfTimerManager} Configuration 0.58 ms (10)
+Mar 29 20:00:26 symfony [info] {sfTimerManager} Action "index/index" 0.84 ms (1)
+Mar 29 20:00:26 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.94 ms (1)
+Mar 29 20:00:55 symfony [info] {sfContext} initialization
+Mar 29 20:00:55 symfony [info] {sfController} initialization
+Mar 29 20:00:55 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 29 20:00:55 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 29 20:00:55 symfony [info] {sfController} dispatch request
+Mar 29 20:00:55 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 29 20:00:55 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 29 20:00:55 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 29 20:00:55 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 29 20:00:55 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 29 20:00:55 symfony [debug] SELECT * FROM assessment where user_id='476'  *ROWS RETURNED* 0* 
+Mar 29 20:00:55 symfony [info] {sfAction} change template to "index"
+Mar 29 20:00:55 symfony [info] {sfView} initialize view for "index/index"
+Mar 29 20:00:55 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 29 20:00:55 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:55 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:00:55 symfony [info] {sfFilter} render to client
+Mar 29 20:00:55 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 29 20:00:55 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 29 20:00:55 symfony [info] {sfResponse} send content (6614 o)
+Mar 29 20:00:55 symfony [info] {sfTimerManager} Configuration 0.50 ms (10)
+Mar 29 20:00:55 symfony [info] {sfTimerManager} Action "index/index" 0.78 ms (1)
+Mar 29 20:00:55 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.87 ms (1)
+Mar 29 20:01:18 symfony [info] {sfContext} initialization
+Mar 29 20:01:18 symfony [info] {sfController} initialization
+Mar 29 20:01:18 symfony [info] {sfRouting} match route [default_index] "/:module"
+Mar 29 20:01:18 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Mar 29 20:01:18 symfony [info] {sfController} dispatch request
+Mar 29 20:01:18 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Mar 29 20:01:18 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Mar 29 20:01:18 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Mar 29 20:01:18 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Mar 29 20:01:18 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Mar 29 20:01:18 symfony [debug] SELECT * FROM assessment where user_id='476'  *ROWS RETURNED* 0* 
+Mar 29 20:01:18 symfony [info] {sfAction} change template to "index"
+Mar 29 20:01:18 symfony [info] {sfView} initialize view for "index/index"
+Mar 29 20:01:18 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Mar 29 20:01:18 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:01:18 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Mar 29 20:01:18 symfony [info] {sfFilter} render to client
+Mar 29 20:01:18 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Mar 29 20:01:18 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Mar 29 20:01:18 symfony [info] {sfResponse} send content (6614 o)
+Mar 29 20:01:18 symfony [info] {sfTimerManager} Configuration 0.51 ms (10)
+Mar 29 20:01:18 symfony [info] {sfTimerManager} Action "index/index" 0.97 ms (1)
+Mar 29 20:01:18 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.92 ms (1)
+Apr 02 15:59:03 symfony [info] {sfContext} initialization
+Apr 02 15:59:03 symfony [info] {sfController} initialization
+Apr 02 15:59:03 symfony [info] {sfRouting} match route [default_index] "/:module"
+Apr 02 15:59:03 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Apr 02 15:59:03 symfony [info] {sfController} dispatch request
+Apr 02 15:59:03 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Apr 02 15:59:03 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Apr 02 15:59:03 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Apr 02 15:59:03 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Apr 02 15:59:03 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Apr 02 15:59:03 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Apr 02 15:59:03 symfony [info] {sfAction} change template to "index"
+Apr 02 15:59:03 symfony [info] {sfView} initialize view for "index/index"
+Apr 02 15:59:03 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Apr 02 15:59:03 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 02 15:59:03 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 02 15:59:03 symfony [info] {sfFilter} render to client
+Apr 02 15:59:03 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Apr 02 15:59:03 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Apr 02 15:59:03 symfony [info] {sfResponse} send content (6933 o)
+Apr 02 15:59:03 symfony [info] {sfTimerManager} Configuration 0.57 ms (10)
+Apr 02 15:59:03 symfony [info] {sfTimerManager} Action "index/index" 1.93 ms (1)
+Apr 02 15:59:03 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.02 ms (1)
+Apr 02 16:00:19 symfony [info] {sfContext} initialization
+Apr 02 16:00:19 symfony [info] {sfController} initialization
+Apr 02 16:00:19 symfony [info] {sfRouting} match route [default_index] "/:module"
+Apr 02 16:00:19 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Apr 02 16:00:19 symfony [info] {sfController} dispatch request
+Apr 02 16:00:19 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Apr 02 16:00:19 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Apr 02 16:00:19 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Apr 02 16:00:19 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Apr 02 16:00:19 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Apr 02 16:00:19 symfony [debug] SELECT * FROM assessment where user_id='476'  *ROWS RETURNED* 0* 
+Apr 02 16:00:19 symfony [info] {sfAction} change template to "index"
+Apr 02 16:00:19 symfony [info] {sfView} initialize view for "index/index"
+Apr 02 16:00:19 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Apr 02 16:00:19 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 02 16:00:19 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 02 16:00:19 symfony [info] {sfFilter} render to client
+Apr 02 16:00:19 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Apr 02 16:00:19 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Apr 02 16:00:19 symfony [info] {sfResponse} send content (6614 o)
+Apr 02 16:00:19 symfony [info] {sfTimerManager} Configuration 0.53 ms (10)
+Apr 02 16:00:19 symfony [info] {sfTimerManager} Action "index/index" 0.91 ms (1)
+Apr 02 16:00:19 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.02 ms (1)
+Apr 15 23:08:02 symfony [info] {sfContext} initialization
+Apr 15 23:08:02 symfony [info] {sfController} initialization
+Apr 15 23:08:02 symfony [info] {sfRouting} match route [homepage] "/"
+Apr 15 23:08:02 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Apr 15 23:08:02 symfony [info] {sfController} dispatch request
+Apr 15 23:08:02 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Apr 15 23:08:02 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Apr 15 23:08:02 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Apr 15 23:08:02 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Apr 15 23:08:02 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Apr 15 23:08:02 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Apr 15 23:08:02 symfony [info] {sfAction} change template to "index"
+Apr 15 23:08:02 symfony [info] {sfView} initialize view for "index/index"
+Apr 15 23:08:02 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Apr 15 23:08:02 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 15 23:08:02 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Apr 15 23:08:02 symfony [info] {sfFilter} render to client
+Apr 15 23:08:02 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Apr 15 23:08:02 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Apr 15 23:08:02 symfony [info] {sfResponse} send content (7282 o)
+Apr 15 23:08:02 symfony [info] {sfTimerManager} Configuration 1.24 ms (10)
+Apr 15 23:08:02 symfony [info] {sfTimerManager} Action "index/index" 2.44 ms (1)
+Apr 15 23:08:02 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.32 ms (1)
+May 29 13:52:36 symfony [info] {sfContext} initialization
+May 29 13:52:36 symfony [info] {sfController} initialization
+May 29 13:52:36 symfony [info] {sfRouting} match route [homepage] "/"
+May 29 13:52:36 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+May 29 13:52:36 symfony [info] {sfController} dispatch request
+May 29 13:52:36 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+May 29 13:52:36 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+May 29 13:52:36 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+May 29 13:52:36 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+May 29 13:52:36 symfony [info] {sfAction} call "indexActions->executeIndex()"
+May 29 13:52:36 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+May 29 13:52:36 symfony [info] {sfAction} change template to "index"
+May 29 13:52:36 symfony [info] {sfView} initialize view for "index/index"
+May 29 13:52:36 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+May 29 13:52:36 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+May 29 13:52:36 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+May 29 13:52:36 symfony [info] {sfFilter} render to client
+May 29 13:52:36 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+May 29 13:52:36 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+May 29 13:52:36 symfony [info] {sfResponse} send content (7282 o)
+May 29 13:52:36 symfony [info] {sfTimerManager} Configuration 0.73 ms (10)
+May 29 13:52:36 symfony [info] {sfTimerManager} Action "index/index" 8.00 ms (1)
+May 29 13:52:36 symfony [info] {sfTimerManager} View "Success" for "index/index" 3.59 ms (1)
+Jun 02 19:39:14 symfony [info] {sfContext} initialization
+Jun 02 19:39:14 symfony [info] {sfController} initialization
+Jun 02 19:39:14 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 02 19:39:14 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jun 02 19:39:14 symfony [info] {sfController} dispatch request
+Jun 02 19:39:14 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 02 19:39:14 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 02 19:39:14 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 02 19:39:14 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 02 19:39:14 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jun 02 19:39:14 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jun 02 19:39:14 symfony [info] {sfAction} change template to "index"
+Jun 02 19:39:14 symfony [info] {sfView} initialize view for "index/index"
+Jun 02 19:39:14 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jun 02 19:39:14 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jun 02 19:39:14 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jun 02 19:39:14 symfony [info] {sfFilter} render to client
+Jun 02 19:39:14 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 02 19:39:14 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 02 19:39:14 symfony [info] {sfResponse} send content (7282 o)
+Jun 02 19:39:14 symfony [info] {sfTimerManager} Configuration 0.64 ms (10)
+Jun 02 19:39:14 symfony [info] {sfTimerManager} Action "index/index" 3.82 ms (1)
+Jun 02 19:39:14 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.14 ms (1)
+Jun 20 07:56:39 symfony [info] {sfContext} initialization
+Jun 20 07:56:39 symfony [info] {sfController} initialization
+Jun 20 07:56:39 symfony [info] {sfRouting} match route [homepage] "/"
+Jun 20 07:56:39 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jun 20 07:56:39 symfony [info] {sfController} dispatch request
+Jun 20 07:56:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jun 20 07:56:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jun 20 07:56:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jun 20 07:56:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jun 20 07:56:39 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jun 20 07:56:39 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jun 20 07:56:39 symfony [info] {sfAction} change template to "index"
+Jun 20 07:56:39 symfony [info] {sfView} initialize view for "index/index"
+Jun 20 07:56:39 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jun 20 07:56:39 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jun 20 07:56:39 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jun 20 07:56:39 symfony [info] {sfFilter} render to client
+Jun 20 07:56:39 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jun 20 07:56:39 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jun 20 07:56:39 symfony [info] {sfResponse} send content (7282 o)
+Jun 20 07:56:39 symfony [info] {sfTimerManager} Configuration 0.98 ms (10)
+Jun 20 07:56:39 symfony [info] {sfTimerManager} Action "index/index" 6.42 ms (1)
+Jun 20 07:56:39 symfony [info] {sfTimerManager} View "Success" for "index/index" 14.25 ms (1)
+Jul 05 02:13:24 symfony [info] {sfContext} initialization
+Jul 05 02:13:24 symfony [info] {sfController} initialization
+Jul 05 02:13:24 symfony [info] {sfRouting} match route [homepage] "/"
+Jul 05 02:13:24 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jul 05 02:13:24 symfony [info] {sfController} dispatch request
+Jul 05 02:13:24 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jul 05 02:13:24 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jul 05 02:13:24 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jul 05 02:13:24 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jul 05 02:13:24 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jul 05 02:13:24 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jul 05 02:13:24 symfony [info] {sfAction} change template to "index"
+Jul 05 02:13:24 symfony [info] {sfView} initialize view for "index/index"
+Jul 05 02:13:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jul 05 02:13:24 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 05 02:13:24 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 05 02:13:24 symfony [info] {sfFilter} render to client
+Jul 05 02:13:24 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jul 05 02:13:24 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jul 05 02:13:24 symfony [info] {sfResponse} send content (7282 o)
+Jul 05 02:13:24 symfony [info] {sfTimerManager} Configuration 0.66 ms (10)
+Jul 05 02:13:24 symfony [info] {sfTimerManager} Action "index/index" 3.38 ms (1)
+Jul 05 02:13:24 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.35 ms (1)
+Jul 10 05:59:43 symfony [info] {sfContext} initialization
+Jul 10 05:59:43 symfony [info] {sfController} initialization
+Jul 10 05:59:43 symfony [info] {sfRouting} match route [homepage] "/"
+Jul 10 05:59:43 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jul 10 05:59:43 symfony [info] {sfController} dispatch request
+Jul 10 05:59:43 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jul 10 05:59:43 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jul 10 05:59:43 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jul 10 05:59:43 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jul 10 05:59:43 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jul 10 05:59:43 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jul 10 05:59:43 symfony [info] {sfAction} change template to "index"
+Jul 10 05:59:43 symfony [info] {sfView} initialize view for "index/index"
+Jul 10 05:59:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jul 10 05:59:43 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 10 05:59:43 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 10 05:59:43 symfony [info] {sfFilter} render to client
+Jul 10 05:59:43 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jul 10 05:59:43 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jul 10 05:59:43 symfony [info] {sfResponse} send content (7282 o)
+Jul 10 05:59:43 symfony [info] {sfTimerManager} Configuration 0.55 ms (10)
+Jul 10 05:59:43 symfony [info] {sfTimerManager} Action "index/index" 3.55 ms (1)
+Jul 10 05:59:43 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.48 ms (1)
+Jul 13 22:48:40 symfony [info] {sfContext} initialization
+Jul 13 22:48:40 symfony [info] {sfController} initialization
+Jul 13 22:48:40 symfony [info] {sfRouting} match route [homepage] "/"
+Jul 13 22:48:40 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Jul 13 22:48:40 symfony [info] {sfController} dispatch request
+Jul 13 22:48:40 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Jul 13 22:48:40 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Jul 13 22:48:40 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Jul 13 22:48:40 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Jul 13 22:48:40 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Jul 13 22:48:40 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Jul 13 22:48:40 symfony [info] {sfAction} change template to "index"
+Jul 13 22:48:40 symfony [info] {sfView} initialize view for "index/index"
+Jul 13 22:48:40 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Jul 13 22:48:40 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 13 22:48:40 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Jul 13 22:48:40 symfony [info] {sfFilter} render to client
+Jul 13 22:48:40 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Jul 13 22:48:40 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Jul 13 22:48:40 symfony [info] {sfResponse} send content (7282 o)
+Jul 13 22:48:40 symfony [info] {sfTimerManager} Configuration 0.71 ms (10)
+Jul 13 22:48:40 symfony [info] {sfTimerManager} Action "index/index" 1.75 ms (1)
+Jul 13 22:48:40 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.99 ms (1)
+Sep 16 21:08:49 symfony [info] {sfContext} initialization
+Sep 16 21:08:49 symfony [info] {sfController} initialization
+Sep 16 21:08:49 symfony [info] {sfRouting} match route [default_index] "/:module"
+Sep 16 21:08:49 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Sep 16 21:08:49 symfony [info] {sfController} dispatch request
+Sep 16 21:08:49 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Sep 16 21:08:49 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Sep 16 21:08:49 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Sep 16 21:08:49 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Sep 16 21:08:49 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Sep 16 21:08:49 symfony [debug] SELECT * FROM assessment where user_id='14'  *ROWS RETURNED* 1* 
+Sep 16 21:08:49 symfony [info] {sfAction} change template to "index"
+Sep 16 21:08:49 symfony [info] {sfView} initialize view for "index/index"
+Sep 16 21:08:49 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Sep 16 21:08:49 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Sep 16 21:08:49 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Sep 16 21:08:49 symfony [info] {sfFilter} render to client
+Sep 16 21:08:49 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Sep 16 21:08:49 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Sep 16 21:08:49 symfony [info] {sfResponse} send content (6626 o)
+Sep 16 21:08:49 symfony [info] {sfTimerManager} Configuration 0.80 ms (10)
+Sep 16 21:08:49 symfony [info] {sfTimerManager} Action "index/index" 1.40 ms (1)
+Sep 16 21:08:49 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.99 ms (1)
+Oct 11 09:56:21 symfony [info] {sfContext} initialization
+Oct 11 09:56:21 symfony [info] {sfController} initialization
+Oct 11 09:56:21 symfony [info] {sfRouting} match route [default_index] "/:module"
+Oct 11 09:56:21 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Oct 11 09:56:21 symfony [info] {sfController} dispatch request
+Oct 11 09:56:21 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Oct 11 09:56:21 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Oct 11 09:56:21 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Oct 11 09:56:21 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Oct 11 09:56:21 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Oct 11 09:56:21 symfony [debug] SELECT * FROM assessment where user_id='403'  *ROWS RETURNED* 0* 
+Oct 11 09:56:21 symfony [info] {sfAction} change template to "index"
+Oct 11 09:56:21 symfony [info] {sfView} initialize view for "index/index"
+Oct 11 09:56:21 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Oct 11 09:56:21 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:21 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:21 symfony [info] {sfFilter} render to client
+Oct 11 09:56:21 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Oct 11 09:56:21 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Oct 11 09:56:21 symfony [info] {sfResponse} send content (6614 o)
+Oct 11 09:56:21 symfony [info] {sfTimerManager} Configuration 0.66 ms (10)
+Oct 11 09:56:21 symfony [info] {sfTimerManager} Action "index/index" 0.81 ms (1)
+Oct 11 09:56:21 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.12 ms (1)
+Oct 11 09:56:48 symfony [info] {sfContext} initialization
+Oct 11 09:56:48 symfony [info] {sfController} initialization
+Oct 11 09:56:48 symfony [info] {sfRouting} match route [default_index] "/:module"
+Oct 11 09:56:48 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Oct 11 09:56:48 symfony [info] {sfController} dispatch request
+Oct 11 09:56:48 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Oct 11 09:56:48 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Oct 11 09:56:48 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Oct 11 09:56:48 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Oct 11 09:56:48 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Oct 11 09:56:48 symfony [debug] SELECT * FROM assessment where user_id='403'  *ROWS RETURNED* 0* 
+Oct 11 09:56:48 symfony [info] {sfAction} change template to "index"
+Oct 11 09:56:48 symfony [info] {sfView} initialize view for "index/index"
+Oct 11 09:56:48 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Oct 11 09:56:48 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:48 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:48 symfony [info] {sfFilter} render to client
+Oct 11 09:56:48 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Oct 11 09:56:48 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Oct 11 09:56:48 symfony [info] {sfResponse} send content (6614 o)
+Oct 11 09:56:48 symfony [info] {sfTimerManager} Configuration 0.52 ms (10)
+Oct 11 09:56:48 symfony [info] {sfTimerManager} Action "index/index" 0.85 ms (1)
+Oct 11 09:56:48 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.97 ms (1)
+Oct 11 09:56:59 symfony [info] {sfContext} initialization
+Oct 11 09:56:59 symfony [info] {sfController} initialization
+Oct 11 09:56:59 symfony [info] {sfRouting} match route [default_index] "/:module"
+Oct 11 09:56:59 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Oct 11 09:56:59 symfony [info] {sfController} dispatch request
+Oct 11 09:56:59 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Oct 11 09:56:59 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Oct 11 09:56:59 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Oct 11 09:56:59 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Oct 11 09:56:59 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Oct 11 09:56:59 symfony [debug] SELECT * FROM assessment where user_id='403'  *ROWS RETURNED* 0* 
+Oct 11 09:56:59 symfony [info] {sfAction} change template to "index"
+Oct 11 09:56:59 symfony [info] {sfView} initialize view for "index/index"
+Oct 11 09:56:59 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Oct 11 09:56:59 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:59 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Oct 11 09:56:59 symfony [info] {sfFilter} render to client
+Oct 11 09:56:59 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Oct 11 09:56:59 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Oct 11 09:56:59 symfony [info] {sfResponse} send content (6614 o)
+Oct 11 09:56:59 symfony [info] {sfTimerManager} Configuration 0.51 ms (10)
+Oct 11 09:56:59 symfony [info] {sfTimerManager} Action "index/index" 0.83 ms (1)
+Oct 11 09:56:59 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.37 ms (1)
+Nov 11 11:51:45 symfony [info] {sfContext} initialization
+Nov 11 11:51:45 symfony [info] {sfController} initialization
+Nov 11 11:51:45 symfony [info] {sfRouting} match route [homepage] "/"
+Nov 11 11:51:45 symfony [info] {sfRequest} request parameters array (  'module' => 'index',  'action' => 'index',)
+Nov 11 11:51:45 symfony [info] {sfController} dispatch request
+Nov 11 11:51:45 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 11 11:51:45 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 11 11:51:45 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 11 11:51:45 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 11 11:51:45 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 11 11:51:45 symfony [debug] SELECT * FROM assessment where user_id='NA'  *ROWS RETURNED* 1* 
+Nov 11 11:51:45 symfony [info] {sfAction} change template to "index"
+Nov 11 11:51:45 symfony [info] {sfView} initialize view for "index/index"
+Nov 11 11:51:45 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Nov 11 11:51:45 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 11 11:51:45 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 11 11:51:45 symfony [info] {sfFilter} render to client
+Nov 11 11:51:45 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 11 11:51:45 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 11 11:51:45 symfony [info] {sfResponse} send content (7282 o)
+Nov 11 11:51:45 symfony [info] {sfTimerManager} Configuration 1.13 ms (10)
+Nov 11 11:51:45 symfony [info] {sfTimerManager} Action "index/index" 3.89 ms (1)
+Nov 11 11:51:45 symfony [info] {sfTimerManager} View "Success" for "index/index" 7.33 ms (1)
+Nov 28 20:04:39 symfony [info] {sfContext} initialization
+Nov 28 20:04:39 symfony [info] {sfController} initialization
+Nov 28 20:04:39 symfony [info] {sfRouting} match route [default_index] "/:module"
+Nov 28 20:04:39 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Nov 28 20:04:39 symfony [info] {sfController} dispatch request
+Nov 28 20:04:39 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 28 20:04:39 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 28 20:04:39 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 28 20:04:39 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 28 20:04:39 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 28 20:04:39 symfony [debug] SELECT * FROM assessment where user_id='478'  *ROWS RETURNED* 0* 
+Nov 28 20:04:39 symfony [info] {sfAction} change template to "index"
+Nov 28 20:04:39 symfony [info] {sfView} initialize view for "index/index"
+Nov 28 20:04:39 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Nov 28 20:04:39 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:04:39 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:04:39 symfony [info] {sfFilter} render to client
+Nov 28 20:04:39 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 28 20:04:39 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 28 20:04:39 symfony [info] {sfResponse} send content (6614 o)
+Nov 28 20:04:39 symfony [info] {sfTimerManager} Configuration 0.72 ms (10)
+Nov 28 20:04:39 symfony [info] {sfTimerManager} Action "index/index" 0.99 ms (1)
+Nov 28 20:04:39 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.08 ms (1)
+Nov 28 20:04:50 symfony [info] {sfContext} initialization
+Nov 28 20:04:50 symfony [info] {sfController} initialization
+Nov 28 20:04:50 symfony [info] {sfRouting} match route [default_index] "/:module"
+Nov 28 20:04:50 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Nov 28 20:04:50 symfony [info] {sfController} dispatch request
+Nov 28 20:04:50 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 28 20:04:50 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 28 20:04:50 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 28 20:04:50 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 28 20:04:50 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 28 20:04:50 symfony [debug] SELECT * FROM assessment where user_id='478'  *ROWS RETURNED* 0* 
+Nov 28 20:04:50 symfony [info] {sfAction} change template to "index"
+Nov 28 20:04:50 symfony [info] {sfView} initialize view for "index/index"
+Nov 28 20:04:50 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Nov 28 20:04:50 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:04:50 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:04:50 symfony [info] {sfFilter} render to client
+Nov 28 20:04:50 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 28 20:04:50 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 28 20:04:50 symfony [info] {sfResponse} send content (6614 o)
+Nov 28 20:04:50 symfony [info] {sfTimerManager} Configuration 0.74 ms (10)
+Nov 28 20:04:50 symfony [info] {sfTimerManager} Action "index/index" 0.95 ms (1)
+Nov 28 20:04:50 symfony [info] {sfTimerManager} View "Success" for "index/index" 0.95 ms (1)
+Nov 28 20:13:00 symfony [info] {sfContext} initialization
+Nov 28 20:13:00 symfony [info] {sfController} initialization
+Nov 28 20:13:00 symfony [info] {sfRouting} match route [default_index] "/:module"
+Nov 28 20:13:00 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Nov 28 20:13:00 symfony [info] {sfController} dispatch request
+Nov 28 20:13:00 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Nov 28 20:13:00 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Nov 28 20:13:00 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Nov 28 20:13:00 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Nov 28 20:13:00 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Nov 28 20:13:00 symfony [debug] SELECT * FROM assessment where user_id='282'  *ROWS RETURNED* 1* 
+Nov 28 20:13:00 symfony [info] {sfAction} change template to "index"
+Nov 28 20:13:00 symfony [info] {sfView} initialize view for "index/index"
+Nov 28 20:13:00 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Nov 28 20:13:00 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:13:00 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Nov 28 20:13:00 symfony [info] {sfFilter} render to client
+Nov 28 20:13:00 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Nov 28 20:13:00 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Nov 28 20:13:00 symfony [info] {sfResponse} send content (6622 o)
+Nov 28 20:13:00 symfony [info] {sfTimerManager} Configuration 0.62 ms (10)
+Nov 28 20:13:00 symfony [info] {sfTimerManager} Action "index/index" 1.49 ms (1)
+Nov 28 20:13:00 symfony [info] {sfTimerManager} View "Success" for "index/index" 1.69 ms (1)
+Dec 04 19:53:54 symfony [info] {sfContext} initialization
+Dec 04 19:53:54 symfony [info] {sfController} initialization
+Dec 04 19:53:54 symfony [info] {sfRouting} match route [default_index] "/:module"
+Dec 04 19:53:54 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Dec 04 19:53:54 symfony [info] {sfController} dispatch request
+Dec 04 19:53:54 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 04 19:53:54 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 04 19:53:54 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 04 19:53:54 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 04 19:53:54 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Dec 04 19:53:54 symfony [debug] SELECT * FROM assessment where user_id='403'  *ROWS RETURNED* 0* 
+Dec 04 19:53:54 symfony [info] {sfAction} change template to "index"
+Dec 04 19:53:54 symfony [info] {sfView} initialize view for "index/index"
+Dec 04 19:53:54 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Dec 04 19:53:54 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 04 19:53:54 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 04 19:53:54 symfony [info] {sfFilter} render to client
+Dec 04 19:53:54 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 04 19:53:54 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 04 19:53:54 symfony [info] {sfResponse} send content (6614 o)
+Dec 04 19:53:54 symfony [info] {sfTimerManager} Configuration 1.11 ms (10)
+Dec 04 19:53:54 symfony [info] {sfTimerManager} Action "index/index" 1.16 ms (1)
+Dec 04 19:53:54 symfony [info] {sfTimerManager} View "Success" for "index/index" 6.02 ms (1)
+Dec 13 18:21:41 symfony [info] {sfContext} initialization
+Dec 13 18:21:41 symfony [info] {sfController} initialization
+Dec 13 18:21:41 symfony [info] {sfRouting} match route [default_index] "/:module"
+Dec 13 18:21:41 symfony [info] {sfRequest} request parameters array (  'noheader' => 'true',  'module' => 'index',  'action' => 'index',)
+Dec 13 18:21:41 symfony [info] {sfController} dispatch request
+Dec 13 18:21:41 symfony [info] {sfFilter} executing filter "sfRenderingFilter"
+Dec 13 18:21:41 symfony [info] {sfFilter} executing filter "sfCommonFilter"
+Dec 13 18:21:41 symfony [info] {sfFilter} executing filter "sfFlashFilter"
+Dec 13 18:21:41 symfony [info] {sfFilter} executing filter "sfExecutionFilter"
+Dec 13 18:21:41 symfony [info] {sfAction} call "indexActions->executeIndex()"
+Dec 13 18:21:41 symfony [debug] SELECT * FROM assessment where user_id='403'  *ROWS RETURNED* 0* 
+Dec 13 18:21:41 symfony [info] {sfAction} change template to "index"
+Dec 13 18:21:41 symfony [info] {sfView} initialize view for "index/index"
+Dec 13 18:21:41 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/modules/index/templates/indexSuccess.php"
+Dec 13 18:21:41 symfony [info] {sfView} decorate content with "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 13 18:21:41 symfony [info] {sfView} render "/www/virtualfitnesscoach.com/apps/assessment/templates/layout.php"
+Dec 13 18:21:41 symfony [info] {sfFilter} render to client
+Dec 13 18:21:41 symfony [info] {sfResponse} send status "HTTP/1.0 200 OK"
+Dec 13 18:21:41 symfony [info] {sfResponse} send header "Content-Type": "text/html; charset=utf-8"
+Dec 13 18:21:41 symfony [info] {sfResponse} send content (6614 o)
+Dec 13 18:21:41 symfony [info] {sfTimerManager} Configuration 0.72 ms (10)
+Dec 13 18:21:41 symfony [info] {sfTimerManager} Action "index/index" 0.96 ms (1)
+Dec 13 18:21:41 symfony [info] {sfTimerManager} View "Success" for "index/index" 2.09 ms (1)

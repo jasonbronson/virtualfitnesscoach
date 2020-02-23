@@ -1,0 +1,20 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Virtual Fitness Coach
+    robots:       index, follow
+    description:  symfony project
+    keywords:     symfony, project
+    language:     en
+
+  stylesheets:    [main, themes/office_xp/office_xp.css]
+
+  javascripts:    [jsdomenu, jsdomenubar]
+
+  has_layout:     on
+  layout:         layout
+
+#  components:
+#      admin: [adminmenu, default]

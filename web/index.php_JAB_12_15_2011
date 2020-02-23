@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+		<title>Virtual Fitness Coach</title>
+			</head>
+	<body>
+<table border=0 align="center"><tr><td>
+
+<table border=0> <tr><td align="center">
+<img border=0 src="http://www.virtualfitnesscoach.com/homepage/images/New%20Logo%205.jpg" alt="Virtual Fitness Coach" />
+</td></tr>
+</table>
+		
+		
+		<table border=0 align="center" width=991 background="images/Background_opt.jpg"><tr><td align="center" height="421">
+		<table border=0> <tr><td align="center"><DIV style="font-family:Arial"><h2>Virtual Fitness Coach  </h2>
+				<h4>Online Health & Wellness/Fitness Program </h4>
+			<h3><font color="blue">Find the right program for you...</font></h3></div>
+				</td></tr></table>
+		<table border=0 cellpadding="10"> <tr><td align="center">		
+			<a href="welcome.php"><img border=0 src="images/personal_weight_loss.jpg" alt="individual weightloss" /></a>
+			</td><td>
+			<a href="Corporate_Health_And_Wellness.php"><img border=0 src="images/employee_health_wellness.jpg" alt="employee health & wellness" /></a>
+				</td><td>
+				<a href="welcome.php"><img border=0 src="images/patient_weightloss.jpg" alt="doctor referral weightloss" /></a>
+				</td></tr>
+				<tr>
+				<td align="center">		
+				<a href="welcome.php"><img border=0 src="images/Individual_Button.gif" alt="weightloss" /></a>
+			</td>
+			<td align="center">		
+			<a href="Corporate_Health_And_Wellness.php"><img border=0 src="images/Employee_Button.gif" alt="health & wellness" /></a>
+				</td>
+			<!--td align="center">		
+				<img border=0 src="images/doctors_button.gif" alt="doctor weightloss" />
+				</td-->
+			<td align="center">		
+				<a href="welcome.php"><img border=0 src="images/Patients_Button.gif" alt="patient referred" /></a>
+			</td></tr>		
+				
+				</table>
+		</td></tr></table>
+	
+</body>
+</html>

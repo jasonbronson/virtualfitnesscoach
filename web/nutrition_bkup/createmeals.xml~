@@ -1,0 +1,514 @@
+
+  <root>
+<breakfast>  
+  <itemdata>
+  <title>Bran Cereal</title>
+  <imgsource>bran_cereal.jpg</imgsource>
+  <serving>1 Cup</serving>
+  <cal>200</cal>
+  <swf>bran_cereal.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Eggs and Toast</title>
+  <imgsource>eggs_and_toast.jpg</imgsource>
+  <serving>2 eggs ( 2 pieces toast)</serving>
+  <cal>277</cal>
+  <swf>eggs_and_toast.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grits</title>
+  <imgsource>grits.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>233</cal>
+  <swf>grits.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Oatmeal</title>
+  <imgsource>oatmeal.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>201</cal>
+  <swf>oatmeal.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Puffed Cereal</title>
+  <imgsource>puffed_cereal.jpg</imgsource>
+  <serving>1 bowl with 5 oz. milk</serving>
+  <cal>199</cal>
+  <swf>puffed_cereal.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Shredded Wheat</title>
+  <imgsource>shredded_wheat.jpg</imgsource>
+  <serving>1 bowl</serving>
+  <cal>231</cal>
+  <swf>shredded_wheat.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Turkey Sausage</title>
+  <imgsource>turkey_sausage.jpg</imgsource>
+  <serving>2 weiners</serving>
+  <cal>155</cal>
+  <swf>turkey_sausage.swf</swf>
+  <type>bb1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grape Nuts</title>
+  <imgsource>grape_nuts.jpg</imgsource>
+  <serving>1 medium bowl</serving>
+  <cal>213</cal>
+  <swf>grape_nuts.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Lentils</title>
+  <imgsource>lentils.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>178</cal>
+  <swf>lentils.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Meatless Bacon</title>
+  <imgsource>meatless_bacon.jpg</imgsource>
+  <serving>3 strips</serving>
+  <cal>235</cal>
+  <swf>meatless_bacon.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Orange Juice</title>
+  <imgsource>orange_juice.jpg</imgsource>
+  <serving>8 oz.</serving>
+  <cal>215</cal>
+  <swf>orange_juice.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Skim Milk</title>
+  <imgsource>skim_milk.jpg</imgsource>
+  <serving>7 oz.</serving>
+  <cal>176</cal>
+  <swf>skim_milk.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Wheat Toast</title>
+  <imgsource>wheat_toast.jpg</imgsource>
+  <serving>2 pieces</serving>
+  <cal>156</cal>
+  <swf>wheat_toast.swf</swf>
+  <type>bb2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Canadian Bacon</title>
+  <imgsource>canadian_bacon.jpg</imgsource>
+  <serving>2 Slices</serving>
+  <cal>175</cal>
+  <swf>canadian_bacon.swf</swf>
+  <type>bb3
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Egg Whites</title>
+  <imgsource>egg_whites.jpg</imgsource>
+  <serving>1/2 cup</serving>
+  <cal>234</cal>
+  <swf>egg_whites.swf</swf>
+  <type>bb3
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>English Muffin</title>
+  <imgsource>english_muffin.jpg</imgsource>
+  <serving>1 muffin</serving>
+  <cal>204</cal>
+  <swf>english_muffin.swf</swf>
+  <type>bb3
+</type>
+  </itemdata>
+
+</breakfast>
+  
+<dinner>
+  <itemdata>
+  <title>Chicken Breast</title>
+  <imgsource>chicken_breast.jpg</imgsource>
+  <serving>5 oz. Breast</serving>
+  <cal>245</cal>
+  <swf>chicken_breast.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Chicken Vegie Stir Fry</title>
+  <imgsource>chicken_vegie_stir_fry_meal.jpg</imgsource>
+  <serving>1 1/2 cups (1 cup rice)</serving>
+  <cal>279</cal>
+  <swf>chicken_vegie_stir_fry_meal.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Chicken</title>
+  <imgsource>grilled_chicken.jpg</imgsource>
+  <serving>4 oz.</serving>
+  <cal>211</cal>
+  <swf>grilled_chicken.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Fish</title>
+  <imgsource>grilled_fish.jpg</imgsource>
+  <serving>4 oz.</serving>
+  <cal>209</cal>
+  <swf>grilled_fish.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Salmon</title>
+  <imgsource>grilled_salmon.jpg</imgsource>
+  <serving>4 oz. </serving>
+  <cal>236</cal>
+  <swf>grilled_salmon.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Shellfish</title>
+  <imgsource>shellfish.jpg</imgsource>
+  <serving>7 oz.</serving>
+  <cal>222</cal>
+  <swf>shellfish.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Shrimp</title>
+  <imgsource>shrimp.jpg</imgsource>
+  <serving>7 oz.</serving>
+  <cal>223</cal>
+  <swf>shrimp.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Tofu</title>
+  <imgsource>tofu.jpg</imgsource>
+  <serving>7 oz.</serving>
+  <cal>159</cal>
+  <swf>tofu.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Turkey Slices</title>
+  <imgsource>turkey_slices.jpg</imgsource>
+  <serving>3 oz.</serving>
+  <cal>211</cal>
+  <swf>turkey_slices.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Whole Wheat Pasta</title>
+  <imgsource>whole_wheat_pasta.jpg</imgsource>
+  <serving>8 oz.</serving>
+  <cal>288</cal>
+  <swf>whole_wheat_pasta.swf</swf>
+  <type>bd1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Beans and Rice</title>
+  <imgsource>beans_rice.jpg</imgsource>
+  <serving>2/3 cup</serving>
+  <cal>215</cal>
+  <swf>beans_rice.swf</swf>
+  <type>bd2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Garden Salad</title>
+  <imgsource>garden_salad.jpg</imgsource>
+  <serving>1 small salad (handful)</serving>
+  <cal>233</cal>
+  <swf>garden_salad.swf</swf>
+  <type>bd2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Soup and Salad and Crackers</title>
+  <imgsource>soup_salad_and_crackers.jpg</imgsource>
+  <serving>7 oz soup  (handful of salad)</serving>
+  <cal>267</cal>
+  <swf>soup_salad_and_crackers.swf</swf>
+  <type>bd2
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Broccolli</title>
+  <imgsource>broccolli.jpg</imgsource>
+  <serving>1 Cup</serving>
+  <cal>150</cal>
+  <swf>broccolli.swf</swf>
+  <type>bd3
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Couscous</title>
+  <imgsource>couscous.jpg</imgsource>
+  <serving>2/3 cup</serving>
+  <cal>220</cal>
+  <swf>couscous.swf</swf>
+  <type>bd3
+</type>
+  </itemdata>
+
+</dinner>
+  
+<lunch>
+
+  <itemdata>
+  <title>Lean Deli Meat</title>
+  <imgsource>deli_meat.jpg</imgsource>
+  <serving>3 oz.</serving>
+  <cal>198</cal>
+  <swf>deli_meat.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Fat Free Hotdogs</title>
+  <imgsource>fat_free_hotdogs.jpg</imgsource>
+  <serving>2 weiners</serving>
+  <cal>213</cal>
+  <swf>fat_free_hotdogs.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Cheese</title>
+  <imgsource>grilled_cheese_meal.jpg</imgsource>
+  <serving>1 sandwich</serving>
+  <cal>188</cal>
+  <swf>grilled_cheese_meal.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Hummus Tomato Wrap</title>
+  <imgsource>hummus_tomato_wrap.jpg</imgsource>
+  <serving>4 oz hummus</serving>
+  <cal>244</cal>
+  <swf>hummus_tomato_wrap.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>PB & J Sandwich</title>
+  <imgsource>p_b_and_j_meal.jpg</imgsource>
+  <serving>2 1 /2 oz. Peanut Butter</serving>
+  <cal>233</cal>
+  <swf>p_b_and_j_meal.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Tuna Sandwich</title>
+  <imgsource>tuna_sandwich.jpg</imgsource>
+  <serving>5 oz. tuna</serving>
+  <cal>234</cal>
+  <swf>tuna_sandwich.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Turkey Salad</title>
+  <imgsource>turkey_salad.jpg</imgsource>
+  <serving>4 oz.</serving>
+  <cal>243</cal>
+  <swf>turkey_salad.swf</swf>
+  <type>bl1
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Apple Sauce</title>
+  <imgsource>apple_sauce.jpg</imgsource>
+  <serving>1 Cup of Apple Sauce</serving>
+  <cal>105</cal>
+  <swf>apple_sauce.swf</swf>
+  <type>bl3
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Beans on Salad</title>
+  <imgsource>beans_salad.jpg</imgsource>
+  <serving>3 oz. Beans on Salad</serving>
+  <cal>200</cal>
+  <swf>beans_salad.swf</swf>
+  <type>bl3
+</type>
+  </itemdata>
+ 
+</lunch>
+ 
+<snack1>
+  <itemdata>
+  <title>Pumpkin or Sunflower Seeds30 seeds</title>
+  <imgsource>pumpkin_or_sunflower_seeds</imgsource>
+  <serving></serving>
+  <cal>113</cal>
+  <swf>pumpkin_or_sunflower_seeds</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Raisins</title>
+  <imgsource>raisins.jpg</imgsource>
+  <serving>30 raisins</serving>
+  <cal>100</cal>
+  <swf>raisins.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Rice Cake and Peanut Butter</title>
+  <imgsource>rice_cake_and_peanut_butter.jpg</imgsource>
+  <serving>1 cake (2 oz. p. butter)</serving>
+  <cal>158</cal>
+  <swf>rice_cake_and_peanut_butter.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>String Cheese</title>
+  <imgsource>string_cheese.jpg</imgsource>
+  <serving>2 pieces</serving>
+  <cal>100</cal>
+  <swf>string_cheese.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>String Cheese and Crackers</title>
+  <imgsource>string_cheese_and_crackers.jpg</imgsource>
+  <serving>2 crackers and 2 pieces cheese</serving>
+  <cal>130</cal>
+  <swf>string_cheese_and_crackers.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Tuna Salad</title>
+  <imgsource>tuna_salad.jpg</imgsource>
+  <serving>8 oz </serving>
+  <cal>188</cal>
+  <swf>tuna_salad.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Tuna Salad and Crackers</title>
+  <imgsource>tuna_salad_and_crackers.jpg</imgsource>
+  <serving>6 oz.  and 3 crackers</serving>
+  <cal>166</cal>
+  <swf>tuna_salad_and_crackers.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Wheat Thins and Peanut Butter</title>
+  <imgsource>wheat_thins_peanut_butter.jpg</imgsource>
+  <serving>2 oz.</serving>
+  <cal>177</cal>
+  <swf>wheat_thins_peanut_butter.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Yogurt and Apples</title>
+  <imgsource>yogurt_and_apples.jpg</imgsource>
+  <serving>8 oz.</serving>
+  <cal>123</cal>
+  <swf>yogurt_and_apples.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Yogurt and Grapenuts</title>
+  <imgsource>yogurt_with_grapenuts.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>221</cal>
+  <swf>yogurt_with_grapenuts.swf</swf>
+  <type>s</type>
+  </itemdata>
+  </snack1>
+  </root>
+  

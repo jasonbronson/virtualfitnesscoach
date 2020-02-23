@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute">
+	<mx:TabNavigator id="tabNavigator" width="100%" height="100%" tabHeight="24">
+	<mx:VBox label="Dashboard">
+		<mx:Label text="test" />
+	</mx:VBox>
+	
+	<mx:VBox label="Workout Schedules">
+		<mx:HBox>
+			<mx:Label text="Username" /> 
+			<mx:ComboBox id="username1">
+			  <mx:ArrayCollection>
+			  	<mx:Object label="JBronson" username="jbronson"/>
+			  	<mx:Object label="Mel !" username="mel"/>
+			  </mx:ArrayCollection>
+			</mx:ComboBox>	
+		</mx:HBox>
+		
+		<mx:TabNavigator id="tabnavigator_workoutschedule" width="100%" height="100%" tabHeight="24">
+			<mx:VBox label="Create">
+			  <mx:HBox>
+			  <mx:RadioButtonGroup />
+			  	<mx:RadioButton label="Resistance" click="tabnavigator_workoutcreate.selectedIndex=1" />
+			  	<mx:RadioButton label="Cardio"  click="tabnavigator_workoutcreate.selectedIndex=2"/>
+				<mx:RadioButton label="Rest"  click="tabnavigator_workoutcreate.selectedIndex=3"/>
+				
+			  </mx:HBox>
+			  <mx:TabNavigator id="tabnavigator_workoutcreate" width="100%" height="100%" tabHeight="24"  visible="false">
+			   <mx:VBox label="Resistance">
+			     <mx:Label text="resis" />
+			   </mx:VBox>
+			   <mx:VBox label="Cardio">
+			     <mx:Label text="cardio" />
+			   </mx:VBox>
+			   <mx:VBox label="Rest">
+			     <mx:Label text="rest" />
+			   </mx:VBox>
+			  </mx:TabNavigator>	
+			</mx:VBox>
+			  
+			<mx:VBox label="Show All"/>
+			<mx:VBox label="Access Level"/>
+			<mx:VBox label="Comments"/>
+			<mx:VBox label="Change Password"/>
+		</mx:TabNavigator>	
+		
+	</mx:VBox>
+	
+	<mx:VBox label="Add Exercises">
+	</mx:VBox>
+	
+	<mx:VBox label="Print Workouts">
+	</mx:VBox>
+	
+	<mx:VBox label="Nutrition Area">
+	</mx:VBox>
+	
+	<mx:VBox label="Upload Files">
+	</mx:VBox>
+	
+	<mx:VBox label="Add Users">
+	</mx:VBox>
+	
+	<mx:VBox label="Logout">
+	</mx:VBox>
+	
+	
+		
+	</mx:TabNavigator>
+</mx:Application>

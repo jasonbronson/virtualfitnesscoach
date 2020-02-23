@@ -1,0 +1,451 @@
+
+<root>
+
+  <breakfast>
+
+<itemdata>
+  <title>English Muffin Meal</title>
+  <imgsource>english_muffin_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>400</cal>
+  <swf>english_muffin_meal.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grits Meal</title>
+  <imgsource>grits_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>450</cal>
+  <swf>grits_meal.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Oatmeal and Eggs Meal</title>
+  <imgsource>oatmeal_and_eggs_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>oatmeal_and_eggs_meal.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Shellfish Meal</title>
+  <imgsource>shellfish_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>shellfish_meal.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Shredded Wheat Meal</title>
+  <imgsource>shredded_wheat_breakfast.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>shredded_wheat_breakfast.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Turkey Sausage Meal</title>
+  <imgsource>turkey_sausage_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>turkey_sausage_meal.swf</swf>
+  <type>bm
+</type>
+  </itemdata>
+
+  </breakfast>
+
+<snack1>
+
+  <itemdata>
+  <title>100 Calorie Snack Pack</title>
+  <imgsource>100_cal_pack.jpg</imgsource>
+  <serving>2 packs</serving>
+  <cal>200</cal>
+  <swf>100_cal_pack.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Almonds</title>
+  <imgsource>almonds.jpg</imgsource>
+  <serving>20 Almonds</serving>
+  <cal>200</cal>
+  <swf>almonds.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Apple</title>
+  <imgsource>apple.jpg</imgsource>
+  <serving>1 Apple</serving>
+  <cal>60</cal>
+  <swf>apple.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Apple with Peanut Butter</title>
+  <imgsource>apple_peanut_butter.jpg</imgsource>
+  <serving>1 Apple with 2 teasp. Peanut Butter</serving>
+  <cal>100</cal>
+  <swf>apple_peanut_butter.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Banana</title>
+  <imgsource>banana.jpg</imgsource>
+  <serving>1 Small Banana</serving>
+  <cal>90</cal>
+  <swf>banana.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Boiled Egg</title>
+  <imgsource>boiled_egg.jpg</imgsource>
+  <serving>1 Egg</serving>
+  <cal>120</cal>
+  <swf>boiled_egg.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Carrots</title>
+  <imgsource>carrots.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>140</cal>
+  <swf>carrots.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+</snack1>
+
+
+<lunch>
+
+  <itemdata>
+  <title>Beans Rice and Tofu Meal</title>
+  <imgsource>beans_rice_tofu_meal.jpg</imgsource>
+  <serving>1 cup beans</serving>
+  <cal>400</cal>
+  <swf>beans_rice_tofu_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Bean Salad Meal</title>
+  <imgsource>beans_salad_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>450</cal>
+  <swf>beans_salad_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Deli Meat meal</title>
+  <imgsource>deli_meat_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>deli_meat_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Cheese meal</title>
+  <imgsource>grilled_cheese_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>grilled_cheese_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Chicken on Pita Meal</title>
+  <imgsource>grilled_chicken_on_pita_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>450</cal>
+  <swf>grilled_chicken_on_pita_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Peanut Butter and Jelly Meal</title>
+  <imgsource>p_b_and_j_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>450</cal>
+  <swf>p_b_and_j_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Soup Salad Meal</title>
+  <imgsource>soup_salad_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>soup_salad_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Tuna Sandwich Meal</title>
+  <imgsource>tuna_sandwich_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>tuna_sandwich_meal.swf</swf>
+  <type>lm
+</type>
+  </itemdata>
+  
+</lunch>
+
+<snack2>
+
+  <itemdata>
+  <title>Cashews</title>
+  <imgsource>cashews.jpg</imgsource>
+  <serving>20 Cashews</serving>
+  <cal>100</cal>
+  <swf>cashews.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Cottage Cheese</title>
+  <imgsource>cottage_cheese.jpg</imgsource>
+  <serving>3/4 cup</serving>
+  <cal>190</cal>
+  <swf>cottage_cheese.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Cottage Cheese & Pineapple</title>
+  <imgsource>cottage_cheese_and_pineapple.jpg</imgsource>
+  <serving>2/3 cup cottage cheese (2 oz Pineapple)</serving>
+  <cal>234</cal>
+  <swf>cottage_cheese_and_pineapple.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Cottage Cheese & Toast</title>
+  <imgsource>cottage_cheese_and_toast.jpg</imgsource>
+  <serving>1/2 cup Cottage cheese (2 pieces toast)</serving>
+  <cal>210</cal>
+  <swf>cottage_cheese_and_toast.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Fat Free Yogurt</title>
+  <imgsource>fat_free_yogurt.jpg</imgsource>
+  <serving>1 cup</serving>
+  <cal>245</cal>
+  <swf>fat_free_yogurt.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Yogurt or Skim milk</title>
+  <imgsource>fat_free_yogurt_or_skim_milk.jpg</imgsource>
+  <serving>8 oz. yogurt (or 8 oz. milk)</serving>
+  <cal>156</cal>
+  <swf>fat_free_yogurt_or_skim_milk.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Cracker and Peanut butter</title>
+  <imgsource>graham_cracker_and_peanut_butter.jpg</imgsource>
+  <serving>2 crackers & 2 oz. peanut Butter</serving>
+  <cal>178</cal>
+  <swf>graham_cracker_and_peanut_butter.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+</snack2>
+
+<dinner>
+
+  <itemdata>
+  <title>Chicken Vegie Stir Fry Meal</title>
+  <imgsource>chicken_vegie_stir_fry_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>chicken_vegie_stir_fry_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Grilled Chicken Meal</title>
+  <imgsource>grilled_chicken_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>400</cal>
+  <swf>grilled_chicken_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Chicken on Salad Meal</title>
+  <imgsource>grilled_chicken_on_salad_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>grilled_chicken_on_salad_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Hummus Tomato Wrap Meal</title>
+  <imgsource>hummus_tomato_wrap_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>hummus_tomato_wrap_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Pasta and Fish Meal</title>
+  <imgsource>pasta_and_fish_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>pasta_and_fish_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Turkey and Couscous Meal</title>
+  <imgsource>turkey_and_couscous_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>turkey_and_couscous_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Whole Wheat Pasta Meal</title>
+  <imgsource>whole_wheat_pasta_meal.jpg</imgsource>
+  <serving>Perfect Portion Size</serving>
+  <cal>500</cal>
+  <swf>whole_wheat_pasta_meal.swf</swf>
+  <type>dm
+</type>
+  </itemdata>
+  
+</dinner>
+
+
+<snack3>
+
+  <itemdata>
+  <title>Grapes</title>
+  <imgsource>grapes.jpg</imgsource>
+  <serving>25 grapes</serving>
+  <cal>120</cal>
+  <swf>grapes.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Hummus & Carrots</title>
+  <imgsource>hummus_and_carrots.jpg</imgsource>
+  <serving>2/3 cup hummus (2 small carrots)</serving>
+  <cal>155</cal>
+  <swf>hummus_and_carrots.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Multi Grain Bread</title>
+  <imgsource>multi_grain_bread.jpg</imgsource>
+  <serving>2 pieces</serving>
+  <cal>166</cal>
+  <swf>multi_grain_bread.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Orange</title>
+  <imgsource>oranges.jpg</imgsource>
+  <serving>1 medium orange</serving>
+  <cal>186</cal>
+  <swf>oranges.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Peanut Butter</title>
+  <imgsource>peanut_butter.jpg</imgsource>
+  <serving>2 1/2 oz.</serving>
+  <cal>164</cal>
+  <swf>peanut_butter.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Peanuts</title>
+  <imgsource>peanuts.jpg</imgsource>
+  <serving>25 peanuts</serving>
+  <cal>121</cal>
+  <swf>peanuts.swf</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+  <itemdata>
+  <title>Pumpkin or Sunflower Seeds30 seeds</title>
+  <imgsource>pumpkin_or_sunflower_seeds</imgsource>
+  <serving></serving>
+  <cal>113</cal>
+  <swf>pumpkin_or_sunflower_seeds</swf>
+  <type>s
+</type>
+  </itemdata>
+  
+</snack3>
+
+
+</root>

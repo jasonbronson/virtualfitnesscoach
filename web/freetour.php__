@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="symfony project" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="symfony project" />
+<meta name="keywords" content="symfony, project" />
+<meta name="language" content="en" />
+
+<title>symfony project</title>
+
+<link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
+
+</head>
+<body>
+
+<style type="text/css">
+<!--
+.imgbk {
+background-image: url(/images/login.gif);
+
+}
+-->
+</style>
+
+<div align=center>
+<form action='main.php' name='loginform' method='POST'>
+<table border=0 width=280px bordercolor=black cellspacing=0 cellpadding=9>
+<th class=imgbk  height=57px colspan=3>Virtual Fitness Coach</th>
+<tr>
+<td align=center>Email:</td><td colspan=0> <input type='text' name='username' value='test@virtualfitnesscoach.com' maxlength=80></td>
+</tr>
+<tr>
+
+<td>Password:</td><td> <input type='password' name='password' value='test' maxlength=80></td>
+</tr>
+<tr>
+<td colspan=4 align=center><input type='submit' name=send value='Login'></td>
+</tr>
+</table>
+</form>
+<br>
+<div align=center><a href='/main.php/default/forgotpassword'>Forgot Password ?</a></div>
+<b></b>
+
+</div>
+</body>
+</html>

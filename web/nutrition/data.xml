@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	
+		<cal_1200 id="1">
+			<serving>1 Small Serving</serving>
+			<img>hummus_carrots.jpg</img>
+			<title>Hummus Carrots</title>
+		</cal_1200>
+		<cal_1200 id="2">
+			<serving>1 Small Bowl</serving>
+			<img>almonds.jpg</img>
+			<title>Almonds</title>	
+		</cal_1200>
+		<cal_1200 id="3">
+			<serving>1 Small Bowl</serving>
+			<img>oatmeal.jpg</img>
+			<title>Oatmeal</title>
+		</cal_1200>
+	
+</root>

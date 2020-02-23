@@ -1,0 +1,6 @@
+database:
+  hostname: localhost
+  username: root
+  password:
+  databasename: tannerl_test1
+  environment: development
